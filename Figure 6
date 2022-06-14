@@ -1,0 +1,25 @@
+#Figure 6. Interaction accumulation curve by sampling site. Gray polygon represents the 95% confidence interval of the curve.
+
+library(vegan)
+library(tidyr)
+
+#Import data set
+data1<-read.csv("BAT-FLY_INTERACTIONS_Species.csv", sep=",")
+
+interactions<-paste(data1$CurrentBatSpecies,data1$CurrentFlySpecies)
+studyinter<-table(data1$SiteCode, interactions)
+length(unique(interactions))
+
+interactionpersite<-spread(as.data.frame(studyinter), interactions, Freq, fill = 0)
+
+#Plot
+png("Figure_6.png", res = 300,
+    width = 2100, height = 2000, unit = "px")
+
+par(las=1, mar=c(5, 5, 4, 2))
+obs.curve<-specaccum(interactionpersite[,-1])
+plot(obs.curve, ci.type="poly", col="black", lwd=2, ci.lty=0, ci.col="gray80",
+     xlab="Sampling sites", ylab="Number of unique interactions")
+
+dev.off()
+
