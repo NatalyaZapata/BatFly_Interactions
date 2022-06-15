@@ -9,8 +9,28 @@
 
 #Set the stage
 cat("\014")  
+
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
 rm(list= ls())
+
+if (!dir.exists(path = "data")){
+  dir.create(path = "data")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "figures")){
+  dir.create(path = "figures")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "results")){
+  dir.create(path = "results")
+} else {
+  print("Dir already exists!")
+}
 
 # Load the packages
 library(dplyr)
