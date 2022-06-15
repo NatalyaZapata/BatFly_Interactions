@@ -1,5 +1,15 @@
-#Figure 1. Distribution of sampling locations included in BatFly.
+################################################################################
+##### BATFLY: A dataset of worldwide bat-fly interactions.
+##### Figure 1. Distribution of sampling locations included in BatFly.
+##### See README for further info: https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
+################################################################################
 
+#Set the stage
+cat("\014")  
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+rm(list= ls())
+
+# Load the packages
 library(dplyr)
 library(ggplot2)
 library(grDevices)
@@ -10,8 +20,8 @@ library(ggspatial)
 library(rgeos)
 
 # Import the data sets
-sites <- read.csv("BAT-FLY_INTERACTIONS_Site.csv")
-scope <- read.csv("BAT-FLY_INTERACTIONS_Sampling.csv")
+sites <- read.csv("data/batfly sites.csv")
+scope <- read.csv("data/batfly sampling.csv")
 data<-(cbind.data.frame(sites$Latitude, sites$Longitude, 
                         scope$BatEcologicalScale, scope$FlyEcologicalScale))
 colnames(data)<-c("Latitude", "Longitude", "Bat_Scope", "Fly_Scope")
