@@ -1,6 +1,6 @@
 ﻿SiteCode;RefCode;Country;State;Municipality;Locality;Latitude;Longitude;Precision;Vegetation;VegType;Domain;Elevation;Protection;MeanAnnTemp;MeanAnnRain
-BFA001;BFR001;Mexico;Hidalgo;Progreso;a cave roost;18.91194;-98.99;Not precise;NA;;;NA;No;22.7;918
-BFA002;BFR002;Colombia;Cauca;Santander de Quilichao;Vereda el Carbonero;2.98849;-76.48;Not precise;Bushy vegetaion and low pastures;;;1132-1174;No;22.9;1969
+BFA001;BFR001;Mexico;Hidalgo;Progreso;a cave roost;18.91194;-98.99;Not precise;NA;NA;NA;NA;No;22.7;918
+BFA002;BFR002;Colombia;Cauca;Santander de Quilichao;Vereda el Carbonero;2.98849;-76.48;Not precise;Bushy vegetaion and low pastures;NA;NA;1132-1174;No;22.9;1969
 BFA003;BFR003;Argentina;Salta;San Martín;Piquirenda Viejo, 12.6 km al W;-22.33333;-63.83;Not precise;NA;Semideciduous fores;Atlantic Forest;775;No;20.3;988
 BFA004;BFR003;Argentina;Salta;Santa Victoria;Arroyo Arrazayal, 18km al NW del cruce de rutas 50 y 19, por ruta 19;-22.65000;-64.42;Not precise;NA;Semideciduous fores;Atlantic Forest;450;No;22.1;1229
 BFA005;BFR003;Argentina;Salta;Orán;Camino a Isla de Cañas, Ruta 18, 48.9km al NW del cruce con ruta nacional 50;-22.95000;-64.55;Not precise;NA;Semideciduous fores;Atlantic Forest;700;No;21;1045
