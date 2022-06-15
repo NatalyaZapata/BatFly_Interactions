@@ -13,7 +13,7 @@ length(unique(interactions))
 interactionpersite<-spread(as.data.frame(studyinter), interactions, Freq, fill = 0)
 
 #Plot
-png("Figure_6.png", res = 300,
+png("Figure_7.png", res = 300,
     width = 2100, height = 2000, unit = "px")
 
 par(las=1, mar=c(5, 5, 4, 2))
