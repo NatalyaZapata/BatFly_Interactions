@@ -6,7 +6,6 @@
 ################################################################################
 
 
-
 #Set the stage
 cat("\014")  
 
@@ -35,6 +34,7 @@ if (!dir.exists(path = "results")){
 # Load the packages
 library(dplyr)
 library(ggplot2)
+library(ggsn)
 library(grDevices)
 library(sf)
 library(rnaturalearth)
@@ -43,16 +43,17 @@ library(ggspatial)
 library(rgeos)
 
 # Import the data sets
-sites <- read.csv("data/batfly sites.csv")
-scope <- read.csv("data/batfly sampling.csv")
-data<-(cbind.data.frame(sites$Latitude, sites$Longitude, 
+sites <- read.csv("data/BAT-FLY_INTERACTIONS_Site.csv")
+scope <- read.csv("data/BAT-FLY_INTERACTIONS_Sampling.csv")
+points <- (cbind.data.frame(sites$Latitude, sites$Longitude, 
                         scope$BatEcologicalScale, scope$FlyEcologicalScale))
-colnames(data)<-c("Latitude", "Longitude", "Bat_Scope", "Fly_Scope")
+colnames(points)<-c("Latitude", "Longitude", "Bat_Scope", "Fly_Scope")
 
-# Check the data
-class(data)
-str(data)
-head(data)
+# Check the points
+class(points)
+str(points)
+head(points)
+tail(points)
 
 # Load the world map from the mapdata package
 world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
@@ -60,14 +61,14 @@ world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
 sf_use_s2(FALSE)
 
 # Make the map
-mapa <- ggplot(data = world) +
+map <- ggplot(data = world) +
   geom_sf(colour = "white", fill = "#d3d3d3") +
   #coord_sf(lims_method="geometry_bbox", expand = TRUE) +
   coord_sf(xlim = c(-170, 180), ylim = c(-62,89), expand = F) +
   
   theme_bw() + 
   # Plot the sites
-  geom_point(data = data, aes(x = Longitude, y = Latitude, 
+  geom_point(data = points, aes(x = Longitude, y = Latitude, 
                                      colour = Bat_Scope,
                                      fill = Bat_Scope,
                                      alpha = Bat_Scope,
@@ -98,14 +99,12 @@ mapa <- ggplot(data = world) +
                                     width = unit(1.5, "cm"),
                                     style = ggspatial::north_arrow_fancy_orienteering(
                                       fill = c("white","grey30")))
-
-
+  
 # See the map
-mapa
+map
 
 # Export the map as a PNG image
-png("Figure_1.png", res = 300,
+png("figures/Figure_1.png", res = 300,
     width = 4000, height = 2200, unit = "px")
-mapa
-
+map
 dev.off()

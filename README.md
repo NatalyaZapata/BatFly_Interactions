@@ -2,7 +2,7 @@
 
 Authors: Natalya Zapata-Mesa, Sebastián Montoya-Bustamante, Juliana Hoyos, Daniela Peña, Jorge Galindo-González, Julio J. Chacón-Pachecho, Jesús Ballesteros-Correa, Maria Raquel Pastrana-Montiel, Gustavo Graciolli, Marcelo R. Nogueria, Marco A. R. Mello.
 
-Supplement to the data paper Florez-Montero *et al*. (2022, Ecology).
+Supplement to the data paper Zapata-Mesa *et al*. (in prep.).
 
 [Ecological Synthesis Lab](https://marcomellolab.wordpress.com) (SintECO), University of São Paulo.
 

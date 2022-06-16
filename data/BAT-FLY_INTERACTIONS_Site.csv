@@ -1,0 +1,650 @@
+SiteCode,RefCode,Country,State,Municipality,Locality,,Latitude,Longitude,Precision,Vegetation,VegType,Ecoregion,Domain,Elevation,1kmAlt,Protection,ProtectionType,MeanAnnTemp,MeanAnnRain
+BFA001,BFR001,Mexico,Hidalgo,Progreso,a cave roost,,18.91194,-98.99,Not precise,NA,,,,NA,,No,,22.7,918
+BFA002,BFR002,Colombia,Cauca,Santander de Quilichao,Vereda el Carbonero,,2.98849,-76.48,Not precise,Bushy vegetaion and low pastures,,,,1132-1174,,No,,22.9,1969
+BFA003,BFR003,Argentina,Salta,San Martín,"Piquirenda Viejo, 12.6 km al W",,-22.33333,-63.83,Not precise,NA,Semideciduous fores,,Atlantic Forest,775,,No,,20.3,988
+BFA004,BFR003,Argentina,Salta,Santa Victoria,"Arroyo Arrazayal, 18km al NW del cruce de rutas 50 y 19, por ruta 19",,-22.65000,-64.42,Not precise,NA,Semideciduous fores,,Atlantic Forest,450,,No,,22.1,1229
+BFA005,BFR003,Argentina,Salta,Orán,"Camino a Isla de Cañas, Ruta 18, 48.9km al NW del cruce con ruta nacional 50",,-22.95000,-64.55,Not precise,NA,Semideciduous fores,,Atlantic Forest,700,,No,,21,1045
+BFA006,BFR003,Argentina,Salta,Orán,"Camino a Isla de Cañas, Ruta 18, 43.7km al NW del cruce con ruta nacional 50",,-22.95000,-64.55,Not precise,NA,Semideciduous fores,,Atlantic Forest,700,,No,,21,1045
+BFA007,BFR003,Argentina,Salta,Orán,"Camino a Isla de Cañas, Ruta 18, 27km al W de la intersección con ruta nacional 50",,-23.08333,-64.53,Not precise,NA,Semideciduous fores,,Atlantic Forest,NA,,No,,20.5,977
+BFA008,BFR003,Argentina,Salta,Orán,"Camino de inspección del gasoducto paralelo al camino de San Andrés, 40 km al NW del cruce de ruta 50 y 18",,-23.08333,-64.63,Not precise,NA,Semideciduous fores,,Atlantic Forest,96,,No,,20.6,980
+BFA009,BFR003,Argentina,Jujuy,Ledesma,"Arroyo Yuto, 13 km SW Yuto, por ruta 34",,-23.63333,-64.53,Not precise,NA,Deciduous forest,,Atlantic Forest,NA,,No,,21.5,818
+BFA010,BFR003,Argentina,Jujuy,Dr. Manuel Belgrano,"Río Tiraxi, 1.5 km al E de Tiraxi por ruta 29",,-23.98333,-65.32,Not precise,NA,Deciduous forest,,Atlantic Forest,1570,,No,,15.2,605
+BFA011,BFR003,Argentina,Jujuy,Dr. Manuel Belgrano,"Río Las Capillas, 15 km al N de Las Capillas, por ruta provincial 20",,-24.03333,-65.12,Not precise,NA,Semideciduous forest,,Atlantic Forest,NA,,No,,16.9,827
+BFA012,BFR003,Argentina,Jujuy,San Antonio,"Río Blanco, aproximadamente 9 km al E de San Antonio",,-24.40000,-65.37,Not precise,NA,Semideciduous forest,,Atlantic Forest,1543,,No,,16.3,756
+BFA013,BFR003,Argentina,Jujuy,San Pedro,"Río Lavayén, aproximadamente 1 km al N de Santa Rita",,-24.46667,-64.80,Not precise,NA,Semideciduous forest,,Atlantic Forest,NA,,No,,20.2,555
+BFA014,BFR003,Argentina,Salta,Molinos,Laguna El Brealito,,-25.28333,-66.37,Not precise,NA,Semideciduous fores,,Atlantic Forest,NA,,No,,11.4,130
+BFA015,BFR003,Argentina,Salta,Metán,"Río Las Conchas, 2 km al N y 6 km al W de Metán",,-25.46667,-65.02,Not precise,NA,Semideciduous fores,,Atlantic Forest,1027,,No,,18.3,688
+BFA016,BFR003,Argentina,Misiones,Iguazú,"Puerto Península, 1 km al E",,-25.68333,-54.62,Not precise,NA,Semideciduous forest,,Atlantic Forest,87,,No,,21,1697
+BFA017,BFR003,Argentina,Misiones,Iguazú,"Puerto Península, 4.7 km al E",,-25.70000,-54.60,Not precise,NA,Semideciduous forest,,Atlantic Forest,NA,,No,,21.1,1697
+BFA018,BFR003,Argentina,Salta,Candelaria,"Potrerillos, 3.9 km al N, por ruta provincial 6",,-26.05000,-65.50,Not precise,NA,Semideciduous fores,,Atlantic Forest,1214,,No,,17.8,386
+BFA019,BFR003,Argentina,Tucumán,Trancas,"La Junta, 22 km al W de Choromoro",,-26.38333,-65.50,Not precise,NA,Semideciduous fores,,Atlantic Forest,1013,,No,,16.3,503
+BFA020,BFR003,Argentina,Tucumán,Tafi Viejo,"Río Grande, 5 km al S de El Siambón,",,-26.76667,-65.47,Not precise,NA,Semideciduous fores,,Atlantic Forest,NA,,No,,18.2,856
+BFA021,BFR003,Argentina,Chaco,Veinticinco de Mayo ,"Machagay, 15 km al S por ruta 16 entre Machagay y Quitilipi",,-27.03333,-60.18,Not precise,NA,Seasonal floodplain forest,,Atlantic Forest,160,,No,,21.3,1045
+BFA022,BFR003,Argentina,Tucumán,Leales,Arroyo Mista,,-27.21667,-65.17,Not precise,NA,Semideciduous fores,,Atlantic Forest,NA,,No,,20.1,925
+BFA023,BFR003,Argentina,Tucumán,Chicligasta,"Parque Provincial El Cochuna, camping",,-27.30000,-65.90,Not precise,NA,Semideciduous fores,,Atlantic Forest,NA,,No,,17.9,596
+BFA024,BFR003,Argentina,Corrientes,Saladas,"Arroyo San Lorenzo y Ruta 12, aproximadamente 4 km al N de San Lorenzo al N de San Lorenzo",,-28.11667,-58.77,Not precise,NA,seasonal floodplain forest,,Atlantic Forest,NA,,No,,20.9,1101
+BFA025,BFR003,Argentina,Corrientes,Santo Tomé,"Estancia La Blanca, 10 km al N de Santo Tomé sobre Río Uruguay",,-28.48333,-55.95,Not precise,NA,Seasonal riverine forest,,Atlantic Forest,96,,No,,20.8,1578
+BFA026,BFR004,Peru,Loreto,Maynas,1 km E of km 25.3 of Iquitos-Nauta Highway (Fundo San Martin) (District of San Juan),,-3.96590,-73.40431667,Precise,Primary and secondary forest,,,,NA,,No,,26.3,2764
+BFA027,BFR004,Peru,Loreto,Maynas,"13 de Febrero, Fundo Nemith, E km 33 of Iquitos-Nauta Highway (District of San Juan)",,-4.02540,-73.4296,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2713
+BFA028,BFR004,Peru,Loreto,Maynas,App. 500 m E km 28.8 of Iquitos-Nauta Highway (District of San Juan),,-3.98712,-73.41533333,Precise,Primary and secondary forest,,,,NA,,No,,26.3,2743
+BFA029,BFR004,Peru,Loreto,Maynas,"Asentamiento Bambu, Pasaje Los Cedros-Bambu (District of San Juan)",,-3.76900,-73.28533333,Precise,Primary and secondary forest,,,,NA,,No,,26.5,2848
+BFA030,BFR004,Peru,Loreto,Maynas,"Asentamiento Heroes de Cenepa, Fundo Gallo Giro (District of San Juan)",,-3.78740,-73.2863,Precise,Primary and secondary forest,,,,NA,,No,,26.5,2842
+BFA031,BFR004,Peru,Loreto,Maynas,"Asentamiento Pacaya Samiria ""Complejo Deportivo SUTUNAP"" (calle San Lorenzo) (District of San Juan)",,-3.76240,-73.2732,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2856
+BFA032,BFR004,Peru,Loreto,Maynas,"Boulevar, Puerto Salaverry, Malecón Street, Tarapacá (District of Iquitos)",,-3.75277,-73.24411667,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2859
+BFA033,BFR004,Peru,Loreto,Maynas,Comité La Coruña (Distriet of San Juan),,-3.77535,-73.2984,Precise,Primary and secondary forest,,,,NA,,No,,26.5,2849
+BFA034,BFR004,Peru,Loreto,Maynas,"Comunidad de Manacamiri, Nanay River, Fundo Morropon (Distriet of Punchana)",,-3.70828,-73.30076667,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2871
+BFA035,BFR004,Peru,Loreto,Maynas,"Comunidad de Manacamiri,Nanay River, Fundo Morropon (Distriet of Punchana)",,-3.70990,-73.30283333,Precise,Primary and secondary forest,,,,NA,,No,,26.3,2872
+BFA036,BFR004,Peru,Loreto,Maynas,"Comunidad Zona Centro Ex Petroleros, km 41 of lquitos-Naula Highway, app 5 km W (District of San Juan)",,-4.06140,-73.4792,Precise,Primary and secondary forest,,,,NA,,No,,26.3,2688
+BFA037,BFR004,Peru,Loreto,Maynas,Estacion Experimental Agraria San Roque (District of San Juan),,-3.78695,-73.29491667,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2848
+BFA038,BFR004,Peru,Loreto,Maynas,"Ex Petroleros, 300m W km 39.8 of Iquitos-Nauta 1 lighway (District of San Juan )",,-4.07900,-73.453,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2677
+BFA039,BFR004,Peru,Loreto,Maynas,Iglesia Inmaculada (District of Punchana),,-3.72897,-73.243,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2859
+BFA040,BFR004,Peru,Loreto,Maynas,"Iquitos Oeste, CESM ""Loreto"" (District of Iquitos)",,-3.74495,-73.26283333,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2855
+BFA041,BFR004,Peru,Loreto,Maynas,"lquitos, Edificio EsSalud (Raymoni-Napo streets) (District of Iquitos) ",,-3.74903,-73.24355,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2857
+BFA042,BFR004,Peru,Loreto,Maynas,km 22.7 of Iquitos-Nauta Highway (District of San Juan),,-3.93952,-73.39516667,Precise,Primary and secondary forest,,,,NA,,No,,26.3,2780
+BFA043,BFR004,Peru,Loreto,Maynas,"Los Delfines, km 9 of Iquitos-Nauta Highway (District of San Juan)",,-3.84748,-73.33973333,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2834
+BFA044,BFR004,Peru,Loreto,Maynas,Mazanillo (District of Belén),,-3.82808,-73.21951667,Precise,Primary and secondary forest,,,,NA,,No,,26.5,2822
+BFA045,BFR004,Peru,Loreto,Maynas,Moena Caño (District of Belén),,-3.77880,-73.22491667,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2843
+BFA046,BFR004,Peru,Loreto,Maynas,"Moralillo, 1.5 km E 400 m S of km 15.2 of Iquitos-Nauta Highway (District of San Juan)",,-3.90905,-73.34306667,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2796
+BFA047,BFR004,Peru,Loreto,Maynas,"Moralillo, 1.5 km E 500 m S of km 15.2 of Iquitos-Nauta Highway (District of San Juan)",,-3.90632,-73.34361667,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2805
+BFA048,BFR004,Peru,Loreto,Maynas,"Moralillo, 2 km E of km 15.2 of lquitos-Nauta Highway (District of San Juan)",,-3.90947,-73.33796667,Precise,Primary and secondary forest,,,,NA,,No,,26.5,2793
+BFA049,BFR004,Peru,Loreto,Maynas,"Ninarumi, 7.4 km W of km 6 of Iquitos-Nauta Highway (District of San Juan)",,-3.84172,-73.38078333,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2829
+BFA050,BFR004,Peru,Loreto,Maynas,"Ninarumi, 7.4 km W, I km SE of km 6 of Iquitos-Nauta Highway (District of San Juan) ",,-3.84983,-73.37393333,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2832
+BFA051,BFR004,Peru,Loreto,Maynas,Padrecocha (town) (District of Punchana),,-3.69658,-73.28311667,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2864
+BFA052,BFR004,Peru,Loreto,Maynas,"Paujil, W km 37.45 of Iquitos-Nauta Highway (District of San Juan)",,-4.05878,-73.44225,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2690
+BFA053,BFR004,Peru,Loreto,Maynas,"Peña Negra, 200 m E of km 10.7 of Iquitos-Nauta Highway (District of San Juan)",,-3.86615,-73.33295,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2824
+BFA054,BFR004,Peru,Loreto,Maynas,"Peña Negra, 600 m W of km 10 of Iquitos-Nauta Highway (District of San Juan)",,-3.85537,-73.34515,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2836
+BFA055,BFR004,Peru,Loreto,Maynas,"Peña Negra, 800 m E of km 11 of Iquitos-Nauta Highway (District of San Juan)",,-3.87327,-73.33555,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2824
+BFA056,BFR004,Peru,Loreto,Maynas,"Recreo, Begonias street (District of San Juan)",,-3.78082,-73.289,Precise,Primary and secondary forest,,,,NA,,No,,26.5,2848
+BFA057,BFR004,Peru,Loreto,Maynas,"Road to El Paujil, 1.8 km W of km 35 of Iquitos-Nauta Highway (District of San Juan)",,-4.02028,-73.44645,Precise,Primary and secondary forest,,,,NA,,No,,26.3,2721
+BFA058,BFR004,Peru,Loreto,Maynas,"San Lucas, W km 43 of Iquitos-Nauta Highway (District of San Juan)",,-4.10412,-73.46318333,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2660
+BFA059,BFR004,Peru,Loreto,Maynas,"Santo Tomás, 6 km W of km I of Iquitos-Nauta Highway (District of San Juan)",,-3.80968,-73.33813333,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2844
+BFA060,BFR004,Peru,Loreto,Maynas,"Varillal, 2 km W of km 13.6 of lquitos-Nauta Highway (District of San Juan)",,-3.88003,-73.36685,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2817
+BFA061,BFR004,Peru,Loreto,Maynas,"Varillal, 400 m W 200 m N of km 14 of Iquitos-Nauta Highway (District of San Juan)",,-3.88248,-73.3548,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2822
+BFA062,BFR004,Peru,Loreto,Maynas,Villa del Ejército (between 28 de Julio-Freyre Ave. and Piura Street) (District of Punchana) ,,-3.72763,-73.24346667,Precise,Primary and secondary forest,,,,NA,,No,,26.4,2859
+BFA063,BFR004,Peru,Loreto,Maynas,"Villa Victoria, INDECO (109 Pihuicho Street) (District of San Juan) ",,-3.09823,-73.27741667,Precise,Primary and secondary forest,,,,NA,,No,,26.2,2988
+BFA064,BFR004,Peru,Loreto,Maynas,"Zungarococha, 5.2 km W of km 6 of lquitos-Nauta Highway (District of San Juan)",,-3.83457,-73.36828333,Precise,Primary and secondary forest,,,,NA,,No,,26.5,2830
+BFA065,BFR004,Peru,Loreto,Maynas,"Zungarococha, 5.4 km W of km 6 of lquitos-Nauta Highway (District of San Juan) ",,-3.83042,-73.37146667,Precise,Primary and secondary forest,,,,NA,,No,,26.5,2836
+BFA066,BFR004,Peru,Loreto,Maynas,"Zungarococha, 6 5 km W of km 6 of Iquitos-Nauta Highway (District of San Juan) ",,-3.83398,-73.37725,Precise,Primary and secondary forest,,,,NA,,No,,26.5,2830
+BFA067,BFR004,Peru,Loreto,Ibera,Tapiche River (District of Tapiche),,-5.66667,-74.15,Precise,Primary and secondary forest,,,,NA,,No,,27,2258
+BFA068,BFR005,Argentina,Misiones ,Candelaria,"Camping Japonés, Arroyo Yabebiry, Loreto ",,-27.28333,-55.5,Not precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,21.1,1712
+BFA069,BFR005,Argentina,Misiones,Candelaria,Candelaria,,-27.46667,-55.75,Not precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,21,1700
+BFA070,BFR005,Argentina,Misiones,Candelaria,"Candelaria, Balneario Arroyo Garupá ",,-27.48333,-55.73333333,Precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,21.1,1703
+BFA071,BFR005,Argentina,Misiones,Concepción,"Estancia Prates, Barra Concepción ",,-28.08333,-55.53333333,Precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,20.9,1712
+BFA072,BFR005,Argentina,Misiones,San Ignacio,Osununú ,,-27.26667,-55.56666667,Precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,21.1,1727
+BFA073,BFR005,Argentina,Misiones,Candelaria,Parque Provincial Cañadón de Profundidad ,,-27.55000,-55.7,Not precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,20.9,1703
+BFA074,BFR005,Argentina,Misiones,Apóstoles,"Parque Provincial de la Sierra “Ingeniero Agrónomo Martínez-Crovetto”, Municipio de San José, 210 m ",,-27.73333,-55.55,not precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,20.7,1722
+BFA075,BFR005,Argentina,Misiones,San Ignacio,Parque Provincial Teyú Cuaré ,,-27.28333,-55.58333333,Precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,21.2,1722
+BFA076,BFR005,Argentina,Misiones,Capital,Reserva Ecológica Tupá Puojhá (Fachinal) ,,-27.61667,-55.71666667,Precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,20.8,1704
+BFA077,BFR005,Argentina,Misiones,Concepción de la Sierra,Ruinas Santa María ,,-27.88333,-55.33333333,Precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Semideciduous forest,,Atlantic Forest,NA,,No,,20.7,1748
+BFA078,BFR005,Argentina,Corrientes,General San Martín,Yapeyú ,,-29.46667,-56.81666667,Precise,"riparian forests, hygrophilous forests, mogotes, savannahs and lagoons",Seasonal riverine forest,,Atlantic Forest,NA,,No,,20.2,1329
+BFA079,BFR006,Brazil,Minas Gerais,Belo Horizonte,the Reserve “Parque Estadual do Rio Doce” located at 210 km from Belo Horizonte,,-19.64167,-42.63333333,Precise,Atlantic rainforest,Rainforest,,Atlantic forest,NA,,yes,,23.3,1164
+BFA080,BFR007,Brazil,Paraíba,Santa Teresinha,Tamanduá Farm,,-7.00389,-37.34388889,Precise,deciduos vegetation,Rainforest,,Atlantic forest,270,,yes,,25.2,761
+BFA081,BFR008,Brazil,Bahia,Bahia,Catinga dry forest,,-14.07249,-42.35739,Not precise,hyperxerophilous  and hypoxerophytic vegetation and humid forest enclaves,Deciduous forest,,Caatinga,700-1100,,No,,21.5,828
+BFA082,BFR009,Brazil,Mato Grosso do Sul,Aquidauana,"The Morro (Hill) do Paxixi, district of Camisão, municipality of Aquidauana",,-20.45039,-55.62121389,Precise,"Cerrado vegetation, sesonal deciduous forest, and semi-deciduous forest",Semideciduous forest,,Atlantic forest,383,,No,,23.2,1451
+BFA083,BFR010,Brazil,Pernambuco,Pernambuco,The Saltinho Biological Station,,-8.73267,-35.173821,Not precise,Secundary forest in advanced natural regeneration,Rainforest,,Atlantic forest,NA,,yes,,24,1884
+BFA084,BFR010,Brazil,Pernambuco,Chã Grande,The agreste,,-8.23923,-35.461196,Not precise,Transition vegetation between Atlantic forest and Caatinga,Rainforest,,Atlantic forest,NA,,No,,22.1,1029
+BFA085,BFR010,Brazil,Pernambuco,Pernambuco,The Catimbau National Park,1,-8.59230,-37.247671,Not precise,Caatinga,Rainforest,,Atlantic forest,NA,,No,,21.2,816
+BFA086,BFR011,Brazil,Pará,Parauapebas,Cave in the Carajás National Forest,,-6.03372,-50.16867222,Precise,NA,Savanna woodland,,Cerrado,514,,NA,,24,1902
+BFA087,BFR012,Brazil,Paraíba,João Pessoa,Mata do Buraquinho Wildlife Refuge,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA088,BFR012,Brazil,Paraíba,João Pessoa,Restinga de Cabedelo National Forest,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA089,BFR012,Brazil,Paraíba,João Pessoa,Cuiá Natural Park,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA090,BFR012,Brazil,Paraíba,João Pessoa,Arruda Câmara Zoobotanical Park,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA091,BFR012,Brazil,Paraíba,João Pessoa,Cidade Verde Municipal Forest,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA092,BFR012,Brazil,Paraíba,João Pessoa,Alto de Mateus,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA093,BFR012,Brazil,Paraíba,João Pessoa,Bairro dos Novaes,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA094,BFR012,Brazil,Paraíba,João Pessoa,Funcionários IV,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA095,BFR012,Brazil,Paraíba,João Pessoa,Jardim Veneza,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA096,BFR012,Brazil,Paraíba,João Pessoa,Paratibe,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA097,BFR012,Brazil,Paraíba,João Pessoa,Penha,,-7.11667,-34.85,Not precise,"semi-deciduous forest, savanna formation on sandy soils ""restingas"", mangroves",Rainforest,,Atlantic forest,NA,,NA,,25.3,1953
+BFA098,BFR013,Brazil,Pernambuco,São Lourenço da Mata,Ecological Station of Tapacurá,,-8.00222,-35.01833333,Precise,NA,Rainforest,,Atlantic forest,NA,,NA,,25.2,1599
+BFA099,BFR014,Brazil,Sergipe,Nossa Senhora do Socorra,Ibura National Forest,,-10.84056,-37.14222222,Precise,"Atlantic Forest domain, with semideciduous seasonal forest formations in intermediate and advanced stages of regeneration",Coastal sandy mosaic,,Atlantic forest,NA,,yes,,25.5,1385
+BFA100,BFR015,Algeria,,Abadla,Abadla,,31.00231,-2.745868,Not precise,"cave, forest and urban areas",,,,NA,,NA,,22.1,67
+BFA101,BFR015,Algeria,,Ain Barbar,Ain Barbar,,36.99479,7.552483,Not precise,"cave, forest and urban areas",,,,NA,,NA,,18.4,783
+BFA102,BFR015,Algeria,,Ain el Berda,Ain el Berda,,36.64601,7.588639,Not precise,"cave, forest and urban areas",,,,NA,,NA,,17.9,651
+BFA103,BFR015,Algeria,,Ancienne mine Oum Tboul,Ancienne mine Oum Tboul,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA104,BFR015,Algeria,,Bir Osman,Bir Osman,,36.59070,5.307093,Not precise,"cave, forest and urban areas",,,,NA,,NA,,12.4,757
+BFA105,BFR015,Algeria,,Bir Ouelâ,Bir Ouelâ,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA106,BFR015,Algeria,,Boukayess,Boukayess,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA107,BFR015,Algeria,,Burgas,Burgas,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA108,BFR015,Algeria,,El Chatt,El Chatt,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA109,BFR015,Algeria,,El Oenya,El Oenya,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA110,BFR015,Algeria,,Ghar el deb,Ghar el deb,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA111,BFR015,Algeria,,Ghar el dib,Ghar el dib,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA112,BFR015,Algeria,,Ghar El Djmeâ,Ghar El Djmeâ,,36.50743,7.119861,Not precise,"cave, forest and urban areas",,,,NA,,NA,,12.2,835
+BFA113,BFR015,Algeria,,Ghar el wahch,Ghar el wahch,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA114,BFR015,Algeria,,Ghar Ghalia,Ghar Ghalia,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA115,BFR015,Algeria,,Ghar melouane,Ghar melouane,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA116,BFR015,Algeria,,Ghar sidi Mnaser,Ghar sidi Mnaser,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA117,BFR015,Algeria,,Ghoufi,Ghoufi,,35.05695,6.167282,Not precise,"cave, forest and urban areas",,,,NA,,NA,,16.8,228
+BFA118,BFR015,Algeria,,Grotte cavallo,Grotte cavallo,,40.15525,17.960538,Not precise,"cave, forest and urban areas",,,,NA,,NA,,17,569
+BFA119,BFR015,Algeria,,Grotte du dauphin,Grotte du dauphin,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA120,BFR015,Algeria,,Grotte Lagereb,Grotte Lagereb,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA121,BFR015,Algeria,,Gunadi,Gunadi,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA122,BFR015,Algeria,,Jedi Trad,Jedi Trad,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA123,BFR015,Algeria,,Kazmat el wissam,Kazmat el wissam,,36.73161,3.235583,Not precise,"cave, forest and urban areas",,,,NA,,NA,,18.2,670
+BFA124,BFR015,Algeria,,Kehf Fatma Sultan,Kehf Fatma Sultan,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA125,BFR015,Algeria,,Kehf Ghalia handan,Kehf Ghalia handan,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA126,BFR015,Algeria,,Kehf Oued Zhour,Kehf Oued Zhour,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA127,BFR015,Algeria,,Kehf Sidi Boumendjel,Kehf Sidi Boumendjel,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA128,BFR015,Algeria,,Kehf Zahid aslant,Kehf Zahid aslant,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA129,BFR015,Algeria,,Khef el Dajnia,Khef el Dajnia,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA130,BFR015,Algeria,,Ksar Boussemghoune,Ksar Boussemghoune,,32.86785,0.023228,Not precise,"cave, forest and urban areas",,,,NA,,NA,,17.5,160
+BFA131,BFR015,Algeria,,Les Cavités Ouled driss,Les Cavités Ouled driss,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA132,BFR015,Algeria,,Les Ruines Ain el Berda,Les Ruines Ain el Berda,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA133,BFR015,Algeria,,Oasis de Nergine,Oasis de Nergine,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA134,BFR015,Algeria,,Oued tamanaret,Oued tamanaret,,37.06063,6.513256,Not precise,"cave, forest and urban areas",,,,NA,,NA,,18.1,912
+BFA135,BFR015,Algeria,,Oued Zeboudg,Oued Zeboudg,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA136,BFR015,Algeria,,Ouled chbel,Ouled chbel,,36.59239,2.989766,Not precise,"cave, forest and urban areas",,,,NA,,NA,,17.9,655
+BFA137,BFR015,Algeria,,Ras el Oued,Ras el Oued,,35.94026,5.028321,Not precise,"cave, forest and urban areas",,,,NA,,NA,,12.9,402
+BFA138,BFR015,Algeria,,Ripisylve ghrara,Ripisylve ghrara,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA139,BFR015,Algeria,,Ruines du chenal,Ruines du chenal,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA140,BFR015,Algeria,,Sidi Rghis,Sidi Rghis,,35.90108,7.012213,Not precise,"cave, forest and urban areas",,,,NA,,NA,,13.3,475
+BFA141,BFR015,Algeria,,Taghit (Sidi Bayazit,Taghit (Sidi Bayazit,,30.87922,-2.010365,Not precise,"cave, forest and urban areas",,,,NA,,NA,,21.8,88
+BFA142,BFR015,Algeria,,Taïbet,Taïbet,,33.10074,6.413415,Not precise,"cave, forest and urban areas",,,,NA,,NA,,21.5,66
+BFA143,BFR015,Algeria,,Tunnel du trio,Tunnel du trio,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA144,BFR015,Algeria,,Youkous,Youkous,,35.41722,7.963025,Not precise,"cave, forest and urban areas",,,,NA,,NA,,14.9,388
+BFA145,BFR015,Algeria,,Zawia tahtania,Zawia tahtania,,28.03389,1.659626,Not precise,"cave, forest and urban areas",,,,NA,,NA,,23.3,22
+BFA146,BFR016,Brazil,São Paulo,"Caieiras, Mairiporã, Guarulhos, and São Paulo",The Parque Estadual da Cantareira,1,-23.40000,-46.59166667,Precise,Atlantic rain forest,Rainforest,,Atlantic forest,800 - 1700,,NA,,17.1,1432
+BFA147,BFR017,Brazil,Sergipe,Itaporanga d’Ajuda,Reserva Particular do Patrimônio Natural do Caju RPPN do Caju,,-11.11990,-37.184222,Precise,Atlantic Forest associated with restinga habitats,Coastal sandy mosaic,,Atlantic forest,NA,,NA,,25.4,1428
+BFA148,BFR018,Brazil,Sergipe,Sergipe,Serra de Itabaiana National Park (PNSI),,-10.769095,-37.33692,Precise,"Forest areas, natural open areas and disturbed open areas",Coastal sandy mosaic,,Atlantic forest,NA,,NA,,24,1297
+BFA149,BFR018,Brazil,Sergipe,Capela,Wildlife Refuge Mata do Junco (RVSMJ),1,-10.48333333,-36.96667,Precise,"Patches with different arboreal strata, intensive logging and monocultivo of sugar cane",Coastal sandy mosaic,,Atlantic forest,NA,,NA,,25.1,1128
+BFA150,BFR019,Mexico,Yucatan,"Buctzotz, Espitia and Tunkas","Buctzotz, Espitia and Tunkas",,20.83333,-87.83333333,Precise,man made pasture,,,,NA,,NA,,25.2,1175
+BFA151,BFR019,Mexico,Yucatan,"Buctzotz, Espitia and Tunkas","Buctzotz, Espitia and Tunkas",,21.33333,-89,Not precise,Tropical semi-deciduos forest,,,,NA,,NA,,25.7,755
+BFA152,BFR020,Madagascar,Antananarivo,Antananarivo,Angavobe,,-18.91805,47.9436,Precise,NA,,,,NA,,NA,,19.2,1716
+BFA153,BFR020,Madagascar,Antananarivo,Antananarivo,Angavokely,,-18.93245,47.757417,Precise,NA,,,,NA,,NA,,16.6,1383
+BFA154,BFR021,Brazil,Rio Grande do Sul,Santa Maria,Morro do Elefante,,-29.66667,-53.71666667,Precise,Atlantic forest,Rain forest,,Atlantic forest,199-462,,NA,,18.4,1701
+BFA155,BFR022,Canada,British Columbia,Southern interior British Columbia,West Arm Demonstration Forest and Pend d'Oreille Valley,,49.33333,-117.2666667,Precise,NA,,,,NA,,NA,,5.2,827
+BFA156,BFR022,Canada,British Columbia,Southern interior British Columbia,Okanagan Valley,,49.13333,-119.5,Precise,NA,,,,NA,,NA,,9,292
+BFA157,BFR023,Mexico,Chiapas,Tapachula,Finca San Carlos,,15.11756,-92.22786111,Precise,Montain rain forest with coffee plantations,,,,1100,,NA,,21.7,3861
+BFA158,BFR024,Brazil,Pernambuco,Pernambuco,Catimbau National Park (CNP),1,-8.59230,-37.247671,Not precise,NA,Rainforest,,Atlantic forest,NA,,yes,,21.2,816
+BFA159,BFR025,Mexico,Veracruz,Tlalnelhuayocan,Rancho “La Luciérnaga”,,19.52025,-96.98830556,Precise,Bosque Mesofilo de Montaña,,,,1500-1700,,NA,,17.8,1708
+BFA160,BFR026,Mexico,Veracruz,Las Choapas,Cueva Reyes,,17.26402,-93.86988333,Precise,Cueva,,,,50-1400,,NA,,25.8,3172
+BFA161,BFR026,Mexico,Veracruz,Las Choapas,Desengaño,,17.32340,-93.9769,Precise,Selva alta perennifolia,,,,50-1400,,NA,,24.8,3426
+BFA162,BFR026,Mexico,Veracruz,Las Choapas,Jaguar,,17.20000,-94.0424,Precise,Selva alta perennifolia,,,,50-1400,,NA,,23.6,2660
+BFA163,BFR026,Mexico,Veracruz,Las Choapas,Primitivo R. Valencia,,17.26402,-93.86988333,Precise,Acahual de selva alta perennifolia,,,,50-1400,,NA,,25.8,3172
+BFA164,BFR026,Mexico,Veracruz,Las Choapas,Rancho El Saguayo,,17.85105,-94.1086,Precise,Plantación de hule,,,,50-1400,,NA,,25.7,2480
+BFA165,BFR026,Mexico,Veracruz,Las Choapas,Rancho Santa Cruz,,17.77990,-94.11633333,Precise,Plantación de hule,,,,50-1400,,NA,,25.5,2546
+BFA166,BFR026,Mexico,Veracruz,Hidalgotitlán,El Fortuño,,17.27812,-94.65205,Precise,Acahual de selva alta perennifolia,,,,50-1400,,NA,,25.2,3602
+BFA167,BFR026,Mexico,Veracruz,Uxpanapa,Álvaro Obregón,,17.29325,-94.38706667,Precise,Plantación de hule,,,,50-1400,,NA,,25.5,3779
+BFA168,BFR026,Mexico,Veracruz,Uxpanapa,Arroyo Zarzo,,17.20195,-94.47378333,Precise,Selva alta perennifolia,,,,50-1400,,NA,,23.9,3200
+BFA169,BFR026,Mexico,Veracruz,Uxpanapa,Benito Juárez,,17.45038,-94.31735,Precise,Selva alta perennifolia,,,,50-1400,,NA,,25.6,3233
+BFA170,BFR026,Mexico,Veracruz,Uxpanapa,Congregación L. Tamayo,,17.17307,-94.01021389,Precise,Cueva,,,,50-1400,,NA,,22.6,1942
+BFA171,BFR026,Mexico,Veracruz,Uxpanapa,Cueva de la Virgen,,17.44652,-94.30925,Precise,Cueva,,,,50-1400,,NA,,25.5,3293
+BFA172,BFR026,Mexico,Veracruz,Uxpanapa,Cueva Guillén,,17.27490,-94.48306667,Precise,Cueva,,,,50-1400,,NA,,25.4,3764
+BFA173,BFR026,Mexico,Veracruz,Uxpanapa,Poblado 11-Cueva,,17.25715,-94.29208333,Precise,Cueva,,,,50-1400,,NA,,25.7,3961
+BFA174,BFR026,Mexico,Veracruz,Uxpanapa,Poblado 11-Hular,,17.24572,-94.28456667,Precise,Plantación de hule,,,,50-1400,,NA,,25.7,4004
+BFA175,BFR026,Mexico,Veracruz,Uxpanapa,La Cuchilla,,17.38548,-94.41838333,Precise,Cueva,,,,50-1400,,NA,,25.3,3442
+BFA176,BFR026,Mexico,Veracruz,Uxpanapa,La Joya,,17.21290,-94.28498333,Precise,Cueva,,,,50-1400,,NA,,24.7,3865
+BFA177,BFR026,Mexico,Veracruz,Uxpanapa,Liberales,,17.29535,-94.1574,Precise,Acahual de selva alta perennifolia,,,,50-1400,,NA,,25.3,4066
+BFA178,BFR026,Mexico,Veracruz,Uxpanapa,Nuevo Córdoba,,17.29535,-94.07461667,Precise,Selva alta perennifolia,,,,50-1400,,NA,,23.5,2845
+BFA179,BFR026,Mexico,Veracruz,Uxpanapa,Plan de Arroyo,,17.23575,-94.63351667,Precise,Plantación de hule,,,,50-1400,,NA,,25.3,3716
+BFA180,BFR026,Mexico,Veracruz,Uxpanapa,Poblado 12-Horqueta,,17.22077,-94.20563333,Precise,Plantación de hule,,,,50-1400,,NA,,25.8,4076
+BFA181,BFR026,Mexico,Veracruz,Uxpanapa,Progreso-Chapultepec,,17.38950,-94.06361667,Precise,Selva alta perennifolia,,,,50-1400,,NA,,25.5,3507
+BFA182,BFR026,Mexico,Veracruz,Uxpanapa,Río Grande,,17.27328,-94.36215,Precise,Cueva,,,,50-1400,,NA,,25.7,3812
+BFA183,BFR026,Mexico,Veracruz,Uxpanapa,Úrsulo Galván,,17.22577,-94.48468333,Precise,Acahual de selva alta perennifolia,,,,50-1400,,NA,,24.8,3698
+BFA184,BFR027,Mexico,Yucatan,Huhı´,Cenote Usil,,20.70524,-89.20096667,Precise,Selva baja y media caducifolia,,,,NA,,NA,,26.1,1089
+BFA185,BFR027,Mexico,Yucatan,Homún,Cenote Acula,,20.71451,-89.25430833,Precise,Selva baja y media caducifolia,,,,NA,,NA,,26.1,1080
+BFA186,BFR027,Mexico,Yucatan,Homún,Ejido Homu´ n,,20.77234,-89.26692222,Precise,Selva baja y media caducifolia,,,,NA,,NA,,26,1054
+BFA187,BFR027,Mexico,Yucatan,Tunkás,Ejido Tunka´s,,20.90099,-88.751303,Not precise,Selva baja y media caducifolia,,,,NA,,NA,,25.9,1131
+BFA188,BFR027,Mexico,Yucatan,Tunkás,Cenote Tepaka´n,,20.88600,-88.68301944,Precise,Selva baja y media caducifolia,,,,NA,,NA,,25.9,1168
+BFA189,BFR027,Mexico,Yucatan,Espita,Ex Hacienda Pom,,21.06521,-88.42101667,Precise,Selva baja y media caducifolia,,,,NA,,NA,,25.6,1130
+BFA190,BFR027,Mexico,Yucatan,Espita,Cenote Pom,,21.10683,-88.43851389,Precise,Selva baja y media caducifolia,,,,NA,,NA,,25.6,1117
+BFA191,BFR027,Mexico,Yucatan,Buctzotz,Cenote X-limon-Ha,,21.18176,-88.6368,Precise,Selva baja y media caducifolia,,,,NA,,NA,,25.8,1081
+BFA192,BFR027,Mexico,Yucatan,Buctzotz,Rancho Santa Cruz,,21.19020,-88.54203333,Precise,Selva baja y media caducifolia,,,,NA,,NA,,25.7,1069
+BFA193,BFR027,Mexico,Yucatan,Buctzotz,Rancho El Roble,,21.21571,-88.72906111,Precise,Selva baja y media caducifolia,,,,NA,,NA,,25.8,1064
+BFA194,BFR027,Mexico,Yucatan,Buctzotz,Cenote Azul,,21.22719,-88.67926667,Precise,Selva baja y media caducifolia,,,,NA,,NA,,25.8,1042
+BFA195,BFR027,Mexico,Yucatan,Quintana Roo,Cenote Kax Ek,,20.88028,-88.6217,Precise,Selva baja y media caducifolia,,,,NA,,NA,,25.8,1195
+BFA196,BFR027,Mexico,Yucatan,Hunucma,Huerto Hunucma,,21.00906,-89.86411111,Precise,Selva baja y media caducifolia,,,,NA,,NA,,25.8,751
+BFA197,BFR028,Brazil,Santa Catarina,Praia Grande,National Park of Aparados da Serra,,-29.17758,-50.106547,Not precise,Ombrophylous dense submontane forest,Rainforest,,Atlantic forest,NA,,yes,,15.1,1895
+BFA197,BFR028,Brazil,Santa Catarina,Criciúma,Peirurban matrix of Criciúma municipality,,-28.67748,-49.370417,Not precise,Ombrophylous dense submontane forest,Rainforest,,Atlantic forest,NA,,NA,,19.5,1356
+BFA198,BFR029,Costa Rica,Costa Rica,Costa Rica,Costa Rica,,9.74743,-83.752024,Not precise,NA,,,,NA,,NA,,19.2,4515
+BFA199,BFR029,Honduras,Honduras,Honduras,Honduras,,15.19700,-86.24052,Not precise,NA,,,,NA,,NA,,22.7,1375
+BFA200,BFR029,Mexico,Mexico,Mexico,Mexico,,23.63451,-102.55278,Not precise,NA,,,,NA,,NA,,16.2,355
+BFA201,BFR029,Panama,Panama,Panama,Panama,,8.53798,-80.782127,Not precise,NA,,,,NA,,NA,,20.7,2618
+BFA202,BFR029,Trinidad,,,,,10.69180,-61.222503,Not precise,NA,,,,NA,,NA,,23.9,2759
+BFA203,BFR030,Brazil,Minas Gerais,,"Lagoa do Cajueiro State Park (PELC), Jaíba Biological Reserve, Serra Azul Biological Reserve, and Serra do Cipó National Park.",,-17.67400,-43.8579,Not precise,"Tropical dry forest, Cerrado and rupestrian grasslands",Semideciduous forest,,Atlantic forest,NA,,NA,,21.1,1215
+BFA204,BFR031,Brazil,Maranhão,São Luís,São Luís,,-2.82885,-43.9971,Not precise,NA,,,,NA,,NA,,27,1769
+BFA205,BFR032,Philippines,Mindoro Oriental Province,Mindoro,Naujan Lake national park,,13.11005,121.317214,Not precise,NA,,,,NA,,NA,,27.4,2118
+BFA206,BFR033,Paraguay,Central,Central,Central,,-23.65050,-57.63816667,Precise,NA,,,,120,,NA,,23.6,1245
+BFA206,BFR033,Paraguay,Presidente Hayes,Presidente Hayes,Presidente Hayes,,-25.07100,-58.57983333,Precise,NA,,,,120,,NA,,22.8,1089
+BFA206,BFR033,Paraguay,Cordillera,Cordillera,Cordillera,,-25.94517,-56.60133333,Precise,NA,,,,100,,NA,,21.9,1419
+BFA206,BFR033,Paraguay,Paraguari,Paraguari,Paraguari,,-23.25233,-57.44666667,Precise,NA,,,,120,,NA,,23.8,1348
+BFA206,BFR033,Paraguay,Concepción,Concepción,Concepción,,-21.03950,-57.49283333,Precise,NA,,,,120,,NA,,25.1,1220
+BFA206,BFR033,Paraguay,Alto Paraguay,Alto Paraguay,Alto Paraguay,,-20.08533,-59.472034,Not precise,NA,,,,120,,NA,,25,845
+BFA206,BFR033,Paraguay,Misiones,Misiones,Misiones,,-26.75767,-56.83583333,Precise,NA,,,,70,,NA,,22,1605
+BFA206,BFR033,Paraguay,Itapúa,Itapúa,Itapúa,,-20.18300,-55.86116667,Precise,NA,,,,170,,NA,,24.6,1417
+BFA206,BFR033,Paraguay,Alto Paraguay,Alto Paraguay,Alto Paraguay,,-23.80833,-58.157,Precise,NA,,,,90,,NA,,23.7,1084
+BFA206,BFR033,Paraguay,San Pedro,San Pedro,San Pedro,,-22.63167,-56.128,Precise,NA,,,,250,,NA,,23,1395
+BFA206,BFR033,Paraguay,Amambay,Amambay,Amambay,,-22.63183,-56.02383333,Precise,NA,,,,280,,NA,,23.2,1398
+BFA206,BFR033,Paraguay,Concepción,Concepción,Concepción,,-26.12817,-57.0225,Precise,NA,,,,270,,NA,,22,1413
+BFA206,BFR033,Paraguay,Neembucú,Neembucú,Neembucú,,-24.49867,-58.12433333,Precise,NA,,,,60,,NA,,23.2,1026
+BFA206,BFR033,Paraguay,Canindeyú,Canindeyú,Canindeyú,,-23.27867,-55.50566667,Precise,NA,,,,250,,NA,,21.5,1551
+BFA206,BFR033,Paraguay,Presidente Hayes,Presidente Hayes,Presidente Hayes,,-21.48017,-57.54866667,Precise,NA,,,,80,,NA,,24.9,1280
+BFA206,BFR033,Paraguay,Alto Paraguay,Alto Paraguay,Alto Paraguay,,-23.45267,-59.55216667,Precise,NA,,,,70,,NA,,23.5,830
+BFA206,BFR033,Paraguay,Presidente Hayes,Presidente Hayes,Presidente Hayes,,-22.45267,-59.80716667,Precise,NA,,,,120,,NA,,24.7,665
+BFA206,BFR033,Paraguay,Boqueron,Boqueron,Boqueron,,-24.50717,-62.34416667,Precise,NA,,,,240,,NA,,22.8,666
+BFA206,BFR033,Paraguay,Canindeyú,Canindeyú,Canindeyú,,-25.53833,-54.6375,Precise,NA,,,,300,,NA,,21.3,1707
+BFA206,BFR033,Paraguay,Caazapá,Caazapá,Caazapá,,-26.07733,-55.48366667,Precise,NA,,,,300,,NA,,20.9,1632
+BFA206,BFR033,Paraguay,Paraguari,Paraguari,Paraguari,,-21.19000,-56.84966667,Precise,NA,,,,150,,NA,,22.5,1347
+BFA206,BFR033,Paraguay,Boqueron,Boqueron,Boqueron,,-19.54850,-61.69683333,Precise,NA,,,,250,,NA,,24.7,501
+BFA206,BFR033,Paraguay,Alto Paraguay,Alto Paraguay,Alto Paraguay,,-26.36333,-60.52733333,Precise,NA,,,,150,,NA,,21.7,956
+BFA206,BFR033,Paraguay,Itapuá,Itapuá,Itapuá,,-26.36333,-55.52416667,Precise,NA,,,,400,,NA,,20.1,1676
+BFA207,BFR034,Mexico,Tamaulipas,Tamauín ,"Cave on the property of the Hotel Taninul, Taninul 1",,21.93687,-98.888969,Not precise,NA,,,,NA,,NA,,25.1,1201
+BFA208,BFR035,Brazil,Rio de Janeiro,Nova Iguaçu,Tinguá Biological Reserve,1,-22.59490,-43.42070,Not precise,NA,Rain forest,,Atlantic forest,NA,,NA,,23.3,1673
+BFA209,BFR036,Brazil,Mato Grosso do Sul ,Nova Andradina,The legal reserve of Fazenda Dona Amélia,,-22.21037,-53.47654889,Precise,Cerrado with influences of Atlantic rainforest,Seasonal floodplain forest,,Atlantic forest,NA,,NA,,22.9,1410
+BFA210,BFR037,Brazil,São Paulo,Cananéia,Parque Estadual da Ilha do Cardoso,,-25.13359,-47.9416,Not precise,Atlantic forest,Rainforest,,Atlantic forest,NA,,NA,,22.5,2511
+BFA211,BFR038,Colombia,Sucre,Sucre,Reserva Forestal Protectora Serranía de Coraza,,9.53278,-75.34995833,Precise,tropical dry forest ,,,,NA,,NA,,26.4,1337
+BFA212,BFR039,Brazil,Mato Grosso do Sul ,Jardim,"southern part of the Serra da Bodoquena National Park, on the Campo  Verde farm",,-21.41333,-56.77555556,Precise,savannah forests associated with karstic reliefs and rocky soils,Semideciduous forest,,Atlantic forest,NA,,NA,,22.8,1357
+BFA213,BFR040,Brazil,Bahia,Santa Cruz de Cabrália,Cave da Reserva Particular do Patrimonio Natural Estação Veracel,,-16.38856,-39.16883333,Precise,Atlantic rain forest with human-made structure,Rainforest,,Atlantic forest,NA,,NA,,24,1480
+BFA214,BFR040,Brazil,Bahia,Santa Cruz de Cabrália,Cave da Reserva Particular do Patrimonio Natural Estação Veracel,,-16.38856,-39.16883333,Precise,Atlantic rain forest,Rainforest,,Atlantic forest,NA,,NA,,24,1480
+BFA215,BFR041,Brazil,Rio de Janeiro,Mangaratiba,Marambaia Island ,,-23.06756,-43.88312,Not precise,"Forest remnants, mangrove patches and dunes",Rain forest,,Atlenctic forest,NA,,yes,,23.4,1343
+BFA215,BFR041,Brazil,Rio de Janeiro,Seropédica,Campus of the Federal Rural University of Rio de Janeiro,,-22.80750,-43.62138889,Precise,"Experimental plantations of coffee, cocoa and banana",Rain forest,,Atlantic forest,NA,,NA,,23.7,1322
+BFA216,BFR042,Spain,Cataluña,Cataluña,Northeat of Spain ,,41.59116,1.520863,Precise,NA,,,,NA,,NA,,13.5,651
+BFA217,BFR043,Panama,Veraguas province,Montijo and Soná,Coiba National Park (CNP),,7.46086,-81.73048,Not precise,NA,,,,NA,,NA,,25.9,3322
+BFA218,BFR044,Brazil,Brasilia,Brasilia Federal Distric,Area de Proteção Ambiental de Cafuringa (APAC),,-15.73244,-47.81666667,Precise,Cerrado,Seasonal riverine forest,,Cerrado,NA,,YES,,21.1,1532
+BFA219,BFR045,Australia,Victoria,New South Wales and South Australia,,,-37.00747,143.388006,Not precise,NA,,,,NA,,NA,,13.8,577
+BFA220,BFR046,Brazil,Rio de Janeiro,"Engenheiro Paulo de Frotin, in Pau Ferro Mountain Range",Instituto Zoobotanico de Morro Azul (IZMA),,-22.48333,-43.56666667,Precise,Semi-deciduous forest,Rain forest,,Atlantic forest,671-825,,YES,,20.3,1528
+BFA221,BFR047,Costa Rica,Costa Rica,Costa Rica,Las Cruces Biological Reserve,,8.78333,-82.95,Precise,"Pasture, cropland, house and remnant forest fragment",,,,1100,,YES,,20.5,3349
+BFA222,BFR048,Brazil,Paraná,Fazenda do Rio Grande,"Fazenda Experimental Gralha Azul, pertenecente à Pontificia Universidade Catolica de Paraná",,-25.65000,-49.26666667,Precise,Fragmentos forestais,Rainforest,,Atlantic forest,NA,,NA,,16.8,1282
+BFA223,BFR049,Brazil,Paraná,São Jose dos Pinhais,Serro e Gemido,,-25.53458,-49.203265,Not precise,NA,Rainforest,,Atlantic forest,NA,,NA,,16.9,1281
+BFA224,BFR049,Brazil,São Paulo,São Paulo,Parque Estadual Serra da Cantareira,1,-23.42183,-46.621414,Not precise,NA,Rainforest,,Atlantic forest,NA,,NA,,16.1,1517
+BFA225,BFR049,Brazil,São Paulo,Riberão Venerando,Estação Biologica Boraceia,,-21.32314,-50.309621,Not precise,NA,Rainforest,,Atlantic forest,NA,,NA,,22.3,1185
+BFA226,BFR050,Honduras,Olancho,"La Unión, Jano y Esquipulas del Norte",Refugio La Muralla,,15.08333333,-86.73333333,Precise,NA,,,,NA,,NA,,19.6,1464
+BFA227,BFR051,French Guiana,,Apatou,Apatou,,5.15390,-54.339883,Not precise,NA,,,,NA,,NA,,26.6,2373
+BFA228,BFR051,French Guiana,,Awala-Yalimapo,Awala-Yalimapo,,5.73624,-53.909524,Not precise,NA,,,,NA,,NA,,26.6,1899
+BFA229,BFR051,French Guiana,,Camopi,Pic Coudreau du Sud,,3.16602,-52.341382,Not precise,NA,,,,NA,,NA,,25.8,2518
+BFA230,BFR051,French Guiana,,Grand-Santi,Gaa Kaba (Montagne Francaise),,4.25073,-54.38225,Not precise,NA,,,,NA,,NA,,26.4,2465
+BFA231,BFR051,French Guiana,,Kourou,Kourou,,5.16113,-52.649336,Not precise,NA,,,,NA,,NA,,26,2815
+BFA232,BFR051,French Guiana,,Mana,"Crique
+Gargoulette along National Road",,5.66801,-53.778958,Not precise,NA,,,,NA,,NA,,26.6,1973
+BFA233,BFR051,French Guiana,,Maripasoula,Atachi Bakka,,3.54914,-53.91562,Not precise,NA,,,,NA,,NA,,22.3,2581
+BFA234,BFR051,French Guiana,,Matoury,Lagune Concorde,,4.83178,-52.345373,Not precise,NA,,,,NA,,NA,,26.5,3518
+BFA235,BFR051,French Guiana,,Montsinery,Crique Cascade,,4.89472,-52.502522,Not precise,NA,,,,NA,,NA,,26.3,3215
+BFA236,BFR051,French Guiana,,Regina,Approuague Saut Athanase,,4.18718,-52.334466,Not precise,NA,,,,NA,,NA,,25.7,3586
+BFA237,BFR051,French Guiana,,Regina,"Grande Montagne Tortue, piste de Belizon, pK-13",,4.30968,-52.134179,Not precise,NA,,,,NA,,NA,,25.8,3747
+BFA238,BFR051,French Guiana,,Regina,Grotte Mathilde,,4.30968,-52.134179,Not precise,NA,,,,NA,,NA,,25.8,3747
+BFA239,BFR051,French Guiana,,Regina,Montagne des Gouffres,,4.30968,-52.134179,Not precise,NA,,,,NA,,NA,,25.8,3747
+BFA240,BFR051,French Guiana,,Regina,Nouragues,,4.30968,-52.134179,Not precise,NA,,,,NA,,NA,,25.8,3747
+BFA241,BFR051,French Guiana,,Roura,Cacao,,4.54893,-52.491857,Not precise,NA,,,,NA,,NA,,25.9,3695
+BFA242,BFR051,French Guiana,,Roura,Crique Boulanger,,4.60509,-52.332878,Not precise,NA,,,,NA,,NA,,26,3785
+BFA243,BFR051,French Guiana,,Roura,grotte Fourgassié,,4.63167,-52.337391,Not precise,NA,,,,NA,,NA,,26.1,3779
+BFA244,BFR051,French Guiana,,Roura,Trésor Nature Preservation,,4.61021,-52.279023,Not precise,NA,,,,NA,,NA,,24.8,3715
+BFA245,BFR051,French Guiana,,Saint-Elie,Trinité Nature Preservation,,4.82274,-53.276409,Not precise,NA,,,,NA,,NA,,24.8,2700
+BFA246,BFR051,French Guiana,,Saint-Georges-Oyapock,Trois-Palétuviers,,4.06667,-51.666667,Not precise,NA,,,,NA,,NA,,25.9,3554
+BFA247,BFR051,French Guiana,,Saül,near the village,,3.86586,-53.387041,Not precise,NA,,,,NA,,NA,,25.2,2404
+BFA248,BFR051,French Guiana,,Sinnamary,Paracou at CIRAD,,5.37491,-52.95484,Not precise,NA,,,,NA,,NA,,26.1,2661
+BFA249,BFR051,French Guiana,,Sinnamary,"Piste de Saint-Elie, pK-15",,5.37714,-52.95737,Not precise,NA,,,,NA,,NA,,26.1,2653
+BFA250,BFR051,French Guiana,,Sinnamary,"National Road, pK-106",,5.37714,-52.95737,Not precise,NA,,,,NA,,NA,,26.1,2653
+BFA251,BFR051,French Guiana,,Sinnamary,Yiyi,,5.37714,-52.95737,Not precise,NA,,,,NA,,NA,,26.1,2653
+BFA252,BFR052,Brazil,São Paulo,São Paulo,Estação Ecológica de Caetetus,,-22.37500,-49.625,Precise,Forest semideciduos,Rainforest,,Atlantic forest,NA,,NA,,20.4,1293
+BFA253,BFR053,Brazil,Goias,Serranopolis,Reserva Particular do Patrimônio Natural Pousada das Araras,,-18.41666667,-52,Not precise,Cerrado,Semideciduous forest,,Atlantic forest,500-700,,YES,,24.3,1536
+BFA254,BFR054,Mexico,Nuevo Leon,Santiago,Cueva de la Boca,,25.43194444,-100.1519444,Precise,Arid region,,,,NA,,NA,,21.9,1006
+BFA255,BFR055,Romania, Bihor,Sânmartin,Betfia,,46.975559,22.014913,Not precise,NA,,,,NA,,NA,,10.2,623
+BFA256,BFR055,Romania,Cluj,Mihai Viteazu,Cheile Turzii,,46.56337,23.680659,Not precise,NA,,,,NA,,NA,,7.9,642
+BFA257,BFR055,Hungary,Borsod-Abaúj-Zemplén,Edelény,Edelény,,48.293439,20.738582,Not precise,NA,,,,NA,,NA,,9.8,552
+BFA258,BFR055,Hungary,Eger District of Heves,Felsőtárkány,Felsőtárkány,,47.904549,20.338403,Not precise,NA,,,,NA,,NA,,9.7,551
+BFA259,BFR055,Romania,Constanta,Targusor,Gura Dobrogei,,44.481319,28.524819,Not precise,NA,,,,NA,,NA,,11.4,425
+BFA260,BFR055,Hungary,Baranya,Kombloi,Mánfa,,46.162022,18.242438,Not precise,NA,,,,NA,,NA,,10.6,655
+BFA261,BFR055,Hungary,Borsod-Abaúj-Zemplén,Miskolc,Miskolc,,48.103478,20.778438,Not precise,NA,,,,NA,,NA,,10,551
+BFA262,BFR055,Hungary,Baranya,Nagyharsány,Nagyharsány,,45.846695,18.394778,Not precise,NA,,,,NA,,NA,,11.2,655
+BFA263,BFR055,Hungary,Baranya,Szársomlyó,Szársomlyó,,45.855556,18.411389,Not precise,NA,,,,NA,,NA,,10.1,691
+BFA264,BFR055,Romania,Tulcea,Tulcea,Tulcea,,45.171617,28.791442,Not precise,NA,,,,NA,,NA,,11,438
+BFA265,BFR056,Mexico,Veracruz,Tilapan,Cave near Tilapan,,18.85,-96.66666667,Precise,evergreen forest and riparian vegetation,,,,NA,,NA,,24.7,1460
+BFA265,BFR056,Mexico,Puebla,Puebla,Zapotlitan Salinas,,18.33333333,-97.46666667,Precise,Cactus forest,,,,NA,,NA,,20.3,424
+BFA266,BFR057,Mexico,Jalisco,Chamela,bas,,19.592702,-105.044375,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,26.1,849
+BFA267,BFR057,Mexico,Jalisco,Chamela,hn2,,19.421689,-104.822458,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,26.3,852
+BFA268,BFR057,Mexico,Jalisco,Chamela,jgp,,19.83621,-105.237339,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,26.2,819
+BFA269,BFR057,Mexico,Jalisco,Chamela,lfh,,19.421689,-104.822458,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,26.3,852
+BFA270,BFR057,Mexico,Jalisco,Chamela,hn2,,19.421689,-104.822458,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,26.3,852
+BFA271,BFR057,Mexico,Jalisco,Chamela,na1,,19.74379,-104.93301,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,24.2,1581
+BFA272,BFR057,Mexico,Jalisco,Chamela,na2,,19.74379,-104.93301,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,24.2,1581
+BFA273,BFR057,Mexico,Jalisco,Chamela,scu,,19.774031,-105.077875,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,25.9,1074
+BFA274,BFR057,Mexico,Jalisco,Chamela,udg,,19.592702,-105.044375,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,26.1,849
+BFA275,BFR057,Mexico,Jalisco,Chamela,unam,1,19.592702,-105.044375,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,26.1,849
+BFA276,BFR057,Mexico,Jalisco,Chamela,zap,,19.421689,-104.822458,Not precise,"riparian vegetation, medium forest, low forest",,,,NA,,NA,,26.3,852
+BFA277,BFR058,Ghana,Greater Accra region,Accra,Accra,,5.603558,-0.187083,Not precise,NA,,,,NA,,NA,,26.5,831
+BFA278,BFR058,Equatorial Guinea,,Annobón,Island of Annobón,,-1.430193,5.635125,Not precise,NA,,,,NA,,NA,,NA,NA
+BFA279,BFR058,Equatorial Guinea,,Bioko,Island of Bioko,,3.619832,8.748117,Not precise,NA,,,,NA,,NA,,16.2,2644
+BFA280,BFR059,United States,Puerto Rico,,"Cueva de los Culebrones, Mata de Platano Field Station",,18.44,-66.7,Not precise,NA,,,,NA,,NA,,25.6,1424
+BFA281,BFR060,Panama,Panama,Panama,Agua Salud 1,,9.245869,-79.71819,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,25.4,2726
+BFA281,BFR060,Panama,Panama,Panama,Agua Salud 2,,9.245869,-79.71819,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,25.4,2726
+BFA281,BFR060,Panama,Panama,Panama,Agua Salud 3,,9.245869,-79.71819,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,25.4,2726
+BFA281,BFR060,Panama,Panama,Panama,Agua Salud 4,,9.245869,-79.71819,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,25.4,2726
+BFA281,BFR060,Panama,Panama,Panama,Agua Salud 5,,9.245869,-79.71819,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,25.4,2726
+BFA281,BFR060,Panama,Panama,Panama,Agua Salud garden,,9.245869,-79.71819,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,25.4,2726
+BFA281,BFR060,Panama,Panama,Panama,"Barro Colorado Island, Amourtrail",,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA281,BFR060,Panama,Panama,Panama,"Barro Colorado Island, Lab Clearing",,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA281,BFR060,Panama,Panama,Panama,"Barro Colorado Island, Miller trail",,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA281,BFR060,Panama,Panama,Panama,Bohio,,9.204324,-79.88414,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.6,2765
+BFA281,BFR060,Panama,Panama,Panama,Chicha,,9.204324,-79.88414,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.6,2765
+BFA281,BFR060,Panama,Panama,Panama,Frijoles,,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA281,BFR060,Panama,Panama,Panama,Gigante 1,,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA281,BFR060,Panama,Panama,Panama,Gigante 2,,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA281,BFR060,Panama,Panama,Panama,Guanabano,,9.204324,-79.88414,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.6,2765
+BFA281,BFR060,Panama,Panama,Panama,Guava,,9.204324,-79.88414,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.6,2765
+BFA281,BFR060,Panama,Panama,Panama,Las Pavas,,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA281,BFR060,Panama,Panama,Panama,Mona Grita,,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA281,BFR060,Panama,Panama,Panama,Orchid Island,,9.204324,-79.88414,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.6,2765
+BFA281,BFR060,Panama,Panama,Panama,Pena Blanca,,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA281,BFR060,Panama,Panama,Panama,Pato Horqueta,,9.204324,-79.88414,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.6,2765
+BFA281,BFR060,Panama,Panama,Panama,Parque Nacional Soberania 1,,9.120412,-79.72729,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2320
+BFA281,BFR060,Panama,Panama,Panama,Parque Nacional Soberania 2,,9.043633,-79.65244,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.5,2146
+BFA281,BFR060,Panama,Panama,Panama,Tres Almendras,,9.204324,-79.88414,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.6,2765
+BFA281,BFR060,Panama,Panama,Panama,Urodema Island,,9.123855,-79.87928,Not precise,Continuos forest and fragmented forest,,,,NA,,NA,,26.7,2470
+BFA282,BFR061,Australia,Victoria,Allansford,nearby non-breeding caves,,-38.3861,142.5931,Precise,NA,,,,NA,,NA,,13.9,805
+BFA283,BFR061,Australia,Victoria,Portland,"Portland 1, nearby non-breeding caves",,-38.3609,141.6041,Not precise,NA,,,,NA,,NA,,13.7,819
+BFA284,BFR061,Australia,Victoria,Portland,"Portland 2,nearby non-breeding caves",,-38.3609,141.6041,Not precise,NA,,,,NA,,NA,,13.7,819
+BFA285,BFR061,Australia,South Australia,Naracoorte,Naracoorte breeding cave,,-36.9602,140.7413,Precise,NA,,,,NA,,NA,,14.5,577
+BFA286,BFR061,Australia,Victoria,Christmas Hills,Abandoned mines,,-37.6515,145.3173,Precise,NA,,,,NA,,NA,,13.8,914
+BFA287,BFR061,Australia,Victoria,Eildon,Abandoned mines,,-37.2343,145.8976,Precise,NA,,,,NA,,NA,,13.6,904
+BFA288,BFR061,Australia,Victoria,Lakes Entrance,Vicrtorian breeding cave,,-37.8511,147.9958,Precise,NA,,,,NA,,NA,,14.2,737
+BFA289,BFR062,Japan,Gifu,Gujo-shi,Gujo-shi,,35.661983,136.974288,Not precise,NA,,,,NA,,NA,,13.3,2434
+BFA290,BFR062,Japan,Hokkaido,"Bekkai-cho, Notsuke-gun","Bekkai-cho, Notsuke-gun",,43.590307,145.334981,Not precise,NA,,,,NA,,NA,,5.7,1045
+BFA291,BFR062,Japan,Hokkaido,"Koshimizu-cho, Shari-gun","Koshimizu-cho, Shari-gun",,43.856644,144.462051,Not precise,NA,,,,NA,,NA,,6,898
+BFA292,BFR062,Japan,Hokkaido,Nemuro-shi,Nemuro-shi,,43.330101,145.582818,Not precise,NA,,,,NA,,NA,,6,1079
+BFA293,BFR062,Japan,Hokkaido,"Otofuke-cho, Kato-gun","Otofuke-cho, Kato-gun",,42.994155,143.197971,Not precise,NA,,,,NA,,NA,,6.5,1149
+BFA294,BFR062,Japan,Hokkaido,"Rausu-cho, Menashi-gun","Rausu-cho, Menashi-gun",,44.021873,145.1897,Not precise,NA,,,,NA,,NA,,5.4,1025
+BFA295,BFR062,Japan,Hokkaido,"Sarufutsu-mura, Souya-gun","Sarufutsu-mura, Souya-gun",,45.328864,142.175896,Not precise,NA,,,,NA,,NA,,NA,NA
+BFA296,BFR062,Japan,Hokkaido,"Shari-cho, Shari-gun","Shari-cho, Shari-gun",,43.911473,144.670764,Not precise,NA,,,,NA,,NA,,5.9,932
+BFA297,BFR062,Japan,Hokkaido,"Shibetsu-cho, Shibetsu-gun","Shibetsu-cho, Shibetsu-gun",,43.661258,145.131356,Not precise,NA,,,,NA,,NA,,5.6,1006
+BFA298,BFR062,Japan,Hokkaido,"Tsubetsu-cho, Abashiri-gun","Tsubetsu-cho, Abashiri-gun",,43.706594,144.024876,Not precise,NA,,,,NA,,NA,,6.3,784
+BFA299,BFR062,Japan,Hyogo,"Sayo-cho, Sayo-gun","Sayo-cho, Sayo-gun",,35.004345,134.355874,Not precise,NA,,,,NA,,NA,,14.4,1506
+BFA300,BFR062,Japan,Mie,Kumano-shi,Kumano-shi,,33.888521,136.100224,Not precise,NA,,,,NA,,NA,,16.6,3503
+BFA301,BFR062,Japan,Mie,Tsu-shi,Tsu-shi,,34.718639,136.505226,Not precise,NA,,,,NA,,NA,,15.6,1790
+BFA302,BFR062,Japan,Nagano,Nakano-shi,Nakano-shi,,36.741995,138.369351,Not precise,NA,,,,NA,,NA,,12.1,1356
+BFA303,BFR062,Japan,Nagano,"Outaki-mura, Kiso-gun","Outaki-mura, Kiso-gun",,35.823714,137.390409,Not precise,NA,,,,NA,,NA,,7.4,1959
+BFA304,BFR062,Japan,Okinawa,"Nago-shi, Okinawa Is.","Nago-shi, Okinawa Is.",,26.591562,127.977531,Not precise,NA,,,,NA,,NA,,22.3,2235
+BFA305,BFR062,Japan,Okinawa,"Onna-son, Okinawa Is.","Onna-son, Okinawa Is.",,26.497596,127.852965,Not precise,NA,,,,NA,,NA,,22.4,2142
+BFA306,BFR062,Japan,Osaka,"Misaki-cho, Sennan-gun","Misaki-cho, Sennan-gun",,34.317325,135.142186,Not precise,NA,,,,NA,,NA,,NA,NA
+BFA307,BFR062,Japan,Wakayama,Nishimuro-gun,Nishimuro-gun,,33.604957,135.487484,Not precise,NA,,,,NA,,NA,,17,2353
+BFA308,BFR062,Japan,Wakayama,Tanabe-shi,Tanabe-shi,,33.728005,135.37773,Not precise,NA,,,,NA,,NA,,16.8,2142
+BFA309,BFR063,Brazil,Amapá,,Floresta Nacional do Amapá (FNA),,1.206111111,-51.74083333,Not precise,"upland forest, with some stains of flooded forests, “tabocais” (forest of bamboo) and rocky outcrop",Savanna woodland,,Amazonia,80 - 450 ,,YES,,25.9,2470
+BFA310,BFR063,Brazil,Amapá,,Parque Nacional Montanhas do Tumucumaque (PNMT),,2.047444444,-52.75355556,Not precise,"dense forests of mainland, igapó forest (dense ombrophylous alluvial forests), slops forests and dried formations associated with rocky outcrop",Coastal sandy mosaic,,Amazonia,100 - 400,,YES,,25.5,2412
+BFA311,BFR063,Brazil,Amapá,,Reserva de Desenvolvimento Sustentável do Rio Iratapurú (RDSI),,0.1818518519,-53.62187963,Not precise,upland forest with a high concentration of Castanheiras-do-Brazil,Floodplain forest,,Amazonia,100 - 500,,YES,,25.9,2270
+BFA312,BFR064,Portugal,Portugal,Portugal,Portugal,,39.87121,-8.106286,Not precise,NA,,,,NA,,NA,,14,1089
+BFA313,BFR065,Costa Rica,Costa Rica,Costa Rica,18 different locations across Coto Brus valley,,8.954045,-83.070404,Not precise,mixture of tropical wet forest and farmland,,,,NA,,NA,,25,2615
+BFA314,BFR066,Nigeria,Nigeria,Nigeria,Bauchi,,10.31583333,9.844166667,Not precise,NA,,,,NA,,NA,,25.3,1009
+BFA314,BFR066,Nigeria,Nigeria,Nigeria,Gboko,,7.325,9.005,Not precise,NA,,,,NA,,NA,,26.4,1473
+BFA315,BFR067,South Korea,Jeju-do (Is),Jeju-si,Bonggae-dong,,33.41094444,126.6209444,Precise,NA,,,,NA,,NA,,12.1,1748
+BFA316,BFR067,South Korea,Gyeongnam Prov.,Changwon-si,Buk-myeon,,37.25102778,128.4294722,Precise,NA,,,,NA,,NA,,10.5,1293
+BFA317,BFR067,South Korea,Gangwon Prov.,Yeongwol-gun,Buk-myeon,,35.35808333,128.5842222,Precise,NA,,,,NA,,NA,,13.5,1360
+BFA318,BFR067,South Korea,Chungnam Prov.,Gongju-si,Gyeryong-myeon,,36.41225,127.1456389,Precise,NA,,,,NA,,NA,,12.2,1286
+BFA319,BFR067,South Korea,Gangwon Prov.,Yeongwol-gun,Hadong-myeon,,37.11905556,128.6098333,Precise,NA,,,,NA,,NA,,10.9,1246
+BFA320,BFR067,South Korea,Daejeon metropolitan,Dong-gu,Haso-dong,,36.21308333,127.4389167,Precise,NA,,,,NA,,NA,,11.3,1308
+BFA321,BFR067,South Korea,Gyeongbuk Prov.,Mungyeong-si,Hogye-dong,,36.65911111,128.1928056,Precise,NA,,,,NA,,NA,,11.3,1172
+BFA322,BFR067,South Korea,Jeonnan Prov.,Shinan-gun,Hong-do,,34.68341667,125.1916389,Precise,NA,,,,NA,,NA,,NA,NA
+BFA323,BFR067,South Korea,Jeonnan Prov.,Gwangsan-gu,Imgok-dong,,35.21955556,126.7447222,Precise,NA,,,,NA,,NA,,13.7,1252
+BFA324,BFR067,South Korea,Gangwon Prov.,Jeongseon-gun,Jeongseon-gun,,37.38058333,128.6250833,Precise,NA,,,,NA,,NA,,9.6,1377
+BFA325,BFR067,South Korea,Gangwon Prov.,Yeongwol-gun,Jucheon-myeon,,37.215146,126.568027,Not precise,NA,,,,NA,,NA,,11.7,1188
+BFA326,BFR068,Brazil,Minas Gerais,Uberlândia,The “Panga” ecological reservation,,-19.18611111,-48.40972222,Precise,Cerrado,Semideciduous forest,,Atlantic forest,800,,NA,,22,1445
+BFA327,BFR069,South Africa,,,De Hoop Guano Cave,,-34.018516,23.864499,Not precise,NA,,,,NA,,NA,,NA,NA
+BFA327,BFR069,South Africa,,,"Steenkampskraal Mine,",,-30.975012,18.634337,Not precise,NA,,,,NA,,NA,,18.6,169
+BFA327,BFR069,South Africa,,,Koegelbeen Sinkhole,,-27.984071,23.608061,Not precise,NA,,,,NA,,NA,,16.2,475
+BFA327,BFR069,South Africa,,,Vanderkloof Dam,,-30.049495,24.803334,Not precise,NA,,,,NA,,NA,,18,356
+BFA327,BFR069,South Africa,,,Sudwala Caves,,-25.369774,30.699812,Not precise,NA,,,,NA,,NA,,18.5,917
+BFA327,BFR069,South Africa,,,Shongweni Dam,,-30.559483,22.93749,Not precise,NA,,,,NA,,NA,,16.7,233
+BFA327,BFR069,South Africa,,,Table Farm,,-30.559483,22.93749,Not precise,NA,,,,NA,,NA,,16.7,233
+BFA328,BFR070,United States,Puerto Rico,Arecibo,"Mata del Plátano field station, Interamerican University",,18.475718,-66.759438,Not precise,"subtropical, successional forest, dominated by deciduous trees",,,,NA,,NA,,25.6,1349
+BFA329,BFR071,South Korea,South Korea,Chungbuk,Danyang,,36.984547,128.365518,Not precise,"caves, forests, and abandoned mines",,,,NA,,NA,,10.9,1223
+BFA330,BFR071,South Korea,South Korea,Gyeongbuk,Inje,,36.85282,127.601448,Not precise,"caves, forests, and abandoned mines",,,,NA,,NA,,10.5,1255
+BFA331,BFR071,South Korea,South Korea,Jeonbuk,Sunchang,,35.374414,127.137597,Not precise,"caves, forests, and abandoned mines",,,,NA,,NA,,13.1,1334
+BFA332,BFR071,South Korea,South Korea,Jeonnam,"Muan, Jindo, Wando",,34.867901,126.991001,Not precise,"caves, forests, and abandoned mines",,,,NA,,NA,,13.1,1449
+BFA333,BFR071,South Korea,South Korea,Ulsan,Ulsan,,35.538377,129.311359,Not precise,"caves, forests, and abandoned mines",,,,NA,,NA,,13.9,1250
+BFA334,BFR072,Singapur,Singapur,Singapur,Kent Ridge Park,,1.283885,103.791295,Not precise,NA,,,,NA,,NA,,26.7,2391
+BFA334,BFR072,Singapur,Singapur,Singapur,Rifle range Road,,1.354026,103.793943,Not precise,NA,,,,NA,,NA,,26.7,2426
+BFA334,BFR072,Singapur,Singapur,Singapur,Bukit Timah Nature Reserve,,1.354056,103.776945,Not precise,NA,,,,NA,,NA,,26.5,2429
+BFA334,BFR072,Singapur,Singapur,Singapur,Telok Blangah Hill Park,,1.278823,103.810668,Not precise,NA,,,,NA,,NA,,26.7,2393
+BFA334,BFR072,Singapur,Singapur,Singapur,Dairy Farm Nature Park,,1.364018,103.776397,Not precise,NA,,,,NA,,NA,,26.7,2422
+BFA334,BFR072,Singapur,Singapur,Singapur,Pulau Ubin ,,1.412566,103.957733,Not precise,NA,,,,NA,,NA,,27.2,2451
+BFA334,BFR072,Singapur,Singapur,Singapur,Coney island Park,,1.409295,103.92165,Not precise,NA,,,,NA,,NA,,NA,NA
+BFA335,BFR073,Germany,Germany,Germany,Germany,,51.165475,10.452313,Not precise,NA,,,,NA,,NA,,8.3,595
+BFA336,BFR074,Mexico,Chiapas,Chiapas,Cueva del naranjo,,16.85444444,-93.70444444,Not precise,NA,,,,NA,,NA,,23.2,871
+BFA337,BFR074,Mexico,Chiapas,Chiapas,Cueva del Cerro hueco,,16.72111111,-93.09,Not precise,NA,,,,NA,,NA,,23.3,1058
+BFA338,BFR074,Mexico,Chiapas,Chiapas,Cueva del Guano,,16.81027778,-93.175,Not precise,NA,,,,NA,,NA,,23.2,967
+BFA339,BFR074,Mexico,Colima,Colima,Cueva del Salitre,,19.0825,-103.7330556,Not precise,NA,,,,NA,,NA,,26.2,832
+BFA340,BFR074,Mexico,Colima,Colima,Cueva de los Animales,,19.14944444,-10.83305556,Not precise,NA,,,,NA,,NA,,28,91
+BFA341,BFR074,Mexico,Colima,Colima,Cueva 1,,19.1992,-103.9146611,Not precise,NA,,,,NA,,NA,,26.1,856
+BFA342,BFR074,Mexico,Nayarit,,Cueva El Naranjal,,21.47941667,-105.0775833,Not precise,NA,,,,NA,,NA,,23.2,1505
+BFA343,BFR074,Mexico,Quintana Roo,,Cueva de Zereque (Actun Tzuub),,20.80416667,-87.47611111,Not precise,NA,,,,NA,,NA,,25.3,1254
+BFA344,BFR074,Mexico,Yucatan,Yucatan,Cavity 1,,20.29027778,-89.64536111,Not precise,NA,,,,NA,,NA,,26,1043
+BFA345,BFR074,Mexico,Yucatan,Yucatan,Cavity 2,,20.29277778,-89.645,Not precise,NA,,,,NA,,NA,,26,1044
+BFA346,BFR074,Mexico,Yucatan,Yucatan,Cueva El Naranjal,,20.19888889,-89.31,Not precise,NA,,,,NA,,NA,,25.6,1099
+BFA347,BFR074,Mexico,Yucatan,Yucatan,Cueva Tzabnáh (13 cenotes),,20.73916667,-89.47944444,Not precise,NA,,,,NA,,NA,,25.9,1001
+BFA348,BFR074,Mexico,Yucatan,Yucatan,Grutas de la Santa Maria,,20.74694444,-89.29638889,Not precise,NA,,,,NA,,NA,,26,1056
+BFA349,BFR074,Mexico,Yucatan,Yucatan,Cueva near to cenote Bal-mil,,20.75277778,-89.25138889,Not precise,NA,,,,NA,,NA,,26,1065
+BFA350,BFR075,Brazil,Rio de Janeiro,Miracema,Paraíso do Tobias,,-21.4045,-42.06766667,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,21.7,1284
+BFA350,BFR075,Brazil,Rio de Janeiro,Casimiro de Abreu,Morro de São João,,-22.51,-41.99230556,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,23,1062
+BFA350,BFR075,Brazil,Rio de Janeiro,Cachoeira de Macacu,Reserva Ecológica de Guapiaçú,,-22.51444444,-42.97694444,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,22.7,1552
+BFA350,BFR075,Brazil,Rio de Janeiro,Paracambi,Ponte Coberta,,-22.65741667,-43.80269444,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,23,1406
+BFA350,BFR075,Brazil,Rio de Janeiro,Itaguaí,Coroa Grande,,-22.88438889,-43.85108333,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,22.5,1350
+BFA350,BFR075,Brazil,Rio de Janeiro,Mangaratiba,Ilha de Itacuruçá,,-22.92763889,-43.88466667,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,23.3,1342
+BFA350,BFR075,Brazil,Rio de Janeiro,Mangaratiba,Ilha de Jaguanum,,-22.99208333,-43.92288889,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,NA,NA
+BFA350,BFR075,Brazil,Rio de Janeiro,Mangaratiba,Ilha da Marambaia,,-23.0675,-43.88722222,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,23.4,1351
+BFA350,BFR075,Brazil,Rio de Janeiro,Mangaratiba,Sahy,,-22.93272222,-44.01211111,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,22.5,1439
+BFA350,BFR075,Brazil,Rio de Janeiro,Mangaratiba,Hotel Portobello,,-22.90333333,-44.06977778,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,22.6,1484
+BFA350,BFR075,Brazil,Rio de Janeiro,Mangaratiba,RB Rio das Pedras,,-22.99427778,-44.10480556,Precise,NA,Rain forest,,Atlantic forest,640,,NA,,22.8,1520
+BFA350,BFR075,Brazil,Rio de Janeiro,Angra dos Reis,Ilha da Gipóia,,-23.046808,-44.360207,Not precise,NA,Rain forest,,Atlantic forest,640,,NA,,23.1,1788
+BFA351,BFR076,Brazil,Rio de Janeiro,Paracambi,Curió Municipal Natural Park,,-22.575,-43.69166667,Precise,Atlantic Forest remnant,Rain forest,,Atlantic forest,NA,,NA,,21,1451
+BFA352,BFR077,Brazil,Rio de Janeiro,Nova Iguaçu,Tinguá Biological Reserve and two areas sorrounding it,1,-22.59484444,-43.41823426,Precise,Atlantic forest,Rain forest,,Atlantic forest,NA,,NA,,23.3,1673
+BFA353,BFR078,Portugal,Portugal,Portugal,Southern Portugal,,39.399866,-8.224455,Not Precise,NA,,,,NA,,NA,,16.3,767
+BFA354,BFR079,Mexico,Jalisco,,Autlan,,19.770774,-104.366757,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,23.2,828
+BFA355,BFR079,Mexico,Jalisco,,"Autlan, El Coyame, Las Joyas Station",,19.61824767,-104.3875113,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,23.9,1308
+BFA356,BFR079,Mexico,Jalisco,,"Autlan, El Totole, La Marmolera",,19.6249465,-104.4904995,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,25.6,1530
+BFA357,BFR079,Mexico,Jalisco,,El Coyame,,19.497929,-104.521476,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,25.3,1419
+BFA358,BFR079,Mexico,Jalisco,,"El Coyame, El Totole",,19.488524,-104.567859,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,25.5,1251
+BFA359,BFR079,Mexico,Jalisco,,"El Coyame, El Totole, Villa Purificación",,19.56517633,-104.5808217,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,24.7,1578
+BFA360,BFR079,Mexico,Jalisco,,"El Coyame, La Pareja",,20.0467045,-104.379702,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,20.4,990
+BFA361,BFR079,Mexico,Jalisco,,El Totole,,19.479119,-104.614242,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,25.4,1195
+BFA362,BFR079,Mexico,Jalisco,,"El Totole, La Marmolera, El Coyame",,19.488524,-104.567859,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,25.5,1251
+BFA363,BFR079,Mexico,Jalisco,,Jalocote Rancho de Arturo Moreno,,19.819736,-104.422709,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,20.9,1125
+BFA364,BFR079,Mexico,Jalisco,,"Jalocote, El Coyame, La Pareja, Las Joyas Station, Autlan, Villa Purificación",,19.678592,-104.438398,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,24.5,1501
+BFA365,BFR079,Mexico,Jalisco,,"Juchitlan, La Marmolera",,20.082958,-104.100083,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,21.6,718
+BFA366,BFR079,Mexico,Jalisco,,"Juchitlan, La Pareja",,20.339219,-104.1690055,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,18.3,1025
+BFA367,BFR079,Mexico,Jalisco,,La Joya Neverias,,20.84698,-103.979004,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,20.5,943
+BFA368,BFR079,Mexico,Jalisco,,La Marmolera,,20.659523,-103.349425,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,19.7,939
+BFA369,BFR079,Mexico,Jalisco,,La Pareja,,20.59548,-104.237928,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,22.8,848
+BFA370,BFR079,Mexico,Jalisco,,"La Pareja, Autlan",,20.183127,-104.3023425,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,19.9,1021
+BFA371,BFR079,Mexico,Jalisco,,"Rancho Cerro El Tigre, Chamela, Villa Purificación",,19.6226265,-104.8402705,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,25.2,1366
+BFA372,BFR079,Mexico,Jalisco,,Villa Purificación,,19.718481,-104.606747,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,25.1,1743
+BFA373,BFR079,Mexico,Jalisco,,"Villa Purificación, La Pareja, Autlan",,20.028245,-104.4038107,Not Precise,"deciduous forests, riparian vegetation, Quercus forests, disturbed areas, cropland",,,,NA,,NA,,20.5,1030
+BFA374,BFR080,Brazil,Minas Gerais,"Alfenas, Areado, and Monte Belo",forest remnants with distinct areas,,-21.38097222,-46.21263889,Precise,Atlantic Forest and Cerrado,Cloud forest,,Atlantic forest,NA,,NA,,19.8,1521
+BFA375,BFR081,Brazil,Minas Gerais,Minduri and Carrancas,Chapada do Abanador,,-21.58333333,-46.55,Not precise,Campos de altitude and campos rupestres with large extensions of grasslands and eventually some shrub-sized species,Cloud forest,,Atlantic forest,NA,,NA,,19.2,1542
+BFA376,BFR082,Brazil,Paraná,Guaratuba,"Guaratuba Bay, Southern Brazil",,-25.83333333,-48.56666667,Precise,NA,Cloud forest,,Atlantic forest,NA,,NA,,19.8,2046
+BFA377,BFR083,Venezuela,Falcón,Falcón,Piedra Honda Cave,,11.91702778,-70.01908333,Precise,semiarid landscape,,,,NA,,NA,,26.8,529
+BFA378,BFR084,Japan,Kansai,Wakayama Prefecture,Wakayama Prefecture,,33.66666667,135.3833333,Precise,NA,,,,NA,,NA,,16.7,2200
+BFA379,BFR085,Gabon,Gabon,Gabon,The Faucon cave,,1.07287,13.20739,Precise,Rainforest,,,,NA,,NA,,22.5,1673
+BFA380,BFR085,Gabon,Gabon,Gabon,Zadie cave,,0.98595,13.19745,Precise,Rainforest,,,,NA,,NA,,21.8,1712
+BFA381,BFR085,Gabon,Gabon,Gabon,The Kessipoughou cave,,0.86722,12.77389,Precise,Rainforest,,,,NA,,NA,,23.9,1632
+BFA382,BFR085,Gabon,Gabon,Gabon,The Djibilong cave,,1.36261,13.46296,Precise,Rainforest,,,,NA,,NA,,23.8,1588
+BFA383,BFR086,Philippines,Philippines,Philippines,Malusak,,13.844378,122.058943,Precise,NA,,,,NA,,NA,,27.1,2486
+BFA383,BFR086,Philippines,Philippines,Philippines,Mahangin,,13.84415,122.058766,Precise,NA,,,,NA,,NA,,27.1,2486
+BFA383,BFR086,Philippines,Philippines,Philippines,De Lamesa,,13.844639,122.058756,Precise,NA,,,,NA,,NA,,27.1,2486
+BFA383,BFR086,Philippines,Philippines,Philippines,Bonifacio,,13.898252,122.027466,Precise,NA,,,,NA,,NA,,27,2594
+BFA384,BFR087,Malaysia,Malaysia,Malaysia,Pulau Pangkor,,4.23593,100.54056,Precise,NA,,,,NA,,NA,,NA,NA
+BFA385,BFR087,Malaysia,Malaysia,Malaysia,Pulau Perhentian,,5.903346,102.745605,Not precise,NA,,,,NA,,NA,,NA,NA
+BFA386,BFR087,Malaysia,Malaysia,Malaysia,Pulau Tioman,,2.844037,104.162203,Not precise,NA,,,,NA,,NA,,NA,NA
+BFA387,BFR087,Cambodia,Cambodia,Cambodia,Phnom Penh,,11.55815,104.9174,Not precise,NA,,,,NA,,NA,,27.7,1378
+BFA388,BFR087,Vietnam,Vietnam,Vietnam,Soc Trang,,9.57849,105.97201,Precise,NA,,,,NA,,NA,,26.8,1755
+BFA389,BFR087,Vietnam,Vietnam,Vietnam,Ca Mau,,9.15258,104.91347,Precise,NA,,,,NA,,NA,,26.6,2347
+BFA390,BFR087,Malaysia,Malaysia,Malaysia,Kuala Berang,,5.07219,103.01707,Precise,NA,,,,NA,,NA,,26.5,3517
+BFA391,BFR087,Malaysia,Malaysia,Malaysia,Lenggong,,5.13051,100.83254,Precise,NA,,,,NA,,NA,,27.3,2651
+BFA392,BFR088,Russia,Cis-Ural Region,Urals and Western Siberia,"Udmurtia, Sverdlovsk, Chelyabinsk Oblast and Western part of KhMAO (Verhne-Kondinskii Nature Reserve, environs of Yagodny)",,61.524023,105.318759,Not precise,NA,,,,NA,,NA,,-8.1,374
+BFA393,BFR089,Russia,Southern Siberia,Southern Siberia,Southern Siberia,,61.524023,105.318759,Not precise,NA,,,,NA,,NA,,-8.1,374
+BFA394,BFR090,India,Tamil Nadu state,Tamil Nadu state,Tiruchirappalli,,10.790483,78.704673,Not precise,NA,,,,NA,,NA,,28.8,859
+BFA395,BFR091,Russia,Ural ,Northern and Middle Urals,Dvurechensk,,56.595966,61.100162,Not precise,NA,,,,NA,,NA,,2.7,496
+BFA396,BFR091,Russia,Ural ,Northern and Middle Urals,Smolinskaya cave,,56.429916,61.611246,Not precise,NA,,,,NA,,NA,,2.5,479
+BFA397,BFR091,Russia,Ural ,Northern and Middle Urals,Arakaevskaya cave,,56.461857,59.253594,Not precise,NA,,,,NA,,NA,,1.8,583
+BFA398,BFR092,Mexico,Veracruz,Tlapacoyan,Encinar,,19.91194444,-97.20277778,Precise,Acahual,,,,NA,,NA,,21.2,2488
+BFA398,BFR092,Mexico,Veracruz,Puente Nacional,Utrera,,19.285,-96.51972222,Precise,Acahual,,,,NA,,NA,,25.1,982
+BFA398,BFR092,Mexico,Veracruz,San Andrés Tuxtla,Ruiz,,18.67027778,-95.12611111,Precise,Acahual,,,,NA,,NA,,25.6,3137
+BFA399,BFR092,Mexico,Veracruz,San Andrés Tuxtla,Perico,,18.66166667,-95.21527778,Precise,Pastizal,,,,NA,,NA,,24.5,3132
+BFA399,BFR092,Mexico,Veracruz,San Andrés Tuxtla,Divino,,18.64222222,-95.19333333,Precise,Pastizal,,,,NA,,NA,,23.7,2966
+BFA399,BFR092,Mexico,Veracruz,Tlapacoyan,Clarín,,20.03416667,-97.10388889,Precise,Pastizal,,,,NA,,NA,,24,1359
+BFA400,BFR092,Mexico,Veracruz,Martínez de la Torre,Soledad,,20.03555556,-97.0775,Precise,Silvopastoril,,,,NA,,NA,,24.1,1343
+BFA400,BFR092,Mexico,Veracruz,Úrsulo Galván,CBTA 17,,19.40944444,-96.37583333,Precise,Silvopastoril,,,,NA,,NA,,25.6,1200
+BFA401,BFR093,Brazil,Mato Grosso do Sul,Campo Grande,Florestinha,,-20.44740917,-54.56204222,Precise,NA,Semideciduous forest,,Atlantic forest,NA,,NA,,22.9,1461
+BFA402,BFR093,Brazil,Mato Grosso do Sul,Campo Grande,Centro de Educação Ambiental Polonês,,-20.44740917,-54.58050444,Precise,NA,Semideciduous forest,,Atlantic forest,NA,,NA,,23.1,1457
+BFA403,BFR094,Brazil,Pará,"Altamira, Vitória do Xingu, Brasil Novo, Bragança and Nova Timboteua",Urban and Rural areas,,-1.547430149,-74.51849065,Not precise,Secondary vegetation,Rainforest,,Amazonia,NA,,NA,,25.9,2836
+BFA404,BFR095,France,New Aquitaine,"Gironde, Landes, Lot-et-Garonne",Landes de Gascogne,,44.482336,-0.793121,Not precise,NA,,,,NA,,NA,,12.9,1026
+BFA405,BFR096,United States,Colorado,Larimer County,"Fort Collins, Timnath",,40.529149,-104.985253,Not precise,NA,,,,NA,,NA,,9.4,357
+BFA406,BFR097,Madagascar,Antsiranana,Antsiranana,"Parc National d’Ankarana, Grotte des Chauves-souris ",,-12.95666667,49.11833333,Precise,NA,,,,NA,,NA,,26.1,1641
+BFA407,BFR098,Brazil,Brasilia,,"Cerrado Biosphere Reserve Federal District: Brasília National Park (PNB), Gama-Cabeça de Veado Environmental Protection Area (AGCV) and Águas Emendadas Ecological Station (ESECAE) ",,-15.7262037,-47.84453704,Precise,savanna habitats and forested riparian areas,Savanna woodland,,Cerrado,NA,,NA,,21.5,1555
+BFA408,BFR099,Mexico,Jalisco,,Las Joyas Scientific Research Station,,19.58619167,-104.2742917,Not precise,semi-evergreen forest,,,,510,,NA,,16.8,1296
+BFA409,BFR099,Mexico,Jalisco,,Jalocote,,19.81554167,-104.4102917,Not precise,dry deciduous forest with riparian vegetation,,,,1162,,NA,,21.6,1042
+BFA410,BFR099,Mexico,Jalisco,,Villa Purificación ,,19.70185833,-104.6050917,Not precise,temperate high mountain forest,,,,1950,,NA,,25.1,1713
+BFA411,BFR099,Uganda,Kamwenge District,Kibale National Park,Ngogo research station,,0.4855472222,30.38941944,Not precise,semideciduous montane forest ,,,,1550,,NA,,20.3,1310
+BFA412,BFR100,Saint Kitts and Nevis,Saint Kitts Island,Saint Kitts Island,Saint Kitts Island,,17.34338,-62.755904,Not precise,NA,,,,NA,,NA,,24.7,1525
+BFA413,BFR101,Brazil,Paraná,Palotina,São Camilo State Park (SCSP),,-24.14916667,-53.91055556,Precise,semideciduous seasonal forest,Mixed forest,,Atlantic forest,NA,,NA,,21.4,1467
+BFA414,BFR102,United States,Texas,"Brewster, Crockett, Culberson, Hudspeth, Presidio and Reeves",,,31.968598,-99.901812,Not precise,NA,,,,NA,,NA,,17.9,640
+BFA415,BFR103,Mexico,Michoacan,Morelia,Tiristaran,,19.76527778,-101.3419444,Precise,Quercus spp. forest,,,,2170,,NA,,16.5,863
+BFA416,BFR104,Costa Rica,Guanacaste,Guanacaste,Guanacaste,,10.367062,-85.213786,Not precise,"Base moist forest, trnasitions to base dry forest, premontane wet forest, transitions to wet base forest, transitions to premontane  moist forest, premontane rain forest, trnasitions to base rain forest",,,,NA,,NA,,26.9,1679
+BFA416,BFR104,Costa Rica,Alajuela,Alajuela,Alajuela,,10.1538775,-84.5962725,Not precise,"Base moist forest, trnasitions to base dry forest, premontane wet forest, transitions to wet base forest, transitions to premontane  moist forest, premontane rain forest, trnasitions to base rain forest",,,,NA,,NA,,18.6,2652
+BFA416,BFR104,Costa Rica,Cartago ,Cartago ,Cartago ,,9.98221,-83.6042,Not precise,"Base moist forest, trnasitions to base dry forest, premontane wet forest, transitions to wet base forest, transitions to premontane  moist forest, premontane rain forest, trnasitions to base rain forest",,,,NA,,NA,,24.6,3929
+BFA416,BFR104,Costa Rica,Puntarenas,Puntarenas,Puntarenas,,9.74598,-85.176435,Not precise,"Base moist forest, trnasitions to base dry forest, premontane wet forest, transitions to wet base forest, transitions to premontane  moist forest, premontane rain forest, trnasitions to base rain forest",,,,NA,,NA,,25.8,2399
+BFA417,BFR105,Mexico,Jalisco,Coast of Chamela,Don Panchito Island,,19.526511,-105.074972,Not precise,tropical deciduous and tropical semi-deciduous forests ,,,,NA,,NA,,26.5,720
+BFA418,BFR106,South Africa,Limpopo province,Mahlapitsi Valley,Mahune Cave,,-26.016753,27.733571,Not precise,NA,,,,NA,,NA,,16.6,688
+BFA419,BFR107,Brazil,Maranhão,São Luís.,Quebra Pote,,-2.696111111,-44.21972222,Precise,Secondary forest,Coastal sandy mosaic,,Atlantic forest,NA,,NA,,27,1711
+BFA420,BFR108,Brazil,Maranhão,Barreirinhas,Barreirinhas,,-3,-43.1,Not precise,Cerrado,Coastal sandy mosaic,,,NA,,NA,,26.9,1564
+BFA421,BFR109,Ecuador,Ecuador,Ecuador,both sides of the Andes in Ecuador,,-1.831239,-78.183406,Not precise,NA,,,,NA,,NA,,19.5,2952
+BFA422,BFR110,Sri Lanka,Sri Lanka,Sri Lanka,Sri Lanka,,6.66875,80.32625,Not precise,NA,,,,NA,,NA,,27,3948
+BFA423,BFR111,Grecee,Crete,Argyroupoli,Mouselas river,,35.32520556,24.32319722,Not precise,NA,,,,NA,,NA,,18.8,818
+BFA424,BFR111,Grecee,Crete,Dramia,Petres river bridge,,35.345783,24.311743,Not precise,NA,,,,NA,,NA,,18.9,800
+BFA425,BFR111,Grecee,Crete,Katholiko monastery,Agiou Ioanni cave,,35.591119,24.148026,Not precise,NA,,,,NA,,NA,,18,641
+BFA426,BFR111,Grecee,Crete,Kolymvari,mine above village,,35.537467,23.781389,Not precise,NA,,,,NA,,NA,,18.9,596
+BFA427,BFR111,Grecee,Crete,Lefkogeia,at Venetian bridge ca. 3 km E of Kato Preveli Monastery,,35.157891,24.456423,Not precise,NA,,,,NA,,NA,,18.8,900
+BFA428,BFR111,Grecee,Crete,Meskla,above creek,,35.405319,23.956446,Not precise,NA,,,,NA,,NA,,17.8,676
+BFA429,BFR111,Grecee,Crete,Milatos,Milatou cave,,35.308274,25.578055,Not precise,NA,,,,NA,,NA,,18.1,559
+BFA430,BFR111,Grecee,Crete,Omalos Plateau,Tzani cave,,35.349144,23.907791,Not precise,NA,,,,NA,,NA,,13.1,883
+BFA431,BFR111,Grecee,Crete,Patsos,Agiou Antoniou cave,,35.246656,24.573064,Not precise,NA,,,,NA,,NA,,16.8,936
+BFA432,BFR111,Cyprus,Cyprus,Afendrika,ruins of Panagia Chrysiotissa church and Asomatos church,,35.046079,32.973431,Not precise,NA,,,,NA,,NA,,16.5,572
+BFA433,BFR111,Cyprus,Cyprus,Kakopetria,Troodos Forest abandoned mine 4 km to SW lower gallery,,34.916667,32.883333,Not precise,NA,,,,NA,,NA,,10.5,1003
+BFA434,BFR111,Cyprus,Cyprus,Kantara,Kantara castle ruins 3 km to NE,,35.406224,33.923099,Not precise,NA,,,,NA,,NA,,17,568
+BFA435,BFR111,Cyprus,Cyprus,Neo Horio,Smigies Trail ca. 3 km to NW abandoned chromite mine system Magnesia Mine,,35.023776,32.332613,Not precise,NA,,,,NA,,NA,,18,665
+BFA436,BFR112,Swaziland,Swaziland,Swaziland,Mbuluzi Game Reserve and Mlawula Nature Reserve,,-26.14,32,Not precise,NA,,,,NA,,NA,,22.7,658
+BFA437,BFR113,Iran,Iran,Iran,"Mahidasht cave, Karafto cave and Ghaladidar cave",,34.81666667,47.34166667,Not precise,NA,,,,NA,,NA,,10.8,451
+BFA438,BFR114,Iran,Kermnashah,Kermnashah,Mahidasht Cave,,33.38333333,47.5,Not precise,NA,,,,NA,,NA,,15.5,419
+BFA439,BFR115,Costa Rica,La Heredia province,Heredia,La Selva Biological Station,1,10.430622,-84.006969,Not precise,NA,,,,NA,,NA,,26.1,3949
+BFA440,BFR116,Brazil,Paraná,Tuneiras do Oeste and Cianorte,Reserva Biológica das Perobas,,-23.88111111,-52.73555556,Precise,"Floresta Estacional Semidecidual Submontana, Floresta Ombrófila Mista and pinheiro-do-paraná",Mixed forest,,Atlantic forest,600,,NA,,20.3,1445
+BFA441,BFR117,Brazil,Ceará,,The Serra das Almas Nature Reserve,,-5.141430556,-40.91627778,Precise,Caatinga vegetation,Coastal sandy mosaic,,Atlantic forest,NA,,YES,,23.4,942
+BFA442,BFR118,Netherlands,"Sint eustatius, lesser antilles",Oranjestad,Mango tree next to airfield,,17.49041667,-62.98547222,Precise, secondary and much of it is in a pioneer state,,,,NA,,NA,,26.5,1096
+BFA443,BFR118,Netherlands,"Sint eustatius, lesser antilles",Oranjestad,swimming pool Old Gin House,,17.48202778,-62.98730556,Precise, secondary and much of it is in a pioneer state,,,,NA,,NA,,NA,NA
+BFA444,BFR118,Netherlands,"Sint eustatius, lesser antilles",Oranjestad," swimming pool, kings well",,17.48586111,-62.99088889,Precise, secondary and much of it is in a pioneer state,,,,NA,,NA,,26.5,1096
+BFA445,BFR118,Netherlands,"Sint eustatius, lesser antilles","Sint eustatius, lesser antilles","The Quill, rim of the crater",,17.47836111,-62.96530556,Precise,evergreen seasonal forest,,,,NA,,NA,,24.1,1449
+BFA446,BFR119,Brazil,Pernambuco,Sirinhaém,"""Forest Zone"" of the southern Pernambuco coast",,-8.583333333,-35.1,Not precise,Mangroove,Rainforest,,Atlantic forest,NA,,NA,,24.6,2048
+BFA447,BFR120,Brazil,Pernambuco,Moreno,Carnijó Private Natural Heritage Reserve (RPPN Carnijó),,-8.116666667,-35.08333333,Precise,secondary Atlantic Rainforest,Rainforest,,Atlantic forest,NA,,YES,,24.7,1304
+BFA448,BFR121,Brazil,Sergipe,Capela,Mata do Junco Wildlife Refuge (RVS-Mata do Junco),1,-10.53333333,-37.05,Not precise,rainforest with numerous clearings surrounded by an anthropogenic matrix,Coastal sandy mosaic,,Atlantic forest,NA,,NA,,24.3,1271
+BFA449,BFR122,Russia,Altai Providence,,Tigirekskiy Nature Reserve,,51.26666667,83.03333333,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,1.9,627
+BFA450,BFR122,Russia,Amur Providence,,Zeyskiy State Nature Reserve,,53.95,127.3666667,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,-5.5,603
+BFA451,BFR122,Russia,Bashkortostan Republic,,Bol’shoy Kizil River,,52.71666667,58.9,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,2,359
+BFA452,BFR122,Russia,Bashkortostan Republic,,Maliy Kizil River,,53.5,59,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,1.7,382
+BFA453,BFR122,Russia,Bashkortostan Republic,,vicinity of Yelimbetovo (village),,53.5,58.75,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,1.2,408
+BFA454,BFR122,Russia,Bashkortostan Republic,,Yangel’ka River,,53.33333333,58.75,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,1.6,389
+BFA455,BFR122,Russia,Buriatiya Republic,,Dolganskaya Yama Cave,,54.46666667,113.7833333,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,-6.2,366
+BFA456,BFR122,Russia,Chelyabinsk Providence,,Serpievskaya Cave,,54.9,57.78333333,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,1.4,533
+BFA457,BFR122,Russia,Dagestan Republic,,bank of Terek River,,43.51666667,46.41666667,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,11.7,377
+BFA458,BFR122,Russia,Dagestan Republic,,"Dagestan State Nature Reserve, Samur wildlife sanctuary",,41.86666667,48.55,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,13.1,346
+BFA459,BFR122,Russia,Dagestan Republic,,Samur river Valley,,41.68333333,48.46666667,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,12.2,399
+BFA460,BFR122,Russia,Dagestan Republic,,Sary- Kum,,43,47.23333333,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,11.7,369
+BFA461,BFR122,Russia,Dagestan Republic,,Sulak Canyon,,43.03333333,46.78333333,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,7.9,562
+BFA462,BFR122,Russia,Irkutsk Providence,,Argaley-3 Cave,,53.41666667,103.1,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,-1.8,443
+BFA463,BFR122,Russia,Irkutsk Providence,,Okhotnichya Cave,,52.13333333,105.45,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,-3,596
+BFA464,BFR122,Russia,Jewish Autonomous Providence,,Birobijan,,48.78333333,132.9333333,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,0.7,639
+BFA465,BFR122,Russia,Kemerovo Providence,,Bezymyanka River,,54.35,88.11666667,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,-0.4,514
+BFA466,BFR122,Russia,Krasnodar Region,,Akhshtyrskaya Cave,,43.51666667,39.98333333,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,13.1,1420
+BFA467,BFR122,Russia,Krasnoyarsk Region,,Shushenskoe (village),,53.33333333,91.93333333,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,1,420
+BFA468,BFR122,Russia,Mariy-El Republic,,vicinity of Kokshamary (village),,56.15,47.71666667,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,3.8,549
+BFA469,BFR122,Russia,Mordovia Republic,,P. D. Smidovich’s Mordovskiy State Nature Reserve,,54.81666667,43.33333333,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,4.3,570
+BFA470,BFR122,Russia,Novosibirsk Providence,,Barsukovskaya Cave,,54.36666667,83.96666667,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,1.3,467
+BFA471,BFR122,Russia,Perm' Region,,“Predural’e” Biological Station,,57.35,57.08333333,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,1.3,606
+BFA472,BFR122,Russia,Primorskiy Region,,Primorskiy Velikan Cave,,42.83333333,132.9833333,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,NA,NA
+BFA473,BFR122,Russia,Tuva Republic,,Ak-Erik (village),,50.51666667,94.75,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,-3.8,294
+BFA474,BFR122,Russia,Tuva Republic,,vicinity of O-shynaa (village),,50.65,93.73333333,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,-2.9,306
+BFA475,BFR122,Russia,Tuva Republic,,Yenisey River near mouth of Begrida River,,52.01666667,94.4,Not precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,-2.5,521
+BFA476,BFR122,Russia,Tver' Province,,tunnel near Staritsa,,56.58333333,34.98333333,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,4,625
+BFA477,BFR122,Russia,Vladimir Providence,,Aleshunino (village),,55.81666667,42.33333333,Precise,"floodplain deciduous forest, pine-birch forest, mixed forest, dense broadleaf forest, coastal floodplain evergreen forest,xerophytic shrub plants.",,,,NA,,NA,,4.7,588
+BFA478,BFR123,Hungary,Hungary,Hungary,Antal Taró,,48.226081,20.362223,Not precise,NA,,,,NA,,NA,,9.2,563
+BFA479,BFR123,Hungary,Hungary,Hungary,Lök Völgyi BG,,48.020777,20.489329,Not precise,NA,,,,NA,,NA,,7.8,637
+BFA480,BFR124,Albania,Albania,Albania,Albania,,40.245,20.43916667,Not precise,NA,,,,NA,,NA,,12.7,1204
+BFA481,BFR124,Croatia,Croatia,Croatia,Croatia,,43.98924105,16.3721765,Not precise,NA,,,,NA,,NA,,11.6,1021
+BFA482,BFR124,Hungary,Hungary,Hungary,Hungary,,47.995445,20.457394,Not precise,NA,,,,NA,,NA,,8.5,605
+BFA483,BFR124,Italy,Italy,Italy,Italy,,44.255556,11.665556,Not precise,NA,,,,NA,,NA,,13.4,752
+BFA484,BFR124,Portugal,Portugal,Portugal,Portugal,,37.327867,-7.664559,Not precise,NA,,,,NA,,NA,,16.8,522
+BFA485,BFR124,Slovakia,Slovakia,Slovakia,Slovakia,,48.669028,20.16666667,Not precise,NA,,,,NA,,NA,,8.6,588
+BFA486,BFR124,Spain,Spain,Spain,Spain,,46.792355,6.506496,Not precise,NA,,,,NA,,NA,,6.3,1318
+BFA487,BFR124,Switzerland,,,,,41.6527591,2.7255915,Not precise,NA,,,,NA,,NA,,16,686
+BFA488,BFR125,South Africa,South Africa,South Africa,Matlapitsi cave,,24.11497,30.12151,Not precise,NA,,,,NA,,NA,,24.5,0
+BFA489,BFR125,South Africa,South Africa,South Africa,Madimatle cave,,24.37,27.39,Not precise,NA,,,,NA,,NA,,21.8,0
+BFA490,BFR126,Colombia,Tolima,Ambalema,Chorrillo,,4.433333333,-74.8,Not precise,Dry forest,,,,NA,,NA,,27,1261
+BFA491,BFR127,Belize,Orange Walk,,Lamanai Archaeological Reserve (LAR) and the Lamanai Field Research Center (LFRC),,17.76666667,-88.65,Not precise,"broadleaf tropical deciduous forest, savanna",,,,NA,,NA,,25.3,1712
+BFA492,BFR128,Mexico,Chiapas,La Trinitaria,La cueva de San Francisco,,16.09844444,-92.046,Precise,"vegetación alrededor de la cueva es bosque de encina, así como cultivos de maíz y pastizales",,,,NA,,NA,,19,1007
+BFA493,BFR129,Mexico,Oaxaca,Santa María Huatulco,cave “Cerro Huatulco”,,15.84991667,-96.35108333,Precise,"surrounded by patches of tropical forest with medium-sized semideciduous trees, shade coffee plantations, and grasslands",,,,NA,,NA,,25.4,1244
+BFA494,BFR130,Brazil,Mato Grosso do Sul,Bandeirantes,Fazenda Cervinho,,-19.9551,-54.33577778,Precise,Cerrado,Semideciduous forest,,Atlantic forest,613,,Yes,,23.3,1485
+BFA495,BFR131,Madagascar,Madagascar,Madagascar,Madagascar,,-18.76695,46.869108,Not precise,NA,,,,NA,,NA,,18.8,1546
+BFA496,BFR131,Comoros,Comoros,Comoros,Comoros,,-11.64599,43.33354,Not precise,NA,,,,NA,,NA,,20.3,2161
+BFA497,BFR132,Mexico,Michoacan,Uruapan,Urapan,,-3.485946667,11.95562341,Not precise,"Cloud forest, Gallery Forest, Pine Forest, Pine–oak forest, Tropical dry Forest, Grassland.",,,,NA,,NA,,24,1423
+BFA498,BFR132,Mexico,Michoacan,Uruapan,Toreo el Alto,,-11.29962889,34.05275714,Not precise,"Cloud forest, Gallery Forest, Pine Forest, Pine–oak forest, Tropical dry Forest, Grassland.",,,,NA,,NA,,18.4,1110
+BFA499,BFR133,Mexico,Veracruz,Coatepec,Campo Viejo,,19.451938,-96.959451,Not precise,Mountain cloud forest,,,,NA,,NA,,19.1,1809
+BFA500,BFR133,Mexico,Veracruz,Xalapa,Jardin de las Esculturas,,19.543775,-96.910181,Not precise,Mountain cloud forest,,,,NA,,NA,,17.7,1663
+BFA501,BFR133,Mexico,Veracruz,Xalapa,Santuario Bosque de Niebla,1,19.543775,-96.910181,Not precise,Mountain cloud forest,,,,NA,,NA,,17.7,1663
+BFA502,BFR134,Brazil,Mato Grosso do Sul,Campo Grande,Instituto de Pesquisa São Vicente (IPS),,-20.38569444,-54.608,Precise,"cerrado sensu stricto, cerradăo, and riparian forest",Semideciduous forest,,Atlantic forest,NA,,NA,,22.8,1466
+BFA503,BFR134,Brazil,Mato Grosso do Sul,Campo Grande,Area de Preservação do Corrego Bandeira (APABAND),,-20.49194444,-54.57916667,Precise,"cerrado sensu stricto, cerradăo, and riparian forest",Semideciduous forest,,Atlantic forest,NA,,NA,,23.1,1456
+BFA504,BFR134,Brazil,Mato Grosso do Sul,Campo Grande,Centro de Educação Ambiental do Imbirussu(CEAIMB),,-20.44805556,-54.69388889,Precise,"cerrado sensu stricto, cerradăo, and riparian forest",Semideciduous forest,,Atlantic forest,NA,,NA,,23.3,1454
+BFA505,BFR135,Brazil,Minas Gerais,Serra da Piedade,cave named Piedade located in Monumento Natural Estadual Serra da Piedade,,-19.82222222,-43.67583333,Precise,"semi-deciduous forest, rupestrian field ",Semideciduous forest,,Atlantic forest,NA,,NA,,16.5,1637
+BFA506,BFR136,Australia,Queensland and New South Wales,Queensland and New South Wales,Queensland and New South Wales,,-22.575205,144.084792,Precise,NA,,,,NA,,NA,,23.6,424
+BFA507,BFR137,Brazil,Mato Grosso do Sul,,Cerrado ,,-20.772227,-54.785154,Not precise,Typical savannic landscapes,Semideciduous forest,,Atlantic forest,NA,,NA,,23.3,1429
+BFA508,BFR137,Brazil,Mato Grosso do Sul,,Pantanal,,-20.772227,-54.785154,Not precise,Typical savannic landscapes,Semideciduous forest,,Atlantic forest,NA,,NA,,23.3,1429
+BFA509,BFR138,Mexico,Durango,Sierra Madre Occidental,Sierra Madre Occidental,,25.91666667,-105.875,Not precise,pine-oak forest,,,,NA,,NA,,15.8,526
+BFA510,BFR139,Costa Rica,La Heredia province,Heredia,La Selva Biological Station,1,10.41666667,-84,not precise,primary and secondary tropical forest,,,,NA,,NA,,26,4023
+BFA511,BFR140,Panama,Panama,Panama,Chucantí,,8.8046,-78.4595,Precise,premontane wet forests and tropical moist forests,,,,NA,,NA,,19.7,2192
+BFA512,BFR141,Madagascar,Madagascar,Madagascar,Madagascar,,-18.76695,46.869108,Not precise,NA,,,,NA,,NA,,18.8,1546
+BFA513,BFR142,Portugal,Portugal,Portugal,Soıdos,,39.400144,-8.224735,Not precise,NA,,,,NA,,NA,,16.3,771
+BFA514,BFR142,Portugal,Portugal,Portugal,Preguiça,,37.362515,-7.653372,Not precise,NA,,,,NA,,NA,,16.2,554
+BFA515,BFR142,Portugal,Portugal,Portugal,Cercal,,37.809574,-8.63806,Not precise,NA,,,,NA,,NA,,16.4,578
+BFA516,BFR142,Portugal,Portugal,Portugal,Nabão,,39.729111,-8.452722,Not precise,NA,,,,NA,,NA,,16.2,823
+BFA517,BFR142,Spain,Spain,Spain,Llaberia,,41.085632,0.841456,Not precise,NA,,,,NA,,NA,,13.1,643
+BFA518,BFR142,Spain,Spain,Spain,Collserola,,41.41222,2.07388,Not precise,NA,,,,NA,,NA,,15.4,645
+BFA519,BFR142,Spain,Spain,Spain,Montnegre,,41.672779,2.56794,Not precise,NA,,,,NA,,NA,,14.1,812
+BFA520,BFR142,Spain,Spain,Spain,Savassona,,41.94749,2.384078,Not precise,NA,,,,NA,,NA,,13.2,847
+BFA521,BFR142,Spain,Spain,Spain,Les Gavarres,,41.129778,1.199813,Not precise,NA,,,,NA,,NA,,16.1,555
+BFA522,BFR142,France,France,France,St-Médard,,44.895291,-0.718098,Not precise,NA,,,,NA,,NA,,12.7,948
+BFA523,BFR142,Switzerland,,,Baulmes,,46.789516,6.521739,Not precise,NA,,,,NA,,NA,,8.4,1075
+BFA524,BFR142,Italy,Italy,Italy,Monte Catini,,43.880852,10.775524,Not precise,NA,,,,NA,,NA,,14.4,876
+BFA525,BFR142,Italy,Italy,Italy,Riolo Terme,,44.276383,11.73069,Not precise,NA,,,,NA,,NA,,13.4,734
+BFA526,BFR142,Italy,Italy,Italy,San Marino,,43.953285,12.464817,Not precise,NA,,,,NA,,NA,,12.8,750
+BFA527,BFR142,Italy,Italy,Italy,Velo Veronese,,45.605645,11.095198,Not precise,NA,,,,NA,,NA,,7.7,799
+BFA528,BFR142,Sicily,Sicily,Sicily,Marzamemi,,36.742049,15.117521,Not precise,NA,,,,NA,,NA,,18,451
+BFA529,BFR142,Croatia,Croatia,Croatia,Karin Gornji,,44.135414,15.632886,Not precise,NA,,,,NA,,NA,,14.1,958
+BFA530,BFR142,Croatia,Croatia,Croatia,Kijevo,,43.978878,16.356945,Not precise,NA,,,,NA,,NA,,11.6,1021
+BFA531,BFR142,Croatia,Croatia,Croatia,Drnis,,43.860326,16.155926,Not precise,NA,,,,NA,,NA,,13,958
+BFA532,BFR142,Croatia,Croatia,Croatia,Rumin,,43.775959,16.635767,Not precise,NA,,,,NA,,NA,,12.5,1001
+BFA533,BFR142,Slovakia,Slovakia,Slovakia,Chvalovska jaskyna,,48.519444,20.157222,Not precise,NA,,,,NA,,NA,,8.7,586
+BFA534,BFR142,Slovakia,Slovakia,Slovakia,Nandraz Bradlo,,48.669028,19.699025,Not precise,NA,,,,NA,,NA,,5.2,894
+BFA535,BFR142,Slovakia,Slovakia,Slovakia,Drienovecka jaskyna,,48.624373,20.951928,Not precise,NA,,,,NA,,NA,,8.7,606
+BFA536,BFR143,Switzerland,Lausanne,,Univ. of Lausanne into the Lake of Geneva.,,46.52059,6.580118,Not precise,NA,,,,NA,,NA,,9.8,895
+BFA537,BFR144,Mexico,Sonora,Pinacate,Pinacate,,31.64766667,-113.4815278,Precise,NA,,,,NA,,NA,,21.2,108
+BFA538,BFR144,Mexico,Sonora,Hermosillo,Hermosillo,,29.59052778,-110.80275,Precise,NA,,,,NA,,NA,,22.1,396
+BFA539,BFR144,Mexico,Guerrero,Colotlipa,Colotlipa,,17.26163889,-99.09058333,Precise,NA,,,,NA,,NA,,22.6,1567
+BFA540,BFR144,Mexico,Chiapas,Laguitos,Laguitos,,16.78001944,-93.14886111,Precise,NA,,,,NA,,NA,,23.4,974
+BFA541,BFR144,Mexico,Morelos,El Salitre,El Salitre,,18.78972222,-99.15333333,Precise,NA,,,,NA,,NA,,21.2,993
+BFA542,BFR144,Mexico,Jalisco,Chamela,Chamela,1,19.526772,-105.073794,Not precise,NA,,,,NA,,NA,,26.5,720
+BFA543,BFR145,Mexico,Jalisco,Chamela,Chamela-Cuixmala Biosphere Reserve (CCBR) ,1,19.526772,-105.073794,Not precise,dry forest and riparian forest,,,,NA,,NA,,26.5,720
+BFA544,BFR146,Colombia,Valle del Cauca,Buenaventura,Reserva Natural Quebrada Pericos,,3.848805556,-76.78722222,Precise,Tropical wet forest,,,,NA,,NA,,,
+BFA545,BFR147,Mexico,Veracruz,Tlalnelhueayocan,Agüita Fría,,19.52128,-96.99019,Precise,Tropical montane cloud forest,,,,NA,,NA,,,
+BFA546,BFR147,Mexico,Veracruz,Coatepec,An abandoned shaded coffee plantation in “Consolapa”,,19.48538,-96.96138,Precise,Tropical montane cloud forest,,,,NA,,NA,,,
+BFA547,BFR147,Mexico,Veracruz,Xalapa,"Santuario del Bosque de Niebla, INECOL A.C.",1,19.51363,-96.94315,Precise,Tropical montane cloud forest,,,,NA,,NA,,,
+BFA548,BFR148,Colombia,Magdalena,Calabazo,Calabazo,,11.28448,-73.99206,Precise,Tropical dry forest,,,,135.6,,No,,,
+BFA549,BFR148,Colombia,Córdoba,Tierralta,"Cajón del Diablo, Finca El Danubio",,8.28878,-75.99408,Precise,Tropical dry forest,,,,47.9,,No,,,
+BFA550,BFR148,Colombia,Córdoba,Tierralta,Estación Ecológica Las Guartinajas,,8.06241,-76.15948,Precise,Tropical rainforest,,,,65.3,,No,,,
+BFA551,BFR148,Colombia,Córdoba,San Andres de Sotavento,"Roma, Los Carretos",,9.22717,-75.46544,Precise,Tropical dry forest,,,,137.6,,No,,,
+BFA552,BFR148,Colombia,Córdoba,Tierralta,"Tuis Tuis, Finca El Tutifruti",,8.04333,-76.10031,Precise,Tropical rainforest,,,,127.6,,No,,,
+BFA553,BFR148,Colombia,Córdoba,Monteria,"Universidad de Córdoba, Montería",,8.79250,-75.86383,Precise,semi-urban area,,,,17.6,,No,,,
+BFA554,BFR148,Colombia,Córdoba,San Andres de Sotavento,Los Carretos,,9.23033,-75.48058,Precise,Tropical dry forest,,,,150,,No,,,
+BFA555,BFR148,Colombia,Córdoba,San Andres de Sotavento,"Hoja Ancha, Calle Larga",,9.18639,-75.49447,Precise,Tropical dry forest,,,,115.2,,No,,,
+BFA556,BFR148,Colombia,Córdoba,Tierralta,"Alto Quimarí, La Ossa - Cerro la Divisa",,8.01985,-76.29374,Precise,Tropical rainforest,,,,206.1,,No,,,
+BFA557,BFR148,Colombia,Córdoba,Tierralta,"Frasquillo, Sector carretera-Los Chibolos, Tierralta (3,4,1)",,7.93531,-76.21269,Precise,NA,,,,NA,,NA,,,
+BFA558,BFR148,Colombia,Córdoba,Tierralta,Chibogadó Alto,,7.97790,-76.19457,Precise,Tropical rainforest,,,,190.7,,No,,,
+BFA559,BFR148,Colombia,Córdoba,Tierralta,Chibogadó Medio,,7.96330,-76.21680,Precise,Tropical rainforest,,,,262.7,,No,,,
+BFA560,BFR148,Colombia,Córdoba,Tierralta,"Quebrada Linda, Batata, La Esperanza",,8.04308,-76.28683,Precise,Tropical rainforest,,,,484.7,,No,,,
+BFA561,BFR148,Colombia,Córdoba,Tierralta,Puerto Nuevo,,8.04308,-76.28683,Precise,Tropical rainforest,,,,484.7,,No,,,
+BFA562,BFR148,Colombia,Córdoba,Tierralta,"La Ossa, Don Libardo",,8.04308,-76.28683,Precise,Tropical rainforest,,,,484.7,,No,,,
+BFA563,BFR148,Colombia,Sucre,La Unión,Finca Buenos Aires,,8.86667,-75.25000,Precise,Tropical dry forest,,,,34,,No,,,
