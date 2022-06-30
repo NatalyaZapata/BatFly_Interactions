@@ -34,7 +34,7 @@ The data and code provided here aim at making reproducible the graphical and num
 
 ## Feedback
 
-If you have any questions, corrections, or suggestions, please feel free to open an [issue](https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/issues) or make a [pull request](https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/pulls).
+If you have any questions, corrections, or suggestions, please feel free to open an [issue](https://github.com/NatalyaZapata/BatFly_Interactions/issues) or make a [pull request](https://github.com/NatalyaZapata/BatFly_Interactions/pulls).
 
 ## Acknowledgments
 
