@@ -1,8 +1,8 @@
 #Figure 5. Richness of bat flies (Nycteribiidae and Streblidae) per bat family
 #Import data sets
 
-data2<-read.csv("BAT-FLY_INTERACTIONS_Bat_Pop.csv", sep=",")
-data3<-read.csv("BAT-FLY_INTERACTIONS_Fly_Pop.csv", sep=",")
+data2<-read.csv("BatFly_Bat_Pop.csv", sep=",")
+data3<-read.csv("BatFly_Fly_Pop.csv", sep=",")
 
 fam<-unique(cbind(data2$BatFamily, data2$CurrentBatSpecies))
 flyfam<-unique(cbind(data3$FlyFamily, data3$CurrentFlySpecies))

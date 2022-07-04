@@ -1,7 +1,7 @@
-Figure 2. Number of studies throughout the recorded period 
+#Figure 2. Number of studies throughout the recorded period 
 
 #Importing data
-data<-read.csv("BAT-FLY_INTERACTIONS_References.csv", sep=",")
+data<-read.csv("BatFly_References.csv", sep=",")
 
 #Finding missing years
 years<-as.data.frame(table(data$Year))

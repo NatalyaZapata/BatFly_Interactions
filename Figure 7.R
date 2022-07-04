@@ -4,7 +4,7 @@ library(vegan)
 library(tidyr)
 
 #Import data set
-data1<-read.csv("BAT-FLY_INTERACTIONS_Species.csv", sep=",")
+data1<-read.csv("Batfly_Species.csv", sep=",")
 
 interactions<-paste(data1$CurrentBatSpecies,data1$CurrentFlySpecies)
 studyinter<-table(data1$SiteCode, interactions)

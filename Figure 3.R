@@ -1,7 +1,7 @@
 #Figure 3. Relative frequency of interactions of the 15 most frequently recorded bat (A) and fly species (B).
 
 #import data set
-data1<-read.csv("BAT-FLY_INTERACTIONS_Species.csv", sep=",")
+data1<-read.csv("BatFly_Species.csv", sep=",")
 
 #Plot A
 

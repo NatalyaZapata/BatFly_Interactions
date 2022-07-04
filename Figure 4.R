@@ -5,7 +5,7 @@ batIUCN<-read.csv("batIUCN.csv", sep=",")
 head(batIUCN)
 
 #Import data set
-data2<-read.csv("BAT-FLY_INTERACTIONS_Bat_Pop.csv", sep=",")
+data2<-read.csv("BatFly_Bat_Pop.csv", sep=",")
 bats<-unique(data2$CurrentBatSpecies)
 cat<-NULL
 for (i in 1:length(bats)){
