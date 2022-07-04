@@ -43,8 +43,8 @@ library(ggspatial)
 library(rgeos)
 
 # Import the data sets
-sites <- read.csv("data/BAT-FLY_INTERACTIONS_Site.csv")
-scope <- read.csv("data/BAT-FLY_INTERACTIONS_Sampling.csv")
+sites <- read.csv("data/BatFly_Site.csv")
+scope <- read.csv("data/BatFly_Sampling.csv")
 points <- (cbind.data.frame(sites$Latitude, sites$Longitude, 
                         scope$BatEcologicalScale, scope$FlyEcologicalScale))
 colnames(points)<-c("Latitude", "Longitude", "Bat_Scope", "Fly_Scope")
