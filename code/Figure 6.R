@@ -2,7 +2,9 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of worldwide bat-fly interactions.
-#### Figure 1. Distribution of sampling locations included in BatFly.
+#### Figure 6. Bat richness according to the type of roost used (A). 
+####           Fly richness according to the type of roost used by their 
+####           bat hosts (B).
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
