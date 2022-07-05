@@ -1,8 +1,8 @@
 #Figure 5. Richness of bat flies (Nycteribiidae and Streblidae) per bat family
 #Import data sets
-data1<-read.csv("BatFly_Species.csv", sep=",")
-data2<-read.csv("BatFly_Bat_Pop.csv", sep=",")
-data3<-read.csv("BatFly_Fly_Pop.csv", sep=",")
+data1<-read.csv("data/BatFly_Species.csv", sep=",")
+data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
+data3<-read.csv("data/BatFly_Fly_Pop.csv", sep=",")
 
 fam<-unique(cbind(data2$BatFamily, data2$CurrentBatSpecies))
 flyfam<-unique(cbind(data3$FlyFamily, data3$CurrentFlySpecies))
@@ -41,14 +41,14 @@ plotdata<-cbind(Nycteribiidae=(plotdata[,1]+plotdata[,2]),
 
 #Plot
 
-png("Figure_5.png", res = 300,
+png("figures/Figure_5.png", res = 300,
     width = 2100, height = 2000, unit = "px")
 par(las=1, mar=c(4, 8, 1, 2))
 
 bar<-barplot(t(plotdata/sum(plotdata)), horiz=T, xlim=c(0,0.5), xlab="Relative parasite richness", col=c("#E5EFC1", "#39AEA9"))
 
 legend(x=0.25, y=15, legend=colnames(plotdata), pch=19, pt.cex=1.5,
-       col=c("#E5EFC1", "#39AEA9"),bty = "n", x.intersp=0.1, y.intersp=0.5)
+       col=c("#E5EFC1", "#39AEA9"),bty = "n", x.intersp=0.5, y.intersp=0.9)
 
 text(y=bar, x=colSums(t(plotdata/sum(plotdata)))+0.02  , (plotdata[,1]+plotdata[,2]),cex=0.9)
 
