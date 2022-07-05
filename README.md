@@ -20,17 +20,17 @@ The data and code provided here aim at making reproducible the graphical and num
 
 ## List of folders and files
 
-1.  data (folder)
+1.  code (folder) -/> it contains the R scripts to recreate the figures.
 
+2.  data (folder) -/> it contains the files used to recreate the figures.
 
-2.  figures (folder)
-
-
-3.  results (folder)
+3.  figures (folder) -/> it contains the exported figures.
 
 
 ## Instructions
 
+1. Open the `BatFly_Interactions.Rproj` project file.
+2. Open the scripts inside the folder code to recreate the figures published in Zapata-Mesa et al. *in prep*
 
 ## Feedback
 
@@ -40,4 +40,6 @@ If you have any questions, corrections, or suggestions, please feel free to open
 
 
 ## Reference
+
+1. Zapata-Mesa, N., Montoya-Bustamante, S., Hoyos, J., Peña, D, Galindo-González, J., Chacón-Pachecho, J.J., Ballesteros-Correa, J., Pastrana-Montiel, M.R., Graciolli G., Nogueria, M.R., Mello, M.A.R. *in prep*. BatFly: A dataset of worldwide bat-fly interactions
 
