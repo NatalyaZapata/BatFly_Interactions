@@ -1,16 +1,19 @@
 ################################################################################
-##### BATFLY: A dataset of worldwide bat-fly interactions.
-##### Figure 1. Distribution of sampling locations included in BatFly.
-##### See README for further info:
-##### https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
+#### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
+
+#### BATFLY: A dataset of worldwide bat-fly interactions.
+#### Figure 1. Distribution of sampling locations included in BatFly.
+
+#### See README for further info:
+#### https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
 ################################################################################
 
 
-#Set the stage
-cat("\014")  
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
+######################### 1. SETTINGS ##########################################
+
+## Clean the environment
 rm(list= ls())
 
 if (!dir.exists(path = "data")){
@@ -25,56 +28,90 @@ if (!dir.exists(path = "figures")){
   print("Dir already exists!")
 }
 
-if (!dir.exists(path = "results")){
-  dir.create(path = "results")
-} else {
-  print("Dir already exists!")
+
+
+## Load the packages
+if(!require(dplyr)){
+  install.packages("dplyr")
+  library(dplyr)
 }
 
-# Load the packages
-library(dplyr)
-library(ggplot2)
-library(ggsn)
-library(grDevices)
-library(sf)
-library(rnaturalearth)
-library(rnaturalearthdata)
-library(ggspatial)
-library(rgeos)
+if(!require(ggplot2)){
+  install.packages("ggplot2")
+  library(ggplot2)
+}
 
-# Import the data sets
+if(!require(ggsn)){
+  install.packages("ggsn")
+  library(ggsn)
+}
+
+if(!require(grDevices)){
+  install.packages("grDevices")
+  library(grDevices)
+}
+
+if(!require(sf)){
+  install.packages("sf")
+  library(sf)
+}
+
+if(!require(rnaturalearth)){
+  install.packages("rnaturalearth")
+  library(rnaturalearth)
+}
+
+if(!require(rnaturalearthdata)){
+  install.packages("rnaturalearthdata")
+  library(rnaturalearthdata)
+}
+
+if(!require(ggspatial)){
+  install.packages("ggspatial")
+  library(ggspatial)
+}
+
+if(!require(rgeos)){
+  install.packages("rgeos")
+  library(rgeos)
+}
+
+
+## Import the data sets
 sites <- read.csv("data/BatFly_Site.csv")
 scope <- read.csv("data/BatFly_Sampling.csv")
 points <- (cbind.data.frame(sites$Latitude, sites$Longitude, 
                         scope$BatEcologicalScale, scope$FlyEcologicalScale))
 colnames(points)<-c("Latitude", "Longitude", "Bat_Scope", "Fly_Scope")
 
-# Check the points
+## Check the points
 class(points)
 str(points)
 head(points)
 tail(points)
 
-# Load the world map from the mapdata package
+######################### 2. PLOTTING ######################################
+
+## Load the world map from the mapdata package
 world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
 
 sf_use_s2(FALSE)
 
-# Make the map
+## Plot the map
 map <- ggplot(data = world) +
   geom_sf(colour = "white", fill = "#d3d3d3") +
   #coord_sf(lims_method="geometry_bbox", expand = TRUE) +
   coord_sf(xlim = c(-170, 180), ylim = c(-62,89), expand = F) +
   
   theme_bw() + 
-  # Plot the sites
+  ## Plot the sites
   geom_point(data = points, aes(x = Longitude, y = Latitude, 
                                      colour = Bat_Scope,
                                      fill = Bat_Scope,
                                      alpha = Bat_Scope,
                                      shape= Fly_Scope), 
               size = 2) +
-  # Customize the colors and labels
+  ## Customize the colors and labels
   scale_color_manual(values = c("#5fc23e","#fa3448","#ca8d00","#cc18b1")) +
   scale_shape_manual(values = c(24,25)) +
   scale_alpha_manual(values = c(0.6,1,1,0.6),guide="none") +
@@ -93,17 +130,15 @@ map <- ggplot(data = world) +
         legend.key = element_rect(fill = "NA"),
         plot.margin = unit(rep(0.5,4), "lines")) +
  
-  # Add a north arrow
+  ## Add a north arrow
   ggspatial::annotation_north_arrow(location = "tr", which_north = "true",
                                     height = unit(1.5, "cm"), 
                                     width = unit(1.5, "cm"),
                                     style = ggspatial::north_arrow_fancy_orienteering(
                                       fill = c("white","grey30")))
   
-# See the map
-map
 
-# Export the map as a PNG image
+## Export the map as a PNG image
 png("figures/Figure_1.png", res = 300,
     width = 4000, height = 2200, unit = "px")
 map
