@@ -20,17 +20,17 @@ The data and code provided here aim at making reproducible the graphical and num
 
 ## List of folders and files
 
-1.  code (folder) -/> it contains the R scripts to recreate the figures.
+1.  code (folder) -> it contains the R scripts to recreate the figures.
 
-2.  data (folder) -/> it contains the files used to recreate the figures.
+2.  data (folder) -> it contains the files used to recreate the figures.
 
-3.  figures (folder) -/> it contains the exported figures.
+3.  figures (folder) -> it contains the exported figures.
 
 
 ## Instructions
 
 1. Open the `BatFly_Interactions.Rproj` project file.
-2. Open the scripts inside the folder code to recreate the figures published in Zapata-Mesa et al. *in prep*
+2. Open the scripts `Figure 1.R`, `Figure 2.R`,`Figure 3.R`,`Figure 4.R`,`Figure 5.R`, `Figure 6.R`, and `Figure 7.R`, located inside the folder code to recreate the figures published in Zapata-Mesa et al. *in prep*.
 
 ## Feedback
 
