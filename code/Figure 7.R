@@ -6,15 +6,35 @@
 ####           Gray polygon represents the 95% confidence interval of the curve.
 
 #### See README for further info:
-#### https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
+#### https://github.com/NatalyaZapata/BatFly_Interactions#readme
 ################################################################################
-
 
 
 ######################### 1. SETTINGS ##########################################
 
+
 ## Clean the environment
 rm(list= ls())
+
+
+## Check the folders
+if (!dir.exists(path = "code")){
+  dir.create(path = "code")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "data")){
+  dir.create(path = "data")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "figures")){
+  dir.create(path = "figures")
+} else {
+  print("Dir already exists!")
+}
 
 
 ## Load the packages
@@ -30,7 +50,7 @@ if(!require(tidyr)){
 }
 
 
-## Import data set
+## Import the data
 data1<-read.csv("data/Batfly_Species.csv", sep=",")
 
 interactions<-paste(data1$CurrentBatSpecies,data1$CurrentFlySpecies)
@@ -39,9 +59,16 @@ length(unique(interactions))
 
 interactionpersite<-spread(as.data.frame(studyinter), interactions, Freq, fill = 0)
 
+## Check the data
+class(interactionpersite)
+str(interactionpersite)
+head(interactionpersite)
+tail(interactionpersite)
 
 
 ######################### 2. PLOTTING ######################################
+
+
 png("figures/Figure_7.png", res = 300,
     width = 2100, height = 2000, unit = "px")
 

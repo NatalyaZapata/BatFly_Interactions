@@ -5,16 +5,22 @@
 #### Figure 1. Distribution of sampling locations included in BatFly.
 
 #### See README for further info:
-#### https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
+#### https://github.com/NatalyaZapata/BatFly_Interactions#readme
 ################################################################################
-
-
 
 
 ######################### 1. SETTINGS ##########################################
 
 ## Clean the environment
 rm(list= ls())
+
+
+## Check the folders
+if (!dir.exists(path = "code")){
+  dir.create(path = "code")
+} else {
+  print("Dir already exists!")
+}
 
 if (!dir.exists(path = "data")){
   dir.create(path = "data")
@@ -27,7 +33,6 @@ if (!dir.exists(path = "figures")){
 } else {
   print("Dir already exists!")
 }
-
 
 
 ## Load the packages
@@ -77,7 +82,7 @@ if(!require(rgeos)){
 }
 
 
-## Import the data sets
+## Import the data
 sites <- read.csv("data/BatFly_Site.csv")
 scope <- read.csv("data/BatFly_Sampling.csv")
 points <- (cbind.data.frame(sites$Latitude, sites$Longitude, 
@@ -90,7 +95,9 @@ str(points)
 head(points)
 tail(points)
 
+
 ######################### 2. PLOTTING ######################################
+
 
 ## Load the world map from the mapdata package
 world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")

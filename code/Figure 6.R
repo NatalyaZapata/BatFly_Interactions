@@ -7,16 +7,36 @@
 ####           bat hosts (B).
 
 #### See README for further info:
-#### https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
+#### https://github.com/NatalyaZapata/BatFly_Interactions#readme
 ################################################################################
-
-
 
 
 ######################### 1. SETTINGS ##########################################
 
+
 ## Clean the environment
 rm(list= ls())
+
+
+## Check the folders
+if (!dir.exists(path = "code")){
+  dir.create(path = "code")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "data")){
+  dir.create(path = "data")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "figures")){
+  dir.create(path = "figures")
+} else {
+  print("Dir already exists!")
+}
+
 
 ## Load the packages
 if(!require(stringr)){
@@ -29,13 +49,31 @@ if(!require(plyr)){
   library(plyr)
 }
 
-## Import the data sets
+
+## Import the data
 data1<-read.csv("data/BatFly_Species.csv", sep=",")
 data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
 data3<-read.csv("data/BatFly_Fly_Pop.csv", sep=",")
 
 
-## Determine bat species on each roost type
+## Check the data
+class(data1)
+str(data1)
+head(data1)
+tail(data1)
+
+class(data2)
+str(data2)
+head(data2)
+tail(data2)
+
+class(data3)
+str(data3)
+head(data3)
+tail(data3)
+
+
+## Count how many bat species per roost type
 dfa <- str_split_fixed(data2$BatRoost, ' ', 5)
 
 vdfa<-c(dfa[,1:NCOL(dfa)])
@@ -56,8 +94,7 @@ roostbat<-(data.frame(un.roost,batroostrich))
 roostbat<-roostbat[order(roostbat$batroostrich),]
 
 
-## Determine fly species on each roost type
-
+## Count how many fly species per roost type
 interaction<-data.frame(bat=data1$CurrentBatSpecies,fly=data1$CurrentFlySpecies)
 unq.inter<-(unique(interaction))
 nrow(unq.inter)
@@ -95,7 +132,6 @@ for (i in 1:nrow(unq.inter)){
 
 flyroost<-(cbind(unq.inter$fly,rero))
 
-
 flyroost<-ddply(flyroost, "unq.inter$fly", numcolwise(sum))
 flynames<-flyroost$`unq.inter$fly`
 flyroost[flyroost > 0] <- 1
@@ -103,7 +139,9 @@ flyroost$`unq.inter$fly`<-flynames
 
 colSums(flyroost[2:8])
 
+
 ######################### 2. PLOTTING ######################################
+
 
 png("figures/Figure_6.png", res = 300,
     width = 4000, height = 2000, unit = "px")
@@ -125,3 +163,4 @@ barplot(sort(colSums(flyroost[2:8])),
         xlim=c(0,250))
 
 dev.off()
+layout(matrix(c(1,1), ncol=1))

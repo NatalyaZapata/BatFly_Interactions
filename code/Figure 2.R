@@ -5,18 +5,48 @@
 #### Figure 2. Number of studies throughout the recorded period 
 
 #### See README for further info:
-#### https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
+#### https://github.com/NatalyaZapata/BatFly_Interactions#readme
 ################################################################################
+
 
 ######################### 1. SETTINGS ##########################################
 
 ## Clean the environment
 rm(list= ls())
 
-## Importing data
+
+## Check the folders
+if (!dir.exists(path = "code")){
+  dir.create(path = "code")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "data")){
+  dir.create(path = "data")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "figures")){
+  dir.create(path = "figures")
+} else {
+  print("Dir already exists!")
+}
+
+
+## Import the data
 data<-read.csv("data/BatFly_References.csv", sep=",")
 
-## Finding missing years
+
+## Check the data
+class(data)
+str(data)
+head(data)
+tail(data)
+
+
+## Find the missing years
 years<-as.data.frame(table(data$Year))
 
 dy<-rep(NA, length(seq(1989,2022, by=1)))
@@ -31,9 +61,14 @@ all.years<-rbind(years, miss.year)
 
 yeardata<-all.years[order((as.numeric(as.character(all.years$Var1)))),]
 yeardata<-yeardata[-34,]#remove unpublished data sets (brand new data)
+class(yeardata)
+str(yeardata)
+head(yeardata)
+tail(yeardata)
 
 
 ######################### 2. PLOTTING ######################################
+
 
 png("figures/Figure_2.png", res = 300,
     width = 3000, height = 2000, unit = "px")

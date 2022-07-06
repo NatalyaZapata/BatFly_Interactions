@@ -6,9 +6,8 @@
 ####           per bat family
 
 #### See README for further info:
-#### https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
+#### https://github.com/NatalyaZapata/BatFly_Interactions#readme
 ################################################################################
-
 
 
 ######################### 1. SETTINGS ##########################################
@@ -17,13 +16,49 @@
 rm(list= ls())
 
 
-## Import data sets
+## Check the folders
+if (!dir.exists(path = "code")){
+  dir.create(path = "code")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "data")){
+  dir.create(path = "data")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "figures")){
+  dir.create(path = "figures")
+} else {
+  print("Dir already exists!")
+}
+
+
+## Import the data
 data1<-read.csv("data/BatFly_Species.csv", sep=",")
 data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
 data3<-read.csv("data/BatFly_Fly_Pop.csv", sep=",")
 
+## Check the data
+class(data1)
+str(data1)
+head(data1)
+tail(data1)
 
-## Organize information into families
+class(data2)
+str(data2)
+head(data2)
+tail(data2)
+
+class(data3)
+str(data3)
+head(data3)
+tail(data3)
+
+
+## Organize information by families
 fam<-unique(cbind(data2$BatFamily, data2$CurrentBatSpecies))
 flyfam<-unique(cbind(data3$FlyFamily, data3$CurrentFlySpecies))
 
@@ -37,6 +72,10 @@ for (i in 1:length(data1$CurrentBatSpecies)){#passing families to bat species in
 
 family<-unlist(family)
 length(family)
+class(family)
+str(family)
+head(family)
+tail(family)
 
 
 flyfamily<-NULL
@@ -46,8 +85,11 @@ for (i in 1:length(data1$CurrentFlySpecies)){#assing families to fly species in 
 }
 
 flyfamily<-unlist(flyfamily)
-
 length(flyfamily)
+class(flyfamily)
+str(flyfamily)
+head(flyfamily)
+tail(flyfamily)
 
 
 plotdata<-unique(cbind(data1$CurrentFlySpecies,family,flyfamily))
@@ -56,10 +98,14 @@ plotdata<-as.matrix(table(plotdata[,2],plotdata[,3]))
 plotdata<-plotdata[order(rowSums(plotdata)),]
 plotdata<-cbind(Nycteribiidae=(plotdata[,1]+plotdata[,2]), 
                 Streblidae= plotdata[,3]) #Provisionalmente
-
+class(plotdata)
+str(plotdata)
+head(plotdata)
+tail(plotdata)
 
 
 ######################### 2. PLOTTING ######################################
+
 
 png("figures/Figure_5.png", res = 300,
     width = 2100, height = 2000, unit = "px")
@@ -72,7 +118,5 @@ legend(x=0.25, y=15, legend=colnames(plotdata), pch=19, pt.cex=1.5,
 
 text(y=bar, x=colSums(t(plotdata/sum(plotdata)))+0.02, 
      (plotdata[,1]+plotdata[,2]),cex=0.9)
-
-
 
 dev.off()

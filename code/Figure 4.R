@@ -5,23 +5,51 @@
 #### Figure 4. IUCN conservation status of the bat species
 
 #### See README for further info:
-#### https://github.com/NatalyaZapata/BatFly-A-dataset-of-worldwide-bat-fly-interactions/blob/main/README.md
+#### https://github.com/NatalyaZapata/BatFly_Interactions#readme
 ################################################################################
-
 
 
 ######################### 1. SETTINGS ##########################################
 
+
 ## Clean the environment
 rm(list= ls())
 
-## Import data IUCN Red List of Threated Species (https://www.iucnredlist.org)
-batIUCN<-read.csv("data/batIUCN.csv", sep=",")
-head(batIUCN)
 
-## Import data set
-data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
-bats<-unique(data2$CurrentBatSpecies)
+## Check the folders
+if (!dir.exists(path = "code")){
+  dir.create(path = "code")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "data")){
+  dir.create(path = "data")
+} else {
+  print("Dir already exists!")
+}
+
+if (!dir.exists(path = "figures")){
+  dir.create(path = "figures")
+} else {
+  print("Dir already exists!")
+}
+
+
+## Import data from the IUCN Red List of Threated Species
+## (https://www.iucnredlist.org)
+batIUCN<-read.csv("data/batIUCN.csv", sep=",")
+
+## Check the data
+class(batIUCN)
+str(batIUCN)
+head(batIUCN)
+tail(batIUCN)
+
+
+## Import the data
+data<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
+bats<-unique(data$CurrentBatSpecies)
 cat<-NULL
 for (i in 1:length(bats)){
   cat[[i]]<-ifelse(identical(batIUCN$redlistCategory[which(batIUCN$scientificName==bats[i])], character(0))
@@ -30,8 +58,15 @@ for (i in 1:length(bats)){
 cat<-unlist(cat)
 batcat<-cbind(bats,cat)
 
+## Check the data
+class(batcat)
+str(batcat)
+head(batcat)
+tail(batcat)
+
 
 ######################### 2. PLOTTING ######################################
+
 
 png("figures/Figure_4.png", res = 300,
     width = 2500, height = 1500, unit = "px")
@@ -46,3 +81,5 @@ text(x=bar, y=sort(table(batcat[,2]), decreasing = T)/sum(table(batcat[,2]))
      +0.05, sort(table(batcat[,2]), decreasing = T),cex=0.9)
 
 dev.off()
+
+layout(matrix(c(1,1), ncol=1))
