@@ -89,6 +89,8 @@ points <- (cbind.data.frame(sites$Latitude, sites$Longitude,
                         scope$BatEcologicalScale, scope$FlyEcologicalScale))
 colnames(points)<-c("Latitude", "Longitude", "Bat_Scope", "Fly_Scope")
 
+
+
 ## Check the points
 class(points)
 str(points)
@@ -108,7 +110,7 @@ sf_use_s2(FALSE)
 map <- ggplot(data = world) +
   geom_sf(colour = "white", fill = "#d3d3d3") +
   #coord_sf(lims_method="geometry_bbox", expand = TRUE) +
-  coord_sf(xlim = c(-170, 180), ylim = c(-62,89), expand = F) +
+  coord_sf(xlim = c(-170, -20), ylim = c(-60,80), expand = F) +
   
   theme_bw() + 
   ## Plot the sites
