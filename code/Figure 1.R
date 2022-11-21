@@ -1,7 +1,7 @@
 ################################################################################
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
-#### BATFLY: A dataset of worldwide bat-fly interactions.
+#### BATFLY: A dataset of Neotropical bat-fly interactions.
 #### Figure 1. Distribution of sampling locations included in BatFly.
 
 #### See README for further info:
@@ -84,7 +84,7 @@ if(!require(rgeos)){
 
 ## Import the data
 sites <- read.csv("data/BatFly_Site.csv")
-scope <- read.csv("data/BatFly_Sampling.csv")
+scope <- read.csv("data/BatFly_Sampling1.csv")
 points <- (cbind.data.frame(sites$Latitude, sites$Longitude, 
                         scope$BatEcologicalScale, scope$FlyEcologicalScale))
 colnames(points)<-c("Latitude", "Longitude", "Bat_Scope", "Fly_Scope")
