@@ -26,6 +26,15 @@ if(!require(igraph)){
   library(igraph)
 }
 
+if(!require(stringr)){
+  install.packages("stringr")
+  library(stringr)
+}
+
+if(!require(bipartite)){
+  install.packages("bipartite")
+  library(bipartite)
+}
 
 ## Load the interaction file
 
@@ -35,6 +44,16 @@ bf_int<-read.csv("BAT-FLY_INTERACTIONS_Species.csv")
 ## Prepare the data
 interactions<-as.data.frame(cbind(bats=bf_int$CurrentBatSpecies, flies=bf_int$CurrentFlySpecies, edges=rep(1, length(bf_int$CurrentFlySpecies))))
 interactions<-unique(interactions)
+
+
+interactions[which(str_detect(interactions$bats, " sp\\.")), ]
+interactions[which(str_detect(interactions$flies, " sp\\.| complex|Streblidae| group|Morphospecies")), ]
+
+interactions<-interactions[
+  -sort(c(which(str_detect(interactions$bats, " sp\\.")), 
+          which(str_detect(interactions$flies, " sp\\.| complex|Streblidae| group|Morphospecies")))),]
+
+
 
 imat<-graph_from_data_frame(interactions, directed=FALSE)
 
@@ -54,14 +73,33 @@ V(imat)$shape <- c("circle", "square")[V(imat)$type+1]
 E(imat)$color<-"gray"
 
 algoritmo<-layout.auto(imat)
+
+
 ## Plot and export
+
+#with names
+png(filename="BFnetnames.png", width=4000, height=4100, res=600)
+par(las=1,mar=c(0,0,0,0))
+layout(matrix(c(2,1), ncol=1), heights=c(0.04,0.96))
+plot(imat,vertex.label.cex=0.2,vertex.color = V(imat)$color, 
+     vertex.size = V(imat)$size, edge.curved=.3,layout = algoritmo, rescale=T, 
+     vertex.label.color="darkred")
+
+
+plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n", bty="n")
+legend(x=0.8, y=1, legend=c("Bats", "Flies"),pch=c(21,22), pt.cex=1.2,
+       pt.bg=c(alpha("#7a5195",0.7), alpha("#96d0ab",0.7)),ncol=2, bty="n",
+       x.intersp=0.5)
+dev.off()
+
+##without names
 
 png(filename="BFnet.png", width=4000, height=4100, res=600)
 par(las=1,mar=c(0,0,0,0))
 layout(matrix(c(2,1), ncol=1), heights=c(0.04,0.96))
-plot(imat,vertex.label.cex=1,vertex.color = V(imat)$color, 
+plot(imat,vertex.label.cex=0.2,vertex.color = V(imat)$color, 
      vertex.size = V(imat)$size, edge.curved=.3,layout = algoritmo, rescale=T, 
-     vertex.label.color="black",vertex.label=NA)
+     vertex.label=NA)
 
 
 plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n", bty="n")
