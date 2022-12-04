@@ -138,6 +138,9 @@ map <- ggplot(data = world) +
         legend.background = element_rect(fill = "NA"),
         legend.key = element_rect(fill = "NA"),
         plot.margin = unit(rep(0.5,4), "lines")) +
+  # Add a scale bar
+  ggspatial::annotation_scale(location = "bl", width_hint = 0.3,
+                              bar_cols = c("grey30", "white")) +
  
   ## Add a north arrow
   ggspatial::annotation_north_arrow(location = "tr", which_north = "true",
