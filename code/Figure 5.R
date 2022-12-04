@@ -1,7 +1,7 @@
 ################################################################################
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
-#### BATFLY: A dataset of worldwide bat-fly interactions.
+#### BATFLY: A dataset of Neotropical bat-fly interactions.
 #### Figure 5. Richness of bat flies (Nycteribiidae and Streblidae) 
 ####           per bat family
 

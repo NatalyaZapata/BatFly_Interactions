@@ -1,7 +1,7 @@
 ################################################################################
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
-#### BATFLY: A dataset of worldwide bat-fly interactions.
+#### BATFLY: A dataset of Neotropical bat-fly interactions.
 #### Figure 3. Relative frequency of interactions of the 15 most frequently 
 ####           recorded bat (A) and fly species (B). 
 
