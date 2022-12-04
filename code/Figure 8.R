@@ -42,17 +42,15 @@ bf_int<-read.csv("BAT-FLY_INTERACTIONS_Species.csv")
 
 
 ## Prepare the data
-interactions<-as.data.frame(cbind(bats=bf_int$CurrentBatSpecies, flies=bf_int$CurrentFlySpecies, edges=rep(1, length(bf_int$CurrentFlySpecies))))
+interactions<-as.data.frame(cbind(bats=bf_int$CurrentBatSpecies, flies=bf_int$CurrentFlySpecies))
 interactions<-unique(interactions)
 
-
-interactions[which(str_detect(interactions$bats, " sp\\.")), ]
-interactions[which(str_detect(interactions$flies, " sp\\.| complex|Streblidae| group|Morphospecies")), ]
+interactions[which(str_detect(interactions$bats, " sp\\.| aff\\.| cf\\.")), ]
+interactions[which(str_detect(interactions$flies, " sp\\.| aff\\.| cf\\.| complex|Streblidae| group|Morphospecies")), ]
 
 interactions<-interactions[
-  -sort(c(which(str_detect(interactions$bats, " sp\\.")), 
-          which(str_detect(interactions$flies, " sp\\.| complex|Streblidae| group|Morphospecies")))),]
-
+  -sort(c(which(str_detect(interactions$bats, " sp\\.| aff\\.| cf\\.")), 
+          which(str_detect(interactions$flies, " sp\\.| aff\\.| cf\\.| complex|Streblidae| group|Morphospecies")))),]
 
 
 imat<-graph_from_data_frame(interactions, directed=FALSE)
