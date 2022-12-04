@@ -110,7 +110,7 @@ sf_use_s2(FALSE)
 map <- ggplot(data = world) +
   geom_sf(colour = "white", fill = "#d3d3d3") +
   #coord_sf(lims_method="geometry_bbox", expand = TRUE) +
-  coord_sf(xlim = c(-170, -20), ylim = c(-60,80), expand = F) +
+  coord_sf(xlim = c(-130, -30), ylim = c(-58,55), expand = F) +
   
   theme_bw() + 
   ## Plot the sites
@@ -130,11 +130,11 @@ map <- ggplot(data = world) +
         legend.text = element_text(size = 11),
         legend.title = element_text(face = "bold", size = 10),
         axis.text = element_text(size = 11, colour = "black"),
-        axis.title.x = element_text(size = 12, colour = "black", vjust = -4,
+        axis.title.x = element_text(size = 12, colour = "black", vjust = -2,
                                     face = "bold"),
         axis.title.y = element_text(size = 12, colour = "black", vjust = 3,
                                     face = "bold"),
-        legend.position = c(0.1,0.4),
+        legend.position = c(0.2,0.4),
         legend.background = element_rect(fill = "NA"),
         legend.key = element_rect(fill = "NA"),
         plot.margin = unit(rep(0.5,4), "lines")) +
