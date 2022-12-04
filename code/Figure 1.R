@@ -110,7 +110,7 @@ sf_use_s2(FALSE)
 map <- ggplot(data = world) +
   geom_sf(colour = "white", fill = "#d3d3d3") +
   #coord_sf(lims_method="geometry_bbox", expand = TRUE) +
-  coord_sf(xlim = c(-130, -30), ylim = c(-58,55), expand = F) +
+  coord_sf(xlim = c(-121, -30), ylim = c(-58,40), expand = F) +
   
   theme_bw() + 
   ## Plot the sites
