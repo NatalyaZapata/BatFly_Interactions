@@ -76,6 +76,7 @@ tail(data3)
 ## Count how many bat species per roost type
 dfa <- str_split_fixed(data2$BatRoost, ' ', 5)
 
+
 vdfa<-c(dfa[,1:NCOL(dfa)])
 un.roost<-unique(vdfa)[-7]#save unique and delete empty
 
@@ -100,7 +101,7 @@ unq.inter<-(unique(interaction))
 nrow(unq.inter)
 
 rero<-data.frame(cave=rep(0,nrow(unq.inter)),`tree cavity`=rep(0,nrow(unq.inter)), foliage=rep(0,nrow(unq.inter)),
-                 human=rep(0,nrow(unq.inter)),termite=rep(0,nrow(unq.inter)), tent=rep(0,nrow(unq.inter)), cut=rep(0,nrow(unq.inter)))
+                 human=rep(0,nrow(unq.inter)),termite=rep(0,nrow(unq.inter)), tent=rep(0,nrow(unq.inter)),rockycliff=rep(0,nrow(unq.inter)), rivercliff=rep(0,nrow(unq.inter)))
 colnames(rero)
 
 ## Classify fly species based on their host's roost
@@ -124,8 +125,11 @@ for (i in 1:nrow(unq.inter)){
   if (sum(droost[d,-1]=="Tent")>0){
     rero$tent[i]<-1  
   }
-  if (sum(droost[d,-1]=="Cutbank")>0){
-    rero$cut[i]<-1  
+if (sum(droost[d,-1]=="Rockycliff")>0){
+  rero$rockycliff[i]<-1  
+}
+  if (sum(droost[d,-1]=="Rivercliff")>0){
+    rero$rivercliff[i]<-1  
   }
   
 }
@@ -137,7 +141,7 @@ flynames<-flyroost$`unq.inter$fly`
 flyroost[flyroost > 0] <- 1
 flyroost$`unq.inter$fly`<-flynames
 
-colSums(flyroost[2:8])
+colSums(flyroost[2:9])
 
 
 ######################### 2. PLOTTING ######################################
@@ -151,13 +155,13 @@ layout(matrix(c(1,2), ncol=2))
 
 
 barplot(roostbat$batroostrich,
-        names.arg=c("Cut bank", "Termite nest", "Tent", "Foliage",
+        names.arg=c("Rockycliff","Rivercliff", "Termite nest", "Tent", "Foliage",
                     "Human-made structure", "Tree cavity", "Cave"), 
         xlab="Bat richness", horiz=T, col="#7a5195",main="A",
         xlim=c(0,140))
 
-barplot(sort(colSums(flyroost[2:8])), 
-        names.arg=c("Cut bank", "Termite nest", "Tent", "Foliage",
+barplot(sort(colSums(flyroost[2:9])), 
+        names.arg=c("Rockycliff","Rivercliff", "Termite nest", "Tent", "Foliage",
                     "Human-made structure", "Tree cavity", "Cave"), 
         xlab="Fly richness", horiz=T, col="#96d0ab", main="B",
         xlim=c(0,250))

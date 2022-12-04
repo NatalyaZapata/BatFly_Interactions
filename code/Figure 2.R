@@ -49,18 +49,18 @@ tail(data)
 ## Find the missing years
 years<-as.data.frame(table(data$Year))
 
-dy<-rep(NA, length(seq(1989,2022, by=1)))
-for (i in 1:length(seq(1989,2022, by=1))){
-  dy[i]<-sum(seq(1989,2022, by=1)[i]==years$Var1)
+dy<-rep(NA, length(seq(1904,2022, by=1)))
+for (i in 1:length(seq(1904,2022, by=1))){
+  dy[i]<-sum(seq(1904,2022, by=1)[i]==years$Var1)
 }
 
-miss.year<-cbind(seq(1989,2022, by=1), dy)[which(cbind(seq(1989,2022, by=1), dy)[,2]==0),1]
+miss.year<-cbind(seq(1904,2022, by=1), dy)[which(cbind(seq(1904,2022, by=1), dy)[,2]==0),1]
 miss.year<-data.frame(Var1=sapply(miss.year, as.factor), Freq=rep(0, length(miss.year)))
 all.years<-rbind(years, miss.year)
 
 
 yeardata<-all.years[order((as.numeric(as.character(all.years$Var1)))),]
-yeardata<-yeardata[-34,]#remove unpublished data sets (brand new data)
+
 class(yeardata)
 str(yeardata)
 head(yeardata)

@@ -97,7 +97,7 @@ plotdata<-unique(cbind(data1$CurrentFlySpecies,family,flyfamily))
 plotdata<-as.matrix(table(plotdata[,2],plotdata[,3]))
 plotdata<-plotdata[order(rowSums(plotdata)),]
 plotdata<-cbind(Nycteribiidae=(plotdata[,1]+plotdata[,2]), 
-                Streblidae= plotdata[,3]) #Provisionalmente
+                Streblidae= plotdata[,3]) 
 class(plotdata)
 str(plotdata)
 head(plotdata)
@@ -111,7 +111,7 @@ png("figures/Figure_5.png", res = 300,
     width = 2100, height = 2000, unit = "px")
 par(las=1, mar=c(4, 8, 1, 2))
 
-bar<-barplot(t(plotdata/sum(plotdata)), horiz=T, xlim=c(0,0.5), xlab="Relative parasite richness", col=c("#E5EFC1", "#39AEA9"))
+bar<-barplot(t(plotdata/sum(plotdata)), horiz=T, xlim=c(0,0.6), xlab="Relative parasite richness", col=c("#E5EFC1", "#39AEA9"))
 
 legend(x=0.25, y=15, legend=colnames(plotdata), pch=19, pt.cex=1.5,
        col=c("#E5EFC1", "#39AEA9"),bty = "n", x.intersp=0.5, y.intersp=0.9)
