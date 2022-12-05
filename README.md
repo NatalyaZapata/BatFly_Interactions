@@ -1,4 +1,4 @@
-# BatFly: A dataset of worldwide bat-fly interactions
+# BatFly: A dataset of Neotropical bat-fly interactions
 
 Authors: Natalya Zapata-Mesa, Sebastián Montoya-Bustamante, Juliana Hoyos, Daniela Peña, Jorge Galindo-González, Julio J. Chacón-Pachecho, Jesús Ballesteros-Correa, Maria Raquel Pastrana-Montiel, Gustavo Graciolli, Marcelo R. Nogueria & Marco A. R. Mello.
 
