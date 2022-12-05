@@ -2,8 +2,9 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of Neotropical bat-fly interactions.
-#### Figure 7. Interaction accumulation curve by sampling site. 
-####           Gray polygon represents the 95% confidence interval of the curve.
+#### Figure 7. Bat richness according to the type of roost used (A). 
+####           Fly richness according to the type of roost used by their 
+####           bat hosts (B).
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme
@@ -38,97 +39,132 @@ if (!dir.exists(path = "figures")){
 
 
 ## Load the packages
-
-if(!require(vegan)){
-  install.packages("vegan")
-  library(vegan)
-}
-
-if(!require(tidyr)){
-  install.packages("tidyr")
-  library(tidyr)
-}
-
 if(!require(stringr)){
   install.packages("stringr")
   library(stringr)
 }
 
+if(!require(plyr)){
+  install.packages("plyr")
+  library(plyr)
+}
+
 
 ## Import the data
-data1<-read.csv("data/Batfly_Species.csv", sep=",")
-data1<-data1[ -sort(c(which(str_detect(data1$CurrentBatSpecies, " sp\\.| cf\\.| aff\\.")), 
-               which(str_detect(data1$CurrentFlySpecies, " sp\\.| cf\\.| aff\\.| complex|Streblidae| group|Morphospecies")))),]
-
-
-interactions<-paste(data1$CurrentBatSpecies,data1$CurrentFlySpecies)
-studyinter<-table(data1$SiteCode, interactions)
-length(unique(interactions))
-
-
-table(data1$SiteCode, interactions)
-
-interactionpersite<-spread(as.data.frame(studyinter), interactions, Freq, fill = 0)
+data1<-read.csv("data/BatFly_Species.csv", sep=",")
+data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
+data3<-read.csv("data/BatFly_Fly_Pop.csv", sep=",")
 
 
 ## Check the data
-class(interactionpersite)
-str(interactionpersite)
-head(interactionpersite)
-tail(interactionpersite)
+class(data1)
+str(data1)
+head(data1)
+tail(data1)
 
-#Estimating completeness via non-parametric Chao2
-esti<-specpool(interactionpersite[,-1])
-round(esti$Species/esti$chao*100, digits=2)
+class(data2)
+str(data2)
+head(data2)
+tail(data2)
+
+class(data3)
+str(data3)
+head(data3)
+tail(data3)
+
+
+## Count how many bat species per roost type
+dfa <- str_split_fixed(data2$BatRoost, ' ', 5)
+
+
+vdfa<-c(dfa[,1:NCOL(dfa)])
+un.roost<-unique(vdfa)[-7]#save unique and delete empty
+
+droost<-cbind.data.frame(data2$CurrentBatSpecies, dfa)
+droost<-unique(droost)
+nrow(droost)
+
+batroostrich<-rep(NA,length(un.roost))
+for (i in 1: length(un.roost)){
+  batroostrich[i]<-sum(droost==un.roost[i])
+}
+batroostrich
+
+roostbat<-(data.frame(un.roost,batroostrich))
+
+roostbat<-roostbat[order(roostbat$batroostrich),]
+
+
+## Count how many fly species per roost type
+interaction<-data.frame(bat=data1$CurrentBatSpecies,fly=data1$CurrentFlySpecies)
+unq.inter<-(unique(interaction))
+nrow(unq.inter)
+
+rero<-data.frame(cave=rep(0,nrow(unq.inter)),`tree cavity`=rep(0,nrow(unq.inter)), foliage=rep(0,nrow(unq.inter)),
+                 human=rep(0,nrow(unq.inter)),termite=rep(0,nrow(unq.inter)), tent=rep(0,nrow(unq.inter)),rockycliff=rep(0,nrow(unq.inter)), rivercliff=rep(0,nrow(unq.inter)))
+colnames(rero)
+
+## Classify fly species based on their host's roost
+for (i in 1:nrow(unq.inter)){
+  d<-which(unq.inter[i,1]==droost$`data2$CurrentBatSpecies`)
+  if (sum(droost[d,-1]=="Cave")>0){
+    rero$cave[i]<-1  
+  }
+  if (sum(droost[d,-1]=="Treecavity")>0){
+    rero$tree.cavity[i]<-1  
+  }
+  if (sum(droost[d,-1]=="Foliage")>0){
+    rero$foliage[i]<-1  
+  }
+  if (sum(droost[d,-1]=="Human-madestructure")>0){
+    rero$human[i]<-1  
+  }
+  if (sum(droost[d,-1]=="Termitenest")>0){
+    rero$termite[i]<-1  
+  }
+  if (sum(droost[d,-1]=="Tent")>0){
+    rero$tent[i]<-1  
+  }
+if (sum(droost[d,-1]=="Rockycliff")>0){
+  rero$rockycliff[i]<-1  
+}
+  if (sum(droost[d,-1]=="Rivercliff")>0){
+    rero$rivercliff[i]<-1  
+  }
+  
+}
+
+flyroost<-(cbind(unq.inter$fly,rero))
+
+flyroost<-ddply(flyroost, "unq.inter$fly", numcolwise(sum))
+flynames<-flyroost$`unq.inter$fly`
+flyroost[flyroost > 0] <- 1
+flyroost$`unq.inter$fly`<-flynames
+
+colSums(flyroost[2:9])
+
 
 ######################### 2. PLOTTING ######################################
-estimator<-poolaccum(interactionpersite[,-1], permutations=1000 )
-obs.curve<-summary(estimator, display = "S")
-chao.curve<-summary(estimator, display = "chao")
 
 
-png("figures/Figure_7.png", res = 300,
-    width = 2100, height = 2000, unit = "px")
+png("figures/Figure_6.png", res = 300,
+    width = 4000, height = 2000, unit = "px")
 
-layout(matrix(c(2,1)),heights=c(10,90))
-layout.show(2)
-par(las=1, mar=c(4, 4, 1, 1))
-
-plot(x=NULL,
-     y=NULL, 
-     xlim=c(0,max(obs.curve$S[,1])), 
-     ylim=c(0,max(round(chao.curve$chao[,2], digits=0))+19),
-     xlab="Number of sampling sites", 
-     ylab="Number of unique interactions",
-     yaxp=c(0,max(round(chao.curve$chao[,2], digits=0))+19,5))
-
-cilim<-seq(1,length(obs.curve$S[,1]), length.out=11)
-
-polygon(x=c(rev(obs.curve$S[,1][cilim]),obs.curve$S[,1][cilim]),
-        y=c(rev(obs.curve$S[,3][cilim]),obs.curve$S[,4][cilim]),
-        col="gray80", border=NA)
-
-lines(x=obs.curve$S[,1], y=obs.curve$S[,2], lwd=2)
+par(las=1, mar=c(5, 10, 4, 1))
+layout(matrix(c(1,2), ncol=2))
 
 
+barplot(roostbat$batroostrich,
+        names.arg=c("Rockycliff","Rivercliff", "Termite nest", "Tent", "Foliage",
+                    "Human-made structure", "Tree cavity", "Cave"), 
+        xlab="Bat richness", horiz=T, col="#7a5195",main="A",
+        xlim=c(0,140))
 
-polygon(x=c(rev(obs.curve$S[,1][cilim]),obs.curve$S[,1][cilim]),
-        y=c(rev(chao.curve$chao[,3][cilim]),chao.curve$chao[,4][cilim]),
-        col="gray80", border=NA)
-
-lines(x=obs.curve$S[,1], y=chao.curve$chao[,2], col="black", lty=2, lwd=2)
-
-par(las=1, mar=c(0, 0, 0, 0))
-plot(x=NULL,
-     y=NULL, 
-     xlim=c(0,1), 
-     ylim=c(0,1),
-     xaxt="n", yaxt="n", bty="n")
-
-legend(x=0.15, y=0.5, 
-       legend=c("Sample-based rarefaction curve", "Chao2 estimator"), 
-       lty=c(1,2), lwd=2, bty="n", ncol=2)
+barplot(sort(colSums(flyroost[2:9])), 
+        names.arg=c("Rockycliff","Rivercliff", "Termite nest", "Tent", "Foliage",
+                    "Human-made structure", "Tree cavity", "Cave"), 
+        xlab="Fly richness", horiz=T, col="#96d0ab", main="B",
+        xlim=c(0,250))
 
 dev.off()
-
-
+layout(matrix(c(1,1), ncol=1))

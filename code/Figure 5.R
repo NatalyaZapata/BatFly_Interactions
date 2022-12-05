@@ -2,8 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of Neotropical bat-fly interactions.
-#### Figure 5. Richness of bat flies (Nycteribiidae and Streblidae) 
-####           per bat family
+#### Figure 5. IUCN conservation status of the bat species
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme
@@ -11,6 +10,7 @@
 
 
 ######################### 1. SETTINGS ##########################################
+
 
 ## Clean the environment
 rm(list= ls())
@@ -35,88 +35,60 @@ if (!dir.exists(path = "figures")){
   print("Dir already exists!")
 }
 
+if(!require(stringr)){
+  install.packages("stringr")
+  library(stringr)
+}
 
-## Import the data
-data1<-read.csv("data/BatFly_Species.csv", sep=",")
-data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
-data3<-read.csv("data/BatFly_Fly_Pop.csv", sep=",")
+## Import data from the IUCN Red List of Threated Species
+## (https://www.iucnredlist.org)
+batIUCN<-read.csv("data/batIUCN.csv", sep=",")
 
 ## Check the data
-class(data1)
-str(data1)
-head(data1)
-tail(data1)
-
-class(data2)
-str(data2)
-head(data2)
-tail(data2)
-
-class(data3)
-str(data3)
-head(data3)
-tail(data3)
+class(batIUCN)
+str(batIUCN)
+head(batIUCN)
+tail(batIUCN)
 
 
-## Organize information by families
-fam<-unique(cbind(data2$BatFamily, data2$CurrentBatSpecies))
-flyfam<-unique(cbind(data3$FlyFamily, data3$CurrentFlySpecies))
+## Import the data
+data<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
 
-which(table(flyfam[,2])>1)
+bats<-unique(data$CurrentBatSpecies)
+bats<-bats[-which(str_detect(bats, " sp\\.| aff\\.| cf\\."))]
 
-family<-NULL
-for (i in 1:length(data1$CurrentBatSpecies)){#passing families to bat species in data2 
-  
-  family[[i]]<-fam[which(fam[,2]==data1$CurrentBatSpecies[i]),1]
+
+cat<-NULL
+for (i in 1:length(bats)){
+  cat[[i]]<-ifelse(identical(batIUCN$redlistCategory[which(batIUCN$scientificName==bats[i])], character(0))
+                   , NA,batIUCN$redlistCategory[which(batIUCN$scientificName==bats[i])]) 
 }
-
-family<-unlist(family)
-length(family)
-class(family)
-str(family)
-head(family)
-tail(family)
+cat<-unlist(cat)
+batcat<-cbind(bats,cat)
 
 
-flyfamily<-NULL
-for (i in 1:length(data1$CurrentFlySpecies)){#assing families to fly species in data3
-  
-  flyfamily[[i]]<-flyfam[which(flyfam[,2]==data1$CurrentFlySpecies[i]),1]
-}
-
-flyfamily<-unlist(flyfamily)
-length(flyfamily)
-class(flyfamily)
-str(flyfamily)
-head(flyfamily)
-tail(flyfamily)
-
-
-plotdata<-unique(cbind(data1$CurrentFlySpecies,family,flyfamily))
-#the number of times a family name is repeated indicates parasite richness
-plotdata<-as.matrix(table(plotdata[,2],plotdata[,3]))
-plotdata<-plotdata[order(rowSums(plotdata)),]
-plotdata<-cbind(Nycteribiidae=(plotdata[,1]+plotdata[,2]), 
-                Streblidae= plotdata[,3]) 
-class(plotdata)
-str(plotdata)
-head(plotdata)
-tail(plotdata)
+## Check the data
+class(batcat)
+str(batcat)
+head(batcat)
+tail(batcat)
 
 
 ######################### 2. PLOTTING ######################################
 
 
-png("figures/Figure_5.png", res = 300,
-    width = 2100, height = 2000, unit = "px")
-par(las=1, mar=c(4, 8, 1, 2))
+png("figures/Figure_4.png", res = 300,
+    width = 2500, height = 1500, unit = "px")
 
-bar<-barplot(t(plotdata/sum(plotdata)), horiz=T, xlim=c(0,0.6), xlab="Relative parasite richness", col=c("#E5EFC1", "#39AEA9"))
+par(las=1, mar=c(5, 4, 4, 3))
 
-legend(x=0.25, y=15, legend=colnames(plotdata), pch=19, pt.cex=1.5,
-       col=c("#E5EFC1", "#39AEA9"),bty = "n", x.intersp=0.5, y.intersp=0.9)
+bar<-barplot(sort(table(batcat[,2]), decreasing = T)/sum(table(batcat[,2]))*100,
+        horiz=F, ylab="Bat species (%)",
+        col="#7a5195", ylim=c(0,100))
 
-text(y=bar, x=colSums(t(plotdata/sum(plotdata)))+0.02, 
-     (plotdata[,1]+plotdata[,2]),cex=0.9)
+text(x=bar, y=sort(table(batcat[,2]), decreasing = T)/sum(table(batcat[,2]))*100
+     +3, sort(table(batcat[,2]), decreasing = T),cex=0.9)
 
 dev.off()
+
+

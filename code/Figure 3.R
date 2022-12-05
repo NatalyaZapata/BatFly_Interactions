@@ -2,8 +2,8 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of Neotropical bat-fly interactions.
-#### Figure 3. Relative frequency of interactions of the 15 most frequently 
-####           recorded bat (A) and fly species (B). 
+#### Figure 3. Bat-Fly Neotropical network. Lines depict interactions between bats 
+####and bat flies, most species are part of a giant component.
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme
@@ -12,72 +12,100 @@
 
 ######################### 1. SETTINGS ##########################################
 
-
-## Clean the environment
+## Clean the environment.
 rm(list= ls())
 
+## Check the required packages, install them if necessary, and load them.
 
-## Check the folders
-if (!dir.exists(path = "code")){
-  dir.create(path = "code")
-} else {
-  print("Dir already exists!")
+if(!require(scales)){
+  install.packages("scales")
+  library(scales)
 }
 
-if (!dir.exists(path = "data")){
-  dir.create(path = "data")
-} else {
-  print("Dir already exists!")
+if(!require(igraph)){
+  install.packages("igraph")
+  library(igraph)
 }
 
-if (!dir.exists(path = "figures")){
-  dir.create(path = "figures")
-} else {
-  print("Dir already exists!")
+if(!require(stringr)){
+  install.packages("stringr")
+  library(stringr)
 }
 
+if(!require(bipartite)){
+  install.packages("bipartite")
+  library(bipartite)
+}
 
-## Import the data
-data<-read.csv("data/BatFly_Species.csv", sep=",")
+## Load the interaction file
 
-
-## Check the data
-class(data)
-str(data)
-head(data)
-tail(data)
+bf_int<-read.csv("data/BatFly_Species.csv")
 
 
-######################### 2. PLOTTING ######################################
+## Prepare the data
+interactions<-as.data.frame(cbind(bats=bf_int$CurrentBatSpecies, flies=bf_int$CurrentFlySpecies))
+interactions<-unique(interactions)
+
+interactions[which(str_detect(interactions$bats, " sp\\.| aff\\.| cf\\.")), ]
+interactions[which(str_detect(interactions$flies, " sp\\.| aff\\.| cf\\.| complex|Streblidae| group|Morphospecies")), ]
+
+interactions<-interactions[
+  -sort(c(which(str_detect(interactions$bats, " sp\\.| aff\\.| cf\\.")), 
+          which(str_detect(interactions$flies, " sp\\.| aff\\.| cf\\.| complex|Streblidae| group|Morphospecies")))),]
 
 
-## Plot A
+imat<-graph_from_data_frame(interactions, directed=FALSE)
 
-png("figures/Figure_3.png", res = 300,
-    width = 4000, height = 2000, unit = "px")
 
-layout(matrix(c(1,2), ncol=2))
-par(las=1, mar=c(4, 11, 1, 2))
+V(imat)$type<-bipartite.mapping(imat)$type
+imat
 
-plotdata2<-sort(table(data$CurrentBatSpecies))
 
-barplot(100*plotdata2[(length(plotdata2)-14):length(plotdata2)]/length(data$CurrentBatSpecies),
-        horiz=T, xlim=c(0,10),xaxt="n", xlab="Relative frequency of recorded interactions (%)",
-        col="#7a5195", font.axis=3, main="A")
-axis(1, seq(0,10,by=2),)
 
-## Plot B
+V(imat)$color = V(imat)$type
+V(imat)$color = c(alpha("#7a5195",0.7), alpha("#96d0ab",0.7))[V(imat)$type+1]
+V(imat)$size<-V(imat)$type
+V(imat)$size[which(V(imat)$size==FALSE)]<-rep(3,length(which(V(imat)$size==FALSE)))#bats
+V(imat)$size[which(V(imat)$size==TRUE)]<-rep(2,length(which(V(imat)$size==TRUE)))#flies
+V(imat)$shape <- c("circle", "square")[V(imat)$type+1]
 
-par(las=1, mar=c(4, 12, 1, 2))
+E(imat)$color<-"gray"
 
-plotdata3<-sort(table(data$CurrentFlySpecies))
+algoritmo<-layout.auto(imat)
 
-barplot(100*plotdata3[(length(plotdata3)-14):length(plotdata3)]/length(data$CurrentFlySpecies),
-        horiz=T, xaxt="n", col="#96d0ab", font.axis=3, 
-        xlim=c(0,8), xlab="Relative frequency of recorded interactions (%)", main="B")
 
-axis(1, seq(0,8,by=2),)
+## Plot and export
 
+
+
+##without names
+
+png(filename="figures/Figure_8.png", width=4000, height=4100, res=600)
+par(las=1,mar=c(0,0,0,0))
+layout(matrix(c(2,1), ncol=1), heights=c(0.04,0.96))
+plot(imat,vertex.label.cex=0.2,vertex.color = V(imat)$color, 
+     vertex.size = V(imat)$size, edge.curved=.3,layout = algoritmo, rescale=T, 
+     vertex.label=NA)
+
+
+plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n", bty="n")
+legend(x=0.8, y=1, legend=c("Bats", "Flies"),pch=c(21,22), pt.cex=1.2,
+       pt.bg=c(alpha("#7a5195",0.7), alpha("#96d0ab",0.7)),ncol=2, bty="n",
+       x.intersp=0.5)
 dev.off()
-layout(matrix(c(1,1), ncol=1))
+#-----------------------------
+#Optional
+#with names
+png(filename="BFnetnames.png", width=4000, height=4100, res=600)
+par(las=1,mar=c(0,0,0,0))
+layout(matrix(c(2,1), ncol=1), heights=c(0.04,0.96))
+plot(imat,vertex.label.cex=0.2,vertex.color = V(imat)$color, 
+     vertex.size = V(imat)$size, edge.curved=.3,layout = algoritmo, rescale=T, 
+     vertex.label.color="darkred")
 
+
+plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n", bty="n")
+legend(x=0.8, y=1, legend=c("Bats", "Flies"),pch=c(21,22), pt.cex=1.2,
+       pt.bg=c(alpha("#7a5195",0.7), alpha("#96d0ab",0.7)),ncol=2, bty="n",
+       x.intersp=0.5)
+dev.off()

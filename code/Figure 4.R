@@ -2,7 +2,8 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of Neotropical bat-fly interactions.
-#### Figure 4. IUCN conservation status of the bat species
+#### Figure 4. Relative frequency of interactions of the 15 most frequently 
+####           recorded bat (A) and fly species (B). 
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme
@@ -35,60 +36,48 @@ if (!dir.exists(path = "figures")){
   print("Dir already exists!")
 }
 
-if(!require(stringr)){
-  install.packages("stringr")
-  library(stringr)
-}
-
-## Import data from the IUCN Red List of Threated Species
-## (https://www.iucnredlist.org)
-batIUCN<-read.csv("data/batIUCN.csv", sep=",")
-
-## Check the data
-class(batIUCN)
-str(batIUCN)
-head(batIUCN)
-tail(batIUCN)
-
 
 ## Import the data
-data<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
-
-bats<-unique(data$CurrentBatSpecies)
-bats<-bats[-which(str_detect(bats, " sp\\.| aff\\.| cf\\."))]
-
-
-cat<-NULL
-for (i in 1:length(bats)){
-  cat[[i]]<-ifelse(identical(batIUCN$redlistCategory[which(batIUCN$scientificName==bats[i])], character(0))
-                   , NA,batIUCN$redlistCategory[which(batIUCN$scientificName==bats[i])]) 
-}
-cat<-unlist(cat)
-batcat<-cbind(bats,cat)
+data<-read.csv("data/BatFly_Species.csv", sep=",")
 
 
 ## Check the data
-class(batcat)
-str(batcat)
-head(batcat)
-tail(batcat)
+class(data)
+str(data)
+head(data)
+tail(data)
 
 
 ######################### 2. PLOTTING ######################################
 
 
-png("figures/Figure_4.png", res = 300,
-    width = 2500, height = 1500, unit = "px")
+## Plot A
 
-par(las=1, mar=c(5, 4, 4, 3))
+png("figures/Figure_3.png", res = 300,
+    width = 4000, height = 2000, unit = "px")
 
-bar<-barplot(sort(table(batcat[,2]), decreasing = T)/sum(table(batcat[,2]))*100,
-        horiz=F, ylab="Bat species (%)",
-        col="#7a5195", ylim=c(0,100))
+layout(matrix(c(1,2), ncol=2))
+par(las=1, mar=c(4, 11, 1, 2))
 
-text(x=bar, y=sort(table(batcat[,2]), decreasing = T)/sum(table(batcat[,2]))*100
-     +3, sort(table(batcat[,2]), decreasing = T),cex=0.9)
+plotdata2<-sort(table(data$CurrentBatSpecies))
+
+barplot(100*plotdata2[(length(plotdata2)-14):length(plotdata2)]/length(data$CurrentBatSpecies),
+        horiz=T, xlim=c(0,10),xaxt="n", xlab="Relative frequency of recorded interactions (%)",
+        col="#7a5195", font.axis=3, main="A")
+axis(1, seq(0,10,by=2),)
+
+## Plot B
+
+par(las=1, mar=c(4, 12, 1, 2))
+
+plotdata3<-sort(table(data$CurrentFlySpecies))
+
+barplot(100*plotdata3[(length(plotdata3)-14):length(plotdata3)]/length(data$CurrentFlySpecies),
+        horiz=T, xaxt="n", col="#96d0ab", font.axis=3, 
+        xlim=c(0,8), xlab="Relative frequency of recorded interactions (%)", main="B")
+
+axis(1, seq(0,8,by=2),)
 
 dev.off()
-
+layout(matrix(c(1,1), ncol=1))
 
