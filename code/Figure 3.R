@@ -80,7 +80,7 @@ algoritmo<-layout.auto(imat)
 
 ##without names
 
-png(filename="figures/Figure_8.png", width=4000, height=4100, res=600)
+png(filename="figures/Figure_3.png", width=4000, height=4100, res=600)
 par(las=1,mar=c(0,0,0,0))
 layout(matrix(c(2,1), ncol=1), heights=c(0.04,0.96))
 plot(imat,vertex.label.cex=0.2,vertex.color = V(imat)$color, 

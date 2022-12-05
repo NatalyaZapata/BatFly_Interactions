@@ -107,7 +107,7 @@ tail(plotdata)
 ######################### 2. PLOTTING ######################################
 
 
-png("figures/Figure_5.png", res = 300,
+png("figures/Figure_6.png", res = 300,
     width = 2100, height = 2000, unit = "px")
 par(las=1, mar=c(4, 8, 1, 2))
 

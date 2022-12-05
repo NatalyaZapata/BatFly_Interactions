@@ -77,7 +77,7 @@ tail(batcat)
 ######################### 2. PLOTTING ######################################
 
 
-png("figures/Figure_4.png", res = 300,
+png("figures/Figure_5.png", res = 300,
     width = 2500, height = 1500, unit = "px")
 
 par(las=1, mar=c(5, 4, 4, 3))

@@ -147,7 +147,7 @@ colSums(flyroost[2:9])
 ######################### 2. PLOTTING ######################################
 
 
-png("figures/Figure_6.png", res = 300,
+png("figures/Figure_7.png", res = 300,
     width = 4000, height = 2000, unit = "px")
 
 par(las=1, mar=c(5, 10, 4, 1))

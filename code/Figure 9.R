@@ -87,7 +87,7 @@ obs.curve<-summary(estimator, display = "S")
 chao.curve<-summary(estimator, display = "chao")
 
 
-png("figures/Figure_7.png", res = 300,
+png("figures/Figure_9.png", res = 300,
     width = 2100, height = 2000, unit = "px")
 
 layout(matrix(c(2,1)),heights=c(10,90))

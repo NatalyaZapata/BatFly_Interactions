@@ -53,7 +53,7 @@ tail(data)
 
 ## Plot A
 
-png("figures/Figure_3.png", res = 300,
+png("figures/Figure_4.png", res = 300,
     width = 4000, height = 2000, unit = "px")
 
 layout(matrix(c(1,2), ncol=2))
