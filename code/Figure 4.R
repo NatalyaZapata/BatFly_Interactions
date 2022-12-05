@@ -35,6 +35,10 @@ if (!dir.exists(path = "figures")){
   print("Dir already exists!")
 }
 
+if(!require(stringr)){
+  install.packages("stringr")
+  library(stringr)
+}
 
 ## Import data from the IUCN Red List of Threated Species
 ## (https://www.iucnredlist.org)
@@ -49,7 +53,11 @@ tail(batIUCN)
 
 ## Import the data
 data<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
+
 bats<-unique(data$CurrentBatSpecies)
+bats<-bats[-which(str_detect(bats, " sp\\.| aff\\.| cf\\."))]
+
+
 cat<-NULL
 for (i in 1:length(bats)){
   cat[[i]]<-ifelse(identical(batIUCN$redlistCategory[which(batIUCN$scientificName==bats[i])], character(0))
@@ -73,13 +81,13 @@ png("figures/Figure_4.png", res = 300,
 
 par(las=1, mar=c(5, 4, 4, 3))
 
-bar<-barplot(sort(table(batcat[,2]), decreasing = T)/sum(table(batcat[,2])),
+bar<-barplot(sort(table(batcat[,2]), decreasing = T)/sum(table(batcat[,2]))*100,
         horiz=F, ylab="Bat species (%)",
-        col="#7a5195", ylim=c(0,1))
+        col="#7a5195", ylim=c(0,100))
 
-text(x=bar, y=sort(table(batcat[,2]), decreasing = T)/sum(table(batcat[,2]))
-     +0.05, sort(table(batcat[,2]), decreasing = T),cex=0.9)
+text(x=bar, y=sort(table(batcat[,2]), decreasing = T)/sum(table(batcat[,2]))*100
+     +3, sort(table(batcat[,2]), decreasing = T),cex=0.9)
 
 dev.off()
 
-layout(matrix(c(1,1), ncol=1))
+
