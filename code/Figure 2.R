@@ -73,8 +73,10 @@ tail(yeardata)
 png("figures/Figure_2.png", res = 300,
     width = 3000, height = 2000, unit = "px")
 
-par(las=1, mar=c(5, 5, 4, 2))
+par(las=2, mar=c(5, 5, 4, 2))
 barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,16),
-        xlab="Year of publication", ylab="Number of studies")
+        xlab="Year of publication", ylab="Number of studies",
+        xaxp=c(1904, 2022, 59))
 
 dev.off()
+
