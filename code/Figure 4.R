@@ -66,6 +66,7 @@ for (i in 1:length(bats)){
 cat<-unlist(cat)
 batcat<-cbind(bats,cat)
 
+
 ## Check the data
 class(batcat)
 str(batcat)
