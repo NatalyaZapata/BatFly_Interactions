@@ -54,7 +54,7 @@ for (i in 1:length(seq(1904,2022, by=1))){
   dy[i]<-sum(seq(1904,2022, by=1)[i]==years$Var1)
 }
 
-miss.year<-cbind(seq(1904,2022, by=1), dy)[which(cbind(seq(1904,2022, by=1), dy)[,2]==0),1]
+miss.year<-cbind(seq(1904,2022, by=1), dy)[which(cbind(seq(1904,2022, by=10), dy)[,2]==0),1]
 miss.year<-data.frame(Var1=sapply(miss.year, as.factor), Freq=rep(0, length(miss.year)))
 all.years<-rbind(years, miss.year)
 
