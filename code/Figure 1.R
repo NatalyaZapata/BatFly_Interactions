@@ -15,26 +15,6 @@
 rm(list= ls())
 
 
-## Check the folders
-if (!dir.exists(path = "code")){
-  dir.create(path = "code")
-} else {
-  print("Dir already exists!")
-}
-
-if (!dir.exists(path = "data")){
-  dir.create(path = "data")
-} else {
-  print("Dir already exists!")
-}
-
-if (!dir.exists(path = "figures")){
-  dir.create(path = "figures")
-} else {
-  print("Dir already exists!")
-}
-
-
 ## Load the packages
 if(!require(dplyr)){
   install.packages("dplyr")
