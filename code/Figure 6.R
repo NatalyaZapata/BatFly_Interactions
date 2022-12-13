@@ -36,6 +36,10 @@ if (!dir.exists(path = "figures")){
 }
 
 
+if(!require(stringr)){
+  install.packages("stringr")
+  library(stringr)
+}
 ## Import the data
 data1<-read.csv("data/BatFly_Species.csv", sep=",")
 data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
@@ -57,6 +61,14 @@ str(data3)
 head(data3)
 tail(data3)
 
+#removing unidentified species
+
+data1[which(str_detect(data1$CurrentBatSpecies, " sp\\.| aff\\.| cf\\.")), ]
+data1[which(str_detect(data1$CurrentFlySpecies, " sp\\.| aff\\.| cf\\.| complex|Streblidae| group|Morphospecies")), ]
+
+data1<-data1[
+  -sort(c(which(str_detect(data1$CurrentBatSpecies, " sp\\.| aff\\.| cf\\.")), 
+          which(str_detect(data1$CurrentFlySpecies, " sp\\.| aff\\.| cf\\.| complex|Streblidae| group|Morphospecies")))),]
 
 ## Organize information by families
 fam<-unique(cbind(data2$BatFamily, data2$CurrentBatSpecies))
@@ -79,7 +91,7 @@ tail(family)
 
 
 flyfamily<-NULL
-for (i in 1:length(data1$CurrentFlySpecies)){#assing families to fly species in data3
+for (i in 1:length(data1$CurrentFlySpecies)){#adding families to fly species in data3
   
   flyfamily[[i]]<-flyfam[which(flyfam[,2]==data1$CurrentFlySpecies[i]),1]
 }

@@ -1,6 +1,6 @@
 BatPopulationCode,RefCode,SiteCode,BatFamily,BatGenus,BatSpecies,CurrentBatSpecies,BatSubspecies,BatRoost,BatCaptureNumber,BatMarks,BatFemales,BatMales,BatJuvenile,BatAdult,BatLactatingFemales,BatNonreproductiveFemales,BatPregnantFemales,BatNonreproductiveMales,BatScrotalTestesMales,Observations
 BFBPOP0001,BFR001,BFA001,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,160,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP0002,BFR002,BFA002,Phyllostomidae,Anoura,Anoura carishina,Anoura carishina,NA,Cave Treecavity,NA,YES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP0002,BFR002,BFA002,Phyllostomidae,Anoura,Anoura carishina,Anoura latidens,NA,Cave Treecavity,NA,YES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0003,BFR002,BFA002,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,NA,YES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0004,BFR002,BFA002,Phyllostomidae,Carollia,Carollia castanea,Carollia castanea,NA,Cave Treecavity,NA,YES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0005,BFR002,BFA002,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,NA,YES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -409,7 +409,7 @@ BFBPOP0407,BFR023,BFA117,Phyllostomidae,Carollia,Carollia perspicillata,Carollia
 BFBPOP0408,BFR023,BFA117,Phyllostomidae,Carollia,Carollia sowelli,Carollia sowelli,NA,Foliage Human-madestructure Treecavity,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0409,BFR023,BFA117,Phyllostomidae,Lonchorhina,Lonchorhina aurita,Lonchorhina aurita,NA,Cave Human-madestructure,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0410,BFR023,BFA117,Vespertilionidae,Myotis,Myotis keaysi,Myotis keaysi,NA,Treecavity,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP0411,BFR023,BFA117,Nycteridae,Nycticeius,Nycticeius humeralis,Nycticeius humeralis,NA,Treecavity,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP0411,BFR023,BFA117,Vespertilionidae,Nycticeius,Nycticeius humeralis,Nycticeius humeralis,NA,Treecavity,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0412,BFR023,BFA117,Mormoopidae,Pteronotus,Pteronotus davyi,Pteronotus davyi,NA,Cave,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0413,BFR023,BFA117,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus parnellii,NA,Cave,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0414,BFR023,BFA117,Phyllostomidae,Sturnira,Sturnira hondurensis,Sturnira hondurensis,NA,Foliage,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -463,7 +463,7 @@ BFBPOP0461,BFR023,BFA130,Phyllostomidae,Sturnira,Sturnira hondurensis,Sturnira h
 BFBPOP0462,BFR023,BFA131,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0463,BFR023,BFA131,Phyllostomidae,Carollia,Carollia sowelli,Carollia sowelli,NA,Foliage Human-madestructure Treecavity,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0464,BFR023,BFA131,Phyllostomidae,Lonchorhina,Lonchorhina aurita,Lonchorhina aurita,NA,Cave Human-madestructure,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP0465,BFR023,BFA131,Nycteridae,Nycticeius,Nycticeius humeralis,Nycticeius humeralis,NA,Treecavity,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP0465,BFR023,BFA131,Vespertilionidae,Nycticeius,Nycticeius humeralis,Nycticeius humeralis,NA,Treecavity,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0466,BFR023,BFA131,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus parnellii,NA,Cave,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0467,BFR023,BFA131,Phyllostomidae,Sturnira,Sturnira hondurensis,Sturnira hondurensis,NA,Foliage,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0468,BFR023,BFA131,Phyllostomidae,Trachops,Trachops cirrhosus,Trachops cirrhosus,NA,Cave Human-madestructure Treecavity,NA,NO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
