@@ -54,6 +54,7 @@ tail(batIUCN)
 ## Import the data
 data<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
 
+#removing unidentified species
 bats<-unique(data$CurrentBatSpecies)
 bats<-bats[-which(str_detect(bats, " sp\\.| aff\\.| cf\\."))]
 
