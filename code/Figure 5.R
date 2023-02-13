@@ -16,24 +16,7 @@
 rm(list= ls())
 
 
-## Check the folders
-if (!dir.exists(path = "code")){
-  dir.create(path = "code")
-} else {
-  print("Dir already exists!")
-}
-
-if (!dir.exists(path = "data")){
-  dir.create(path = "data")
-} else {
-  print("Dir already exists!")
-}
-
-if (!dir.exists(path = "figures")){
-  dir.create(path = "figures")
-} else {
-  print("Dir already exists!")
-}
+## Check the required packages, install them if necessary, and load them.
 
 if(!require(stringr)){
   install.packages("stringr")
@@ -54,6 +37,7 @@ tail(batIUCN)
 ## Import the data
 data<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
 
+#removing unidentified species
 bats<-unique(data$CurrentBatSpecies)
 bats<-bats[-which(str_detect(bats, " sp\\.| aff\\.| cf\\."))]
 

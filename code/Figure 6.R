@@ -16,26 +16,13 @@
 rm(list= ls())
 
 
-## Check the folders
-if (!dir.exists(path = "code")){
-  dir.create(path = "code")
-} else {
-  print("Dir already exists!")
+## Check the required packages, install them if necessary, and load them.
+
+
+if(!require(stringr)){
+  install.packages("stringr")
+  library(stringr)
 }
-
-if (!dir.exists(path = "data")){
-  dir.create(path = "data")
-} else {
-  print("Dir already exists!")
-}
-
-if (!dir.exists(path = "figures")){
-  dir.create(path = "figures")
-} else {
-  print("Dir already exists!")
-}
-
-
 ## Import the data
 data1<-read.csv("data/BatFly_Species.csv", sep=",")
 data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
@@ -57,6 +44,14 @@ str(data3)
 head(data3)
 tail(data3)
 
+#removing unidentified species
+
+data1[which(str_detect(data1$CurrentBatSpecies, " sp\\.| aff\\.| cf\\.")), ]
+data1[which(str_detect(data1$CurrentFlySpecies, " sp\\.| aff\\.| cf\\.| complex|Streblidae| group|Morphospecies")), ]
+
+data1<-data1[
+  -sort(c(which(str_detect(data1$CurrentBatSpecies, " sp\\.| aff\\.| cf\\.")), 
+          which(str_detect(data1$CurrentFlySpecies, " sp\\.| aff\\.| cf\\.| complex|Streblidae| group|Morphospecies")))),]
 
 ## Organize information by families
 fam<-unique(cbind(data2$BatFamily, data2$CurrentBatSpecies))
@@ -79,7 +74,7 @@ tail(family)
 
 
 flyfamily<-NULL
-for (i in 1:length(data1$CurrentFlySpecies)){#assing families to fly species in data3
+for (i in 1:length(data1$CurrentFlySpecies)){#adding families to fly species in data3
   
   flyfamily[[i]]<-flyfam[which(flyfam[,2]==data1$CurrentFlySpecies[i]),1]
 }
@@ -111,12 +106,12 @@ png("figures/Figure_6.png", res = 300,
     width = 2100, height = 2000, unit = "px")
 par(las=1, mar=c(4, 8, 1, 2))
 
-bar<-barplot(t(plotdata/sum(plotdata)), horiz=T, xlim=c(0,0.6), xlab="Relative parasite richness", col=c("#E5EFC1", "#39AEA9"))
+bar<-barplot(t(100*plotdata/sum(plotdata)), horiz=T, xlim=c(0,60), xlab="Relative parasite richness (%)", col=c("#E5EFC1", "#39AEA9"))
 
-legend(x=0.3, y=7, legend=colnames(plotdata), pch=19, pt.cex=1.5,
+legend(x=0.3*100, y=7, legend=colnames(plotdata), pch=19, pt.cex=1.5,
        col=c("#E5EFC1", "#39AEA9"),bty = "n", x.intersp=0.5, y.intersp=0.9)
 
-text(y=bar, x=colSums(t(plotdata/sum(plotdata)))+0.02, 
+text(y=bar, x=colSums(t(100*plotdata/sum(plotdata)))+0.02*100, 
      (plotdata[,1]+plotdata[,2]),cex=0.9)
 
 dev.off()

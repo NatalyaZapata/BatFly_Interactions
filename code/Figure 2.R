@@ -15,25 +15,6 @@
 rm(list= ls())
 
 
-## Check the folders
-if (!dir.exists(path = "code")){
-  dir.create(path = "code")
-} else {
-  print("Dir already exists!")
-}
-
-if (!dir.exists(path = "data")){
-  dir.create(path = "data")
-} else {
-  print("Dir already exists!")
-}
-
-if (!dir.exists(path = "figures")){
-  dir.create(path = "figures")
-} else {
-  print("Dir already exists!")
-}
-
 
 ## Import the data
 data<-read.csv("data/BatFly_References.csv", sep=",")
@@ -65,18 +46,20 @@ class(yeardata)
 str(yeardata)
 head(yeardata)
 tail(yeardata)
-
-
+nrow(yeardata)
+View(yeardata)
 ######################### 2. PLOTTING ######################################
 
 
 png("figures/Figure_2.png", res = 300,
     width = 3000, height = 2000, unit = "px")
 
-par(las=2, mar=c(5, 5, 4, 2))
+par(las=1, mar=c(5, 5, 4, 2))
 barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,16),
-        xlab="Year of publication", ylab="Number of studies",
-        xaxp=c(1904, 2022, 59))
+        xlab="Year of publication", ylab="Number of studies")
+        #xaxp=c(1904, 2022,59), xaxt='n')
+
 
 dev.off()
+
 
