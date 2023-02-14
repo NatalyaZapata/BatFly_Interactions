@@ -36,6 +36,7 @@ if(!require(stringr)){
 
 ## Import the data
 data1<-read.csv("data/Batfly_Species.csv", sep=",")
+##removing unidentified species
 data1<-data1[ -sort(c(which(str_detect(data1$CurrentBatSpecies, " sp\\.| cf\\.| aff\\.")), 
                which(str_detect(data1$CurrentFlySpecies, " sp\\.| cf\\.| aff\\.| complex|Streblidae| group|Morphospecies")))),]
 
