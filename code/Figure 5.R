@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of Neotropical bat-fly interactions.
-#### Figure 5. IUCN conservation status of the bat species
+#### Figure 5. IUCN conservation status of the bat species included in BatFly
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme

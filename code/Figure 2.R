@@ -47,7 +47,7 @@ str(yeardata)
 head(yeardata)
 tail(yeardata)
 nrow(yeardata)
-View(yeardata)
+
 ######################### 2. PLOTTING ######################################
 
 

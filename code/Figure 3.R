@@ -43,6 +43,7 @@ bf_int<-read.csv("data/BatFly_Species.csv")
 
 
 ## Prepare the data
+#removing unidentified species
 interactions<-as.data.frame(cbind(bats=bf_int$CurrentBatSpecies, flies=bf_int$CurrentFlySpecies))
 interactions<-unique(interactions)
 
@@ -53,14 +54,13 @@ interactions<-interactions[
   -sort(c(which(str_detect(interactions$bats, " sp\\.| aff\\.| cf\\.")), 
           which(str_detect(interactions$flies, " sp\\.| aff\\.| cf\\.| complex|Streblidae| group|Morphospecies")))),]
 
-
+#building the network
 imat<-graph_from_data_frame(interactions, directed=FALSE)
-
 
 V(imat)$type<-bipartite.mapping(imat)$type
 imat
 
-
+#customizing the network
 
 V(imat)$color = V(imat)$type
 V(imat)$color = c(alpha("#7a5195",0.7), alpha("#96d0ab",0.7))[V(imat)$type+1]
@@ -74,11 +74,9 @@ E(imat)$color<-"gray"
 algoritmo<-layout.auto(imat)
 
 
-## Plot and export
+######################### 2. PLOTTING ######################################
 
-
-
-##without names
+##export without names
 
 png(filename="figures/Figure_3.png", width=4000, height=4100, res=600)
 par(las=1,mar=c(0,0,0,0))
