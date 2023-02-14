@@ -407,8 +407,8 @@ BFA325,BFR105,Brazil,Rio de Janeiro,Rio de Janeiro,Parque Estadual Pedra Branca,
 BFA326,BFR106,Peru,Urumbamba,Urumbamba,Lower Urumbamba region ,-11.84416667,-72.71027778,Precise,Secondary forest with little Bamboo and an abundance of large trees,Semid-desert and desert,Coastal Deserts,Peruvian-Chilean Desert,576,434,25.4,1883,NA
 BFA327,BFR107,Brazil,Paraná,Cianorte,Parque municipal do Cinturão Verde,-23.66666667,-52.63333333,Not precise,Floresta Madura alterada,Mixed forest,Alto Paraná Atlantic forests,Atlantic Forest,530,409,20.4,1403,NA
 BFA328,BFR108,Peru,Lima,Huarochirí ,"Railway cave near to La Esperanza brigde, district of San Bartolome",-11.90319444,-76.50347222,Precise,NA,Semid-desert and desert,Coastal Deserts,Peruvian-Chilean Desert,1710,2105,15.7,175,NA
-BFA329,BFR109,United States,Arizona ,Mohava county,Parker,35.065827,-114.604374,Not precise,NA,,,,NA,206,22.8,97,NA
-BFA330,BFR109,United States,California,Riverside county,Indio,33.720577,-116.215562,Not precise,NA,,,,NA,-4,22.9,71,NA
+BFA329,BFR109,United States,Arizona ,Mohava county,Parker,35.065827,-114.604374,Not precise,NA,NA,NA,NA,NA,206,22.8,97,NA
+BFA330,BFR109,United States,California,Riverside county,Indio,33.720577,-116.215562,Not precise,NA,NA,NA,NA,NA,-4,22.9,71,NA
 BFA331,BFR110,Uruguay,Artigas,Palma,"Arroyo Mandiyú, 3 km al oeste de la ruta 3",-30.51666667,-57.6969,Precise,NA,Savanna woodland ,Uruguayan Pampas,Pampa,NA,22,19.4,1339,NA
 BFA332,BFR110,Uruguay,Artigas,Palma,Arroyo Ñaquiñá y ruta 3,-30.45,-57.63333333,Precise,NA,Savanna woodland ,Uruguayan Pampas,Pampa,NA,72,19.4,1354,NA
 BFA333,BFR110,Uruguay,Artigas,Cainsa,"Establecimiento CAINZA, ruta 3, km 614",-30.38333333,-57.63333333,Precise,NA,Savanna woodland ,Uruguayan Pampas,Pampa,NA,26,19.6,1362,NA
@@ -443,7 +443,7 @@ BFA359,BFR114,Peru,Piura,Piura,Universidad Nacional de Piura (UNP),-5.177975,-80
 BFA360,BFR114,Peru,Vaqueria,Caserio Tanlama,Catarata de Sitán,-5.045302778,-79.98889722,Precise,NA,Semi-arid thorny woodland,Peruvian-Ecuadorian Mesoamerica,Mesoamerica,504,885,23.5,341,NA
 BFA361,BFR114,Peru,Lima,Huarayal,Lomas de Iguanil,-11.40123889,-77.2258,Precise,NA,Semid-desert and desert,Coastal Deserts,Peruvian-Chilean Desert,549,401,18.7,22,NA
 BFA362,BFR114,Peru,Lima,,Universidad Nacional Agraria La Molina (UNALM),-12.081797,-76.945211,Precise,NA,Semid-desert and desert,Coastal Deserts,Peruvian-Chilean Desert,243,361,19,12,NA
-BFA363,BFR115,United States,Texas,Austin,Austin,30.267153,-97.743061,Not precise,NA,,,,NA,163,20.1,811,NA
+BFA363,BFR115,United States,Texas,Austin,Austin,30.267153,-97.743061,Not precise,NA,NA,NA,NA,NA,163,20.1,811,NA
 BFA364,BFR116,Ecuador, Orellana,Tiputini,"Yasuni research station,  Yasuni National Park",0.6797222222,-76.39472222,Precise,Primary tropical rainforest with an understory of mature woody and herbaceus vegetation,Rain forest,Western Amazonian Sedimentary Basin,Amazonia,265,450,24.9,3913,NA
 BFA365,BFR117,Colombia,Cordoba,Planeta Rica,"Extensive livestock farm: Las Palmeras, San Lorenzo, Guacamayas and Chimborazo",8.402916667,-75.58944444,Precise,Tropical dry forest,Semideciduous forest,Equatorial Caribbean,Caribbean,NA,113,27.2,1603,NA
 BFA366,BFR118,Argentina,Tucumán,San Javier,Parque Biologico Sierra de San Javier,-26.78333333,-65.36666667,Precise,NA,Semideciduous forest,Piedemonte Tucumano-Boliviano ,Southern Andean,NA,1092,17.3,997,NA
@@ -455,7 +455,7 @@ BFA370,BFR120,Brazil,Distrito federal,Mambai e Brasilia,Grutas de FERCAL no Dist
 BFA371,BFR121,Panama,Colón,Santa Rosa,Santa Rosa,9.207575,-79.683887,Not precise,NA,Floodplain forest,Chocó-Darién Mesoamerica,Mesoamerica,NA,91,26.4,2555,NA
 BFA325,BFR122,Brazil,Rio de Janeiro,Rio de Janeiro,Parque Estadual Pedra Branca,-23.50416667,-43.48513889,Precise,Lower mountain rain forest,Rainforest,Southern Coastal Atlantic Forest,Atlantic Forest,NA,0,NA,NA,NA
 BFA278,BFR123,Brazil,Ceará,Ceará,The Serra das Almas Nature Reserve,-5.141430556,-40.91627778,Precise,Caatinga vegetation,Coastal sandy mosaic,Caatinga,Atlantic Forest,NA,604,23.4,942,NA
-BFA372,BFR124,Brazil,Pará,Ilha de Marajó,Soure,-0.729666,-48.518454,Precise,NA,Savanna woodland,Amazonian Sedimentary Coastal Palains,,NA,2,27.4,2793,NA
+BFA372,BFR124,Brazil,Pará,Ilha de Marajó,Soure,-0.729666,-48.518454,Precise,NA,Savanna woodland,Amazonian Sedimentary Coastal Palains,Amazonia,NA,2,27.4,2793,NA
 BFA373,BFR125,Costa Rica,Provincia Alajuela,Alajuela,"Alajuela, 4.2 km SE Cariblanco",10.23333333,-84.16666667,Precise,NA,Cloud forest,Mesoamerica Central Highlands,Mesoamerica,1100,1173,19.9,3030,NA
 BFA374,BFR125,Costa Rica,Provincia Alajuela,Alajuela,"Alajuela, Bijagua, El Pilon, Volcan Tenorio, near head of Río Celeste",10.7,-84.98333333,Precise,NA,Cloud forest,Mesoamerica Central Highlands,Mesoamerica,750,787,22.8,3761,NA
 BFA375,BFR125,Costa Rica,Provincia Heredia,Heredia,"Heredia, 1.2 mi N El Angel falls",10.26666667,-84.18333333,Not precise,NA,Rain forest,Caribbean Mesoamerica,Mesoamerica,850,784,22.6,4333,NA
@@ -498,41 +498,41 @@ BFA411,BFR127,Bolivia,Santa Cruz,Ascención,6 km by road W Ascención,-15.716666
 BFA412,BFR127,Bolivia,Santa Cruz,El Chuchial,Estancia Cachuela Esperanza,-16.78333333,-63.23333333,Precise,NA,Semideciduous Forest,Chiquitano Woodlands,Cerrado,NA,215,24.7,1255,NA
 BFA413,BFR127,Bolivia,Santa Cruz,Amboró,San Rafael de Amboró,-17.6,-63.6,Precise,NA,Semideciduous Forest,Chiquitano Woodlands,Cerrado,400,460,24.2,1462,NA
 BFA414,BFR127,Bolivia,Tarija,Entre Ríos,"Tapecua, Alto de los Zarzos",-21.43705556,-63.917,Precise,NA,Semi-arid thorny woodland,Chaco Seco Drylands,Gran Chaco,1500,1565,18.5,742,NA
-BFA415,BFR128,United States,Colorado,Divide,"Manchester Creek some eight miles north of Divide, Colorado",39.058875,-105.158389,Precise,NA,,,,2438,2560,3.1,472,NA
+BFA415,BFR128,United States,Colorado,Divide,"Manchester Creek some eight miles north of Divide, Colorado",39.058875,-105.158389,Precise,NA,NA,NA,NA,2438,2560,3.1,472,"*Casual record, bat found in a pound"
 BFA276,BFR129,Costa Rica,La Heredia province,Heredia,La Selva Biological Station,10.430622,-84.006969,Not precise,NA,Rainforest,Isthmian-Atlantic moist forests,Mesoamerica,NA,57,26.1,3949,NA
 BFA416,BFR130,Panama,Darien,Darien,Parque Nacional Darien ,7.730809,-77.546906,Precise,NA,Rain forest,Chocó-Darién Mesoamerica,Mesoamerica,NA,201,25.9,2894,NA
 BFA417,BFR131,Peru,Lima,Lima,"Quebrada verde, cerca de Lima",-12.2,-76.96666667,Not precise,NA,Semid-desert and desert,Coastal Deserts,Peruvian-Chilean Desert,450,60,19.1,24,NA
 BFA418,BFR131,Peru,Lima,Pachangara,Churin,-10.75,-76.83333333,Precise,NA,Semid-desert and desert,Coastal Deserts,Peruvian-Chilean Desert,2200,3696,5.4,638,NA
 BFA419,BFR131,Peru,Lima,Lima,Lurín,-12.25,-76.88333333,Precise,NA,Semid-desert and desert,Coastal Deserts,Peruvian-Chilean Desert,NA,2,19.4,24,NA
-BFA420,BFR132,United States,Arizona,Gila County,"1 mi. W., 1 mi. S. of Parker Creek Station, Sierra Ancha Mtns., Gila Co.",33.722091,-111.010391,Precise,NA,,,,NA,807,18.6,428,NA
-BFA421,BFR132,United States,Arizona,Pima County,"Arivaca, Pima Co.",31.577336,-111.331452,Precise,NA,,,,NA,1116,17.2,437,NA
-BFA422,BFR132,United States,Arizona,Santa Cruz County,"Black Diamond Mine, Warsaw Canyon, ca. 2.5 mi. W. Ruby, Santa Cruz Co.",31.457072,-111.279593,Precise,NA,,,,NA,1391,15.7,518,NA
-BFA423,BFR132,United States,Arizona,Oracle,"Burney mine, 4.2 mi S, 4.9 E of Oracle Junction, Pinal Co.",32.552705,-110.799102,Precise,NA,,,,NA,1218,17.5,479,NA
-BFA424,BFR132,United States,Arizona,oracle,"Cave, 10.5 rd. mi. S. of Oracle (On control Rd.), Pima, Co.",32.609526,-110.771255,Not precise,NA,,,,NA,1365,16.8,523,NA
-BFA425,BFR132,United States,Arizona,Klondyke,"Cave, Creek Canyon, 6.5 mi W, 1 mi. N. of Klondike, Graham, Co.",32.848345,-110.220204,Precise,NA,,,,NA,1732,13.3,497,NA
-BFA426,BFR132,United States,Arizona,Tucson,"Colossal Caves, 20 E., 7 S. airline mi. Tucson, south end of Rincon Mtns., Pima Co.",32.180219,-110.736296,Not precise,NA,,,,NA,924,19.3,352,NA
-BFA427,BFR132,United States,Arizona,Globe,"Diversion tunnel nr. Globe, 15.5 mi. N. Pringle pump station, Gila Co.",33.408873,-110.785466,Not precise,NA,,,,NA,1083,17.3,453,NA
-BFA428,BFR132,United States,Arizona,Hilltop,"El Tigre Mine, Pinery Canyon, Chiricahua Mtns, Cochise Co.",31.934535,-109.285062,Precise,NA,,,,NA,2012,11.3,568,NA
-BFA429,BFR132,United States,Arizona,Mammoth,"Fortune Mine, 45 mi N.N.W. of Tucson, Sawtooth Mtn, Pima, Co.",32.834936,-110.530571,Precise,NA,,,,NA,1584,14.2,544,NA
-BFA430,BFR132,United States,Arizona,Sasabe,"Garcias Represso, 2 mi. E. Sasabe, Pima Co.",31.486228,-111.507631,Precise,NA,,,,NA,1070,17.6,418,NA
-BFA431,BFR132,United States,Arizona,Lochiel,"Harper’s Claim, 16 E. 4 N. airline mi. Of Lochiel, Cochise, Co.",31.401391,-110.3492,Precise,NA,,,,NA,1951,12.6,618,NA
-BFA432,BFR132,United States,Arizona,Eden,"Highway brigde, US 70, 7.3 mi NW Pima",32.970828,-109.92115,Precise,NA,,,,NA,835,18.1,284,NA
-BFA433,BFR132,United States,Arizona,Oracle,"Hot Boy Mine, 1.5 mi. E. 12 mi. N. Oracle Junction, Pinal Co.",32.741736,-110.897327,Precise,NA,,,,NA,1218,17.7,487,NA
-BFA434,BFR132,United States,Arizona,Kingman,"Kingman, Mohave Co.",35.189437,-114.052998,Precise,NA,,,,NA,1016,16.8,166,NA
-BFA435,BFR132,United States,Arizona,Santa Cruz County,"McCleary mine, Madera Canyon, Santa Cruz, Co.",31.705357,-110.871019,Precise,NA,,,,NA,2018,12.9,635,NA
-BFA436,BFR132,United States,Arizona,Pima County,"Mine tunnel, Las Guijas, Pima Co.",31.670362,-111.382043,Precise,NA,,,,NA,1054,17.6,417,NA
-BFA437,BFR132,United States,Arizona,Pima County,"Mine, 9 rd. mi. S. Oracle (On control Rd.), Pima, Co.",32.610905,-110.770935,Not precise,NA,,,,NA,1365,16.8,523,NA
-BFA438,BFR132,United States,Arizona,Gila County,"Parker Creek Station, Sierra Ancha Mtns., Gila, Co.",33.722826,-111.010951,Precise,NA,,,,NA,807,18.6,428,NA
-BFA439,BFR132,United States,Arizona,Mohave County,Parker Mohave Co.,35.213705,-113.763574,Not precise,NA,,,,NA,1340,13.7,271,NA
-BFA440,BFR132,United States,Arizona,Huachaca,"Pyatt Cave, 7 airline mi. W. of Fort Huachaca, Cochise Co.",31.570462,-110.225496,Precise,NA,,,,NA,1324,16.9,362,NA
-BFA441,BFR132,United States,Arizona,Cochise County,"Reef Mine (7200’) Carr Canyon, N. Carr Peak, Huachuca Mtns, Cochise Co.",31.431726,-110.290998,Precise,NA,,,,NA,2196,11.7,657,NA
-BFA442,BFR132,United States,Arizona,Santa Cruz County,"Santa nino Mina, 3.8 mi. S.W. Washington camp, Santa Cruz, Co.",31.424884,-110.702836,Precise,NA,,,,NA,1681,14.3,569,NA
-BFA443,BFR132,United States,Arizona,Pima County,"Skunk Mine, 2.9 mi. N.E. Arivaca, Pima, Co.",31.603242,-111.2921,Precise,NA,,,,NA,1154,17,452,NA
-BFA444,BFR132,United States,Arizona,Cochise County,"South fork of Cave Creek, Chiricaua Mtns., Cochise Co.",31.842526,-109.21096,Precise,NA,,,,NA,1868,12.2,527,NA
-BFA445,BFR132,United States,Arizona,Kingman,"Twin Windmills, 5 mi. S.E. Kingman, Mohave Co.",35.131778,-113.964598,Precise,NA,,,,NA,1341,14.6,247,NA
-BFA446,BFR132,United States,Arizona,Pima County,"Under brigde nr. Continental, Pima Co.",32.057668,-111.6659,Not precise,NA,,,,NA,859,19.1,347,NA
-BFA447,BFR132,United States,Arizona,Cochise County,"Under brigde, 7.5 mi. S. Willcox, Cochise Co.",32.147483,-109.83165,Precise,NA,,,,NA,1269,16.1,319,NA
-BFA448,BFR132,United States,Arizona,Santa Cruz County,"White Oak Mine, Walker Canyon, Pajaritos Mtns, Santa cruz Co.",31.373431,-111.084257,Precise,NA,,,,NA,1289,16,490,NA
+BFA420,BFR132,United States,Arizona,Gila County,"1 mi. W., 1 mi. S. of Parker Creek Station, Sierra Ancha Mtns., Gila Co.",33.722091,-111.010391,Precise,NA,NA,NA,NA,NA,807,18.6,428,NA
+BFA421,BFR132,United States,Arizona,Pima County,"Arivaca, Pima Co.",31.577336,-111.331452,Precise,NA,NA,NA,NA,NA,1116,17.2,437,NA
+BFA422,BFR132,United States,Arizona,Santa Cruz County,"Black Diamond Mine, Warsaw Canyon, ca. 2.5 mi. W. Ruby, Santa Cruz Co.",31.457072,-111.279593,Precise,NA,NA,NA,NA,NA,1391,15.7,518,NA
+BFA423,BFR132,United States,Arizona,Oracle,"Burney mine, 4.2 mi S, 4.9 E of Oracle Junction, Pinal Co.",32.552705,-110.799102,Precise,NA,NA,NA,NA,NA,1218,17.5,479,NA
+BFA424,BFR132,United States,Arizona,oracle,"Cave, 10.5 rd. mi. S. of Oracle (On control Rd.), Pima, Co.",32.609526,-110.771255,Not precise,NA,NA,NA,NA,NA,1365,16.8,523,NA
+BFA425,BFR132,United States,Arizona,Klondyke,"Cave, Creek Canyon, 6.5 mi W, 1 mi. N. of Klondike, Graham, Co.",32.848345,-110.220204,Precise,NA,NA,NA,NA,NA,1732,13.3,497,NA
+BFA426,BFR132,United States,Arizona,Tucson,"Colossal Caves, 20 E., 7 S. airline mi. Tucson, south end of Rincon Mtns., Pima Co.",32.180219,-110.736296,Not precise,NA,NA,NA,NA,NA,924,19.3,352,NA
+BFA427,BFR132,United States,Arizona,Globe,"Diversion tunnel nr. Globe, 15.5 mi. N. Pringle pump station, Gila Co.",33.408873,-110.785466,Not precise,NA,NA,NA,NA,NA,1083,17.3,453,NA
+BFA428,BFR132,United States,Arizona,Hilltop,"El Tigre Mine, Pinery Canyon, Chiricahua Mtns, Cochise Co.",31.934535,-109.285062,Precise,NA,NA,NA,NA,NA,2012,11.3,568,NA
+BFA429,BFR132,United States,Arizona,Mammoth,"Fortune Mine, 45 mi N.N.W. of Tucson, Sawtooth Mtn, Pima, Co.",32.834936,-110.530571,Precise,NA,NA,NA,NA,NA,1584,14.2,544,NA
+BFA430,BFR132,United States,Arizona,Sasabe,"Garcias Represso, 2 mi. E. Sasabe, Pima Co.",31.486228,-111.507631,Precise,NA,NA,NA,NA,NA,1070,17.6,418,NA
+BFA431,BFR132,United States,Arizona,Lochiel,"Harper’s Claim, 16 E. 4 N. airline mi. Of Lochiel, Cochise, Co.",31.401391,-110.3492,Precise,NA,NA,NA,NA,NA,1951,12.6,618,NA
+BFA432,BFR132,United States,Arizona,Eden,"Highway brigde, US 70, 7.3 mi NW Pima",32.970828,-109.92115,Precise,NA,NA,NA,NA,NA,835,18.1,284,NA
+BFA433,BFR132,United States,Arizona,Oracle,"Hot Boy Mine, 1.5 mi. E. 12 mi. N. Oracle Junction, Pinal Co.",32.741736,-110.897327,Precise,NA,NA,NA,NA,NA,1218,17.7,487,NA
+BFA434,BFR132,United States,Arizona,Kingman,"Kingman, Mohave Co.",35.189437,-114.052998,Precise,NA,NA,NA,NA,NA,1016,16.8,166,NA
+BFA435,BFR132,United States,Arizona,Santa Cruz County,"McCleary mine, Madera Canyon, Santa Cruz, Co.",31.705357,-110.871019,Precise,NA,NA,NA,NA,NA,2018,12.9,635,NA
+BFA436,BFR132,United States,Arizona,Pima County,"Mine tunnel, Las Guijas, Pima Co.",31.670362,-111.382043,Precise,NA,NA,NA,NA,NA,1054,17.6,417,NA
+BFA437,BFR132,United States,Arizona,Pima County,"Mine, 9 rd. mi. S. Oracle (On control Rd.), Pima, Co.",32.610905,-110.770935,Not precise,NA,NA,NA,NA,NA,1365,16.8,523,NA
+BFA438,BFR132,United States,Arizona,Gila County,"Parker Creek Station, Sierra Ancha Mtns., Gila, Co.",33.722826,-111.010951,Precise,NA,NA,NA,NA,NA,807,18.6,428,NA
+BFA439,BFR132,United States,Arizona,Mohave County,Parker Mohave Co.,35.213705,-113.763574,Not precise,NA,NA,NA,NA,NA,1340,13.7,271,NA
+BFA440,BFR132,United States,Arizona,Huachaca,"Pyatt Cave, 7 airline mi. W. of Fort Huachaca, Cochise Co.",31.570462,-110.225496,Precise,NA,NA,NA,NA,NA,1324,16.9,362,NA
+BFA441,BFR132,United States,Arizona,Cochise County,"Reef Mine (7200’) Carr Canyon, N. Carr Peak, Huachuca Mtns, Cochise Co.",31.431726,-110.290998,Precise,NA,NA,NA,NA,NA,2196,11.7,657,NA
+BFA442,BFR132,United States,Arizona,Santa Cruz County,"Santa nino Mina, 3.8 mi. S.W. Washington camp, Santa Cruz, Co.",31.424884,-110.702836,Precise,NA,NA,NA,NA,NA,1681,14.3,569,NA
+BFA443,BFR132,United States,Arizona,Pima County,"Skunk Mine, 2.9 mi. N.E. Arivaca, Pima, Co.",31.603242,-111.2921,Precise,NA,NA,NA,NA,NA,1154,17,452,NA
+BFA444,BFR132,United States,Arizona,Cochise County,"South fork of Cave Creek, Chiricaua Mtns., Cochise Co.",31.842526,-109.21096,Precise,NA,NA,NA,NA,NA,1868,12.2,527,NA
+BFA445,BFR132,United States,Arizona,Kingman,"Twin Windmills, 5 mi. S.E. Kingman, Mohave Co.",35.131778,-113.964598,Precise,NA,NA,NA,NA,NA,1341,14.6,247,NA
+BFA446,BFR132,United States,Arizona,Pima County,"Under brigde nr. Continental, Pima Co.",32.057668,-111.6659,Not precise,NA,NA,NA,NA,NA,859,19.1,347,NA
+BFA447,BFR132,United States,Arizona,Cochise County,"Under brigde, 7.5 mi. S. Willcox, Cochise Co.",32.147483,-109.83165,Precise,NA,NA,NA,NA,NA,1269,16.1,319,NA
+BFA448,BFR132,United States,Arizona,Santa Cruz County,"White Oak Mine, Walker Canyon, Pajaritos Mtns, Santa cruz Co.",31.373431,-111.084257,Precise,NA,NA,NA,NA,NA,1289,16,490,NA
 BFA449,BFR133,Mexico,Puebla,Jolalpan,"UMA ""Rancho El Salado"" ",18.325923,-98.844545,Not precise,NA,Semid-arid thorny woodland,North Pacific Mesoamerica,Mesoamerica,NA,899,25.3,849,NA
 BFA450,BFR134,Panama,San Blas,Armila ,Armila (San Blas),8.660201,-77.450166,Not precise,NA,Rain forest,Caribbean Mesoamerica,Mesoamerica,NA,1,26.3,2055,NA
 BFA451,BFR134,Panama,Panama,Barro Colorado,Barro Colorado Island,9.152102,-79.846479,Precise,NA,Rain forest,Caribbean Mesoamerica,Mesoamerica,NA,128,25.9,2635,NA
@@ -611,7 +611,7 @@ BFA518,BFR147,Argentina,Corrientes,San Martín,Colonia Carlos Pellegrini,-28.533
 BFA519,BFR148,Argentina,Corrientes,Islas Apipé,Isla Apipé Grande,-27.5,-56.9,Precise,NA,Semideciduous forest,Southern Paranense Atlantic Forest,Atlantic Forest,NA,52,22.6,1619,NA
 BFA520,BFR148,Argentina,Corrientes,Puerto Valle,"Ituzaingó, Perto Valle",-27.61666667,-56.38333333,Precise,NA,Semideciduous forest,Southern Paranense Atlantic Forest,Atlantic Forest,NA,82,21.5,1611,NA
 BFA521,BFR149,Mexico,Morelos,Tepoztlan,Cueva de Ocotitlan,19.012624,-99.061373,Not precise,NA,Semid-arid thorny woodland,North Pacific Mesoamerica,Mesoamerica,NA,2079,17.2,920,NA
-BFA522,BFR150,United States,Illinois,Hardin County,Limestone cave approximately one-half mile north of Rosiclare,37.438492,-88.344539,Precise,NA,,,,NA,122,13.6,1205,NA
+BFA522,BFR150,United States,Illinois,Hardin County,Limestone cave approximately one-half mile north of Rosiclare,37.438492,-88.344539,Precise,NA,NA,NA,NA,NA,122,13.6,1205,NA
 BFA523,BFR151,Panama,Canal Zone,Several,Several,9.101586,-79.738549,Not precise,NA,Semideciduous forest,South Pacific Mesoamerica,Mesoamerica,NA,70,26.4,2358,"Ancon        Under fig tree        8.95        -79.56666667
 Balboa Heights        Under fig tree        8.959805        -79.563812
 Barro Colorado        Forest clearing        9.15        -79.85
@@ -628,9 +628,9 @@ Nova Iguaçu        Refugio 4-(OC): Barrio Tinguá, em frente a praça Barão do
 Nova Iguaçu        Refugio 5-(REBIO): Barrio Tinguá, no telhado da casa da companhia Estadual de Aguas e Esgotos (CEDAE) no interior da Reserva Biológica do Tinguá        -22.57998611        -43.43584444
 Nova Iguaçu        Refugio 6-(GR): Barrio Tinguá, casa abandonada em área perteneciente á REBIO-Tinguá, as margens do Rio Tinguá        -22.59001944        -43.42983056
 Guapimirim        Refugio 7-(GP): Forro de uma casa        -22.51821667        -42.97495278"
-BFA525,BFR153,United States,Oklahoma,Cimarron County,"Pigeon Cave three miles east, one mile north Kenton",36.917623,-102.909159,Precise,NA,,,,NA,1338,12.6,388,NA
-BFA526,BFR153,United States,Oklahoma,Greer County,Reed Cave system,34.931527,-99.463134,Not precise,NA,,,,NA,472,16,640,NA
-BFA527,BFR154,United States,New Mexico,Bernalillo County,Alburquerque,35.079233,-106.651349,Not precise,NA,,,,NA,1510,13.6,217,NA
+BFA525,BFR153,United States,Oklahoma,Cimarron County,"Pigeon Cave three miles east, one mile north Kenton",36.917623,-102.909159,Precise,NA,NA,NA,NA,NA,1338,12.6,388,NA
+BFA526,BFR153,United States,Oklahoma,Greer County,Reed Cave system,34.931527,-99.463134,Not precise,NA,NA,NA,NA,NA,472,16,640,NA
+BFA527,BFR154,United States,New Mexico,Bernalillo County,Alburquerque,35.079233,-106.651349,Not precise,NA,NA,NA,NA,NA,1510,13.6,217,NA
 BFA528,BFR154,Mexico,Colima,Armeria,Five miles southeast of Armeria,18.884069,-103.908824,Precise,NA,Deciduous forest,North Pacific Mesoamerica,Mesoamerica,NA,16,26.3,767,NA
 BFA529,BFR154,Mexico,Nayarit,Mecatan,eight miles east of San Blas,21.538035,-105.151387,Precise,NA,Mixed forest,North Pacific Mesoamerica,Mesoamerica,NA,349,23.8,1582,NA
 BFA530,BFR155,Bahama island,Inagua Great,Matthew Town,"Cave 5.5 miles E. Matthew Town, (Great) Inagua Island",20.958984,-73.562069,Precise,NA,Coral limestone decidous woodland,Tropical Caribbean,Caribbean,NA,3,25.8,678,NA
@@ -729,7 +729,7 @@ primary reforesta­tion, secondary regenera­tion",Cloud Forest,Central Cordille
 Jardin Botanico de la Universidad de Caldas, southeast Manizales        5.066666667        -75.51666667
 Recinto del Pensamiento “Jaime Restrepo Mejía” located in eastern Manizales        5.033333333        -75.43333333
 Ecoparque Los Yarumos, located in northeastern Manizalez        5.06274        -75.48239"
-BFA622,BFR159,United States,Oklahoma,Greer County,"Cave located, 2 miles west and 1 mile south of Reed",34.884357,-99.731049,Precise,NA,,,,NA,529,16,613,NA
+BFA622,BFR159,United States,Oklahoma,Greer County,"Cave located, 2 miles west and 1 mile south of Reed",34.884357,-99.731049,Precise,NA,NA,NA,NA,NA,529,16,613,NA
 BFA623,BFR160,Mexico,Veracruz,Xalapa/San Andres Tlanelhuayocan,Forest fragment and shade-cofee plantations in a mountainous region of Central Veracruz,19.50902778,-96.95083333,Not Precise,"mosaic of pastures with varying degrees and shade-coffee plantation with small secondary forest patches (8–16 ha) of different successional stages 
 of disturbance",Floodplain forest,Gulfcoast Mesoamerica,Mesoamerica,1400,1384,18.3,1622,NA
 BFA624,BFR161,Brazil,Acre,Rio Branco,"Parque Zoobotanico, Campus universitario da Universidade Federal do Acre",-9.957222222,-67.87361111,Precise,NA,Evergreen seasonal forest,Central-Southern Amozonian Sedimentary Basin,Amazonia,NA,186,26,1944,NA
@@ -749,13 +749,13 @@ BFA636,BFR167,Peru,Talara,Tamarindo,"At 12.9 km N of Tamarindo, La Brea, provinc
 BFA637,BFR168,United States,Texas/Cohuila,Several,Several,29.18022433,-102.9650687,Not Precise,NA,NA,NA,NA,NA,552,21.7,256,"United States Texas        Terlingua        Big Bend National Park        29.18022433        -102.9650687
 Mexico Coahulia        Norias de Boquilla        Los Norias, about 12 mi S of the park (Big Bend National Park)        29.07263        -102.838053
 Mexico Coahulia        Boquillas del Carmen        high Fronteriza Mountains, about 28 mi SE of the park (Big Bend National Park)        29.218182        -102.806989"
-BFA638,BFR169,United States,Oklahoma,Major County,Lake Cave: Two hundred yards east of Conner's Cave.,36.333192,-98.854885,Precise,NA,,,,NA,493,14.9,661,NA
+BFA638,BFR169,United States,Oklahoma,Major County,Lake Cave: Two hundred yards east of Conner's Cave.,36.333192,-98.854885,Precise,NA,NA,NA,NA,NA,493,14.9,661,NA
 BFA639,BFR169,United States,Oklahoma,Woods County,"Marehew Cave: Thirteen miles north, three miles east of Camp Houston",36.992611,-99.042519,Not Precise,NA,NA,NA,NA,NA,565,14.1,636,NA
-BFA640,BFR169,United States,Oklahoma,Major County,"Griever Creek Cave: Three miles east, four miles south of junction of U.S. Highway 281 and Oklahoma State Highway 15",36.364125,-98.830666,Precise,NA,,,,NA,457,15,655,NA
-BFA641,BFR169,United States,Oklahoma,Woodward County,"Icebox Cave: Six miles south, seven and one-half  miles west of Freedom ",36.670226,-98.978094,Precise,NA,,,,NA,491,14.8,636,NA
-BFA642,BFR169,United States,Oklahoma,Major County,Vickery Caves: Numbers 1 and 2. Two and one-half miles west of junction of U.S. Highway 281 and Oklahoma State Highway 15,36.423249,-98.842709,Precise,NA,,,,NA,457,14.9,657,NA
-BFA643,BFR169,United States,Oklahoma,Major County,"Conner's Cave: Five miles south, two miles east of juntion of U.S. Highway 281 and Oklahoma State Highway 15",36.333231,-98.856986,Precise,NA,,,,NA,493,14.9,661,NA
-BFA644,BFR169,United States,Oklahoma,Woodward County,"Selman's Cave: Four miles south, seven miles wet of Freedom on Trader's Creek ",36.705213,-99.244065,Precise,NA,,,,NA,532,14.7,615,NA
+BFA640,BFR169,United States,Oklahoma,Major County,"Griever Creek Cave: Three miles east, four miles south of junction of U.S. Highway 281 and Oklahoma State Highway 15",36.364125,-98.830666,Precise,NA,NA,NA,NA,NA,457,15,655,NA
+BFA641,BFR169,United States,Oklahoma,Woodward County,"Icebox Cave: Six miles south, seven and one-half  miles west of Freedom ",36.670226,-98.978094,Precise,NA,NA,NA,NA,NA,491,14.8,636,NA
+BFA642,BFR169,United States,Oklahoma,Major County,Vickery Caves: Numbers 1 and 2. Two and one-half miles west of junction of U.S. Highway 281 and Oklahoma State Highway 15,36.423249,-98.842709,Precise,NA,NA,NA,NA,NA,457,14.9,657,NA
+BFA643,BFR169,United States,Oklahoma,Major County,"Conner's Cave: Five miles south, two miles east of juntion of U.S. Highway 281 and Oklahoma State Highway 15",36.333231,-98.856986,Precise,NA,NA,NA,NA,NA,493,14.9,661,NA
+BFA644,BFR169,United States,Oklahoma,Woodward County,"Selman's Cave: Four miles south, seven miles wet of Freedom on Trader's Creek ",36.705213,-99.244065,Precise,NA,NA,NA,NA,NA,532,14.7,615,NA
 BFA645,BFR170,Brazil,Mato Grosso do Sul,Corumba,Hotel Passo de Lontra and Pantanal Studies Base (BEP),-19.578622,-57.019896,Not Precise,"Riparian Forest, Pantanal",Seasonal floodplain forest,Pantanal Wetlands,Cerrado,NA,76,25.6,1214,"Hotel Passo do Lontra -19.580005, -57.021113. Pantanal studies base (BEP) area of the Federal University of Mato Grosso do Sul (UFMS) -19.577095, -57.018967."
 BFA646,BFR171,Brazil,Sergipe,Grande Aracaju,Three urban green areas ,-10.923457,-37.082461,Not Precise,Atlantic forest,Coastal Sandy Mosaic,Central Atlantic Shorelands,Atlantic Forest,NA,5,25.6,1412,"Campus Sao Cristóvao da universidade Federal de Sergipe (UFS) -10.926194 -37.102556, Secretaria de Estado da Fazenda de Sergipe (SEFAZ) -10.910778 -37.091083, Vila Militar dos Oficiais do Exército (Vila) -10.925444 -37.060194."
 BFA085,BFR172,Brazil,Pernambuco,Pernambuco,The Catimbau National Park,-8.59230,-37.247671,Not precise,NA,Rainforest,Caatinga,Atlantic Forest,NA,849,21.2,816,NA
