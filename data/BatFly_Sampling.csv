@@ -220,7 +220,7 @@ BFA215,BFR053,2004,2005,2,37800,all,all,mist nets,NA,6,10,NA,NA,NA
 BFA216,BFR053,NA,NA,1,16200,all,all,mist nets,NA,6,10,NA,NA,NA
 BFA217,BFR054,2012,2013,NA,NA,all,all,NA,NA,NA,NA,NA,NA,NA
 BFA218,BFR055,1990,1991,12,NA,all,all,mist nets,35,12,NA,NA,NA,NA
-BFA219,BFR056,2002,2002,3,NA,Mormoopid,all,"harp traps, mist nets",NA,1.5,NA,NA,NA,NA
+BFA219,BFR056,2002,2002,3,NA,mormoopid,all,"harp traps, mist nets",NA,1.5,NA,NA,NA,NA
 BFA220,BFR057,2014,2015,16,NA,all,all,mist nets,NA,NA,NA,NA,NA,NA
 BFA221,BFR057,2014,2015,16,NA,all,all,mist nets,NA,NA,NA,NA,NA,NA
 BFA222,BFR057,2014,2015,16,NA,all,all,mist nets,NA,NA,NA,NA,NA,NA
@@ -427,7 +427,7 @@ BFA411,BFR127,1985,1985,NA,NA,all,all,mist nets,NA,NA,NA,NA,NA,NA
 BFA412,BFR127,1984,1984,NA,NA,all,all,mist nets,NA,NA,NA,NA,NA,NA
 BFA413,BFR127,1985,1985,NA,NA,all,all,mist nets,NA,NA,NA,NA,NA,NA
 BFA414,BFR127,1995,1995,NA,NA,all,all,mist nets,NA,NA,NA,NA,NA,NA
-BFA415,BFR128,1951,1951,1,NA,single,single,hand,NA,NA,NA,NA,NA,Ocasional registred
+BFA415,BFR128,1951,1951,1,NA,single,single,hand,NA,NA,NA,NA,NA,"*Casual record, bat found in a pound"
 BFA276,BFR129,1980,1980,3,NA,all,all,mist nets,NA,3,NA,NA,NA,NA
 BFA416,BFR130,2016,2002,1,6000,all,all,mist nets,10,5,4,U,NA,NA
 BFA417,BFR131,1961,1961,NA,NA,all,all,NA,NA,NA,NA,NA,NA,NA

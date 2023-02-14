@@ -81,6 +81,7 @@ tail(points)
 ######################### 2. PLOTTING ######################################
 
 
+
 ## Load the world map from the mapdata package
 world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
 
