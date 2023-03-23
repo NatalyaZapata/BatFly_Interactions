@@ -37,7 +37,7 @@ png("figures/Figure_4.png", res = 300,
     width = 4000, height = 2000, unit = "px")
 
 layout(matrix(c(1,2), ncol=2))
-par(las=1, mar=c(4, 11, 1, 2))
+par(las=1, mar=c(4, 12, 1, 2))
 
 plotdata2<-sort(table(data$CurrentBatSpecies))
 
@@ -59,5 +59,5 @@ barplot(100*plotdata3[(length(plotdata3)-14):length(plotdata3)]/length(data$Curr
 axis(1, seq(0,8,by=2),)
 
 dev.off()
-layout(matrix(c(1,1), ncol=1))
+
 

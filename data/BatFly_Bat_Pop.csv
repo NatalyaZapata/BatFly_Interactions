@@ -977,7 +977,7 @@ BFBPOP0975,BFR053,BFA215,Phyllostomidae,Trachops,Trachops cirrhosus,Trachops cir
 BFBPOP0976,BFR053,BFA215,Phyllostomidae,Trinycteris,Trinycteris nicefori,Trinycteris nicefori,NA,Human-madestructure Treecavity,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0977,BFR053,BFA215,Vespertilionidae,Myotis,Myotis albescens,Myotis albescens,NA,Treecavity,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0978,BFR053,BFA215,Vespertilionidae,Myotis,Myotis riparius,Myotis riparius,NA,Treecavity,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP0979,BFR053,BFA216,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus sp.,NA,Cave,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP0979,BFR053,BFA216,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus sp1.,NA,Cave,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0980,BFR053,BFA216,Mormoopidae,Pteronotus,Pteronotus sp.,Pteronotus sp.,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0981,BFR053,BFA216,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP0982,BFR053,BFA216,Phyllostomidae,Artibeus,Artibeus planirostris,Artibeus planirostris,NA,Foliage,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1912,277 +1912,260 @@ BFBPOP1910,BFR144,BFA514,Mormoopidae,Pteronotus,Pteronotus sp.,Pteronotus sp.,NA
 BFBPOP1911,BFR144,BFA212,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP1912,BFR144,BFA515,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus portoricensis,NA,Cave,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 BFBPOP1913,BFR145,BFA516,Vespertilionidae,Myotis,Myotis nigricans,Myotis nigricans,NA,Treecavity,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1914,BFR146,BFA517,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1915,BFR146,BFA517,Phyllostomidae,Artibeus,Artibeus fimbriatus,Artibeus fimbriatus,NA,Foliage,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1916,BFR146,BFA517,Phyllostomidae,Glossophaga,Glossophaga soricina,Glossophaga soricina,NA,Cave Human-madestructure Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1917,BFR146,BFA517,Emballonuridae,Saccopteryx,Saccopteryx leptura,Saccopteryx leptura,NA,Treecavity,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1918,BFR146,BFA517,Phyllostomidae,Trinycteris,Trinycteris nicefori,Trinycteris nicefori,NA,Human-madestructure Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1919,BFR146,BFA517,Phyllostomidae,Phyllostomus,Phyllostomus discolor,Phyllostomus discolor,NA,Cave Treecavity,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1920,BFR146,BFA517,Phyllostomidae,Dermanura,Dermanura cinerea,Artibeus cinereus,NA,Foliage Tent,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1921,BFR146,BFA517,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1922,BFR146,BFA517,Phyllostomidae,Sturnira,Sturnira lilium,Sturnira lilium,NA,Cave Human-madestructure Treecavity,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1923,BFR147,BFA518,Vespertilionidae,Myotis,Myotis nigricans,Myotis nigricans,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1924,BFR148,BFA519,Vespertilionidae,Myotis,Myotis nigricans,Myotis nigricans,NA,Treecavity,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1925,BFR148,BFA519,Vespertilionidae,Histiotus,Histiotus sp.,Histiotus sp.,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1926,BFR148,BFA520,Phyllostomidae,Sturnira,Sturnira lilium,Sturnira lilium,NA,Cave Human-madestructure Treecavity,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1927,BFR149,BFA521,Phyllostomidae,Leptonycteris,Leptonycteris nivalis,Leptonycteris nivalis,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1928,BFR149,BFA521,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1929,BFR150,BFA522,Vespertilionidae,Myotis,Myotis austroriparius,Myotis austroriparius,NA,NA,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1930,BFR151,BFA523,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1931,BFR152,BFA524,Phyllostomidae,Glossophaga,Glossophaga soricina,Glossophaga soricina,NA,Cave Human-madestructure Treecavity,437,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1932,BFR152,BFA524,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1933,BFR152,BFA524,Phyllostomidae,Platyrrhinus,Platyrrhinus lineatus,Platyrrhinus lineatus,NA,Foliage,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1934,BFR152,BFA524,Phyllostomidae,Phyllostomus,Phyllostomus hastatus,Phyllostomus hastatus,NA,Cave Foliage Human-madestructure Termitenest Treecavity,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1935,BFR152,BFA524,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1936,BFR152,BFA524,Vespertilionidae,Myotis,Myotis sp.,Myotis sp.,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1937,BFR153,BFA525,Vespertilionidae,Antrozous,Antrozous pallidus,Antrozous pallidus,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1938,BFR153,BFA526,Vespertilionidae,Corynorhinus,Plecotus rafinesquii,Corynorhinus rafinesquii,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1939,BFR154,BFA527,Vespertilionidae,Corynorhinus,Corynirhinus(=Plecotus),Corynorhinus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1940,BFR154,BFA528,Phyllostomidae,Sturnira,Sturnira lilium parvidens,Sturnira parvidens,parvidens,Foliage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1941,BFR154,BFA529,Vespertilionidae,Myotis,Myotis fortidens,Myotis fortidens,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1942,BFR155,BFA530,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1943,BFR155,BFA531,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1944,BFR155,BFA532,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1945,BFR155,BFA533,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1946,BFR155,BFA534,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1947,BFR155,BFA535,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1948,BFR155,BFA536,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1949,BFR155,BFA537,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1950,BFR155,BFA538,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1951,BFR155,BFA538,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1952,BFR155,BFA539,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1953,BFR155,BFA540,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1954,BFR155,BFA540,Mormoopidae,Pteronotus,Pteronotus macleayii,Pteronotus macleayii,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1955,BFR155,BFA540,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1956,BFR155,BFA540,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1957,BFR155,BFA540,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1958,BFR155,BFA541,Natalidae,Chilonatalus,Natalus macer,Chilonatalus macer,NA,NA,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1959,BFR155,BFA542,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1960,BFR155,BFA542,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1961,BFR155,BFA543,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1962,BFR155,BFA543,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus parnellii,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1963,BFR155,BFA543,Natalidae,Nyctiellus,Natalus lepidus,Nyctiellus lepidus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1964,BFR155,BFA543,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1965,BFR155,BFA543,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1966,BFR155,BFA543,Natalidae,Nyctiellus,Natalus lepidus,Nyctiellus lepidus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1967,BFR155,BFA544,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1968,BFR155,BFA545,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1969,BFR155,BFA545,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1970,BFR155,BFA545,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1971,BFR155,BFA545,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1972,BFR155,BFA546,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus parnellii,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1973,BFR155,BFA546,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1974,BFR155,BFA546,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1975,BFR155,BFA546,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1976,BFR155,BFA547,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1977,BFR155,BFA547,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1978,BFR155,BFA548,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1979,BFR155,BFA549,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1980,BFR155,BFA550,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1981,BFR155,BFA550,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1982,BFR155,BFA550,Mormoopidae,Pteronotus,Pteronotus macleayii,Pteronotus macleayii,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1983,BFR155,BFA550,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1984,BFR155,BFA550,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1985,BFR155,BFA551,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1986,BFR155,BFA552,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1987,BFR155,BFA552,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1988,BFR155,BFA552,Vespertilionidae,Eptesicus,Eptesicus fuscus,Eptesicus fuscus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1989,BFR155,BFA552,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1990,BFR155,BFA552,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1991,BFR155,BFA552,Natalidae,Nyctiellus,Natalus lepidus,Nyctiellus lepidus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1992,BFR155,BFA553,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1993,BFR155,BFA553,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1994,BFR155,BFA554,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1995,BFR155,BFA555,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1996,BFR155,BFA556,Natalidae,Nyctiellus,Natalus lepidus,Nyctiellus lepidus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1997,BFR155,BFA557,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1998,BFR155,BFA558,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP1999,BFR155,BFA559,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2000,BFR155,BFA560,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2001,BFR155,BFA560,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2002,BFR155,BFA561,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2003,BFR155,BFA561,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2004,BFR155,BFA562,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2005,BFR155,BFA563,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2006,BFR155,BFA564,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2007,BFR155,BFA565,Molossidae,Eumops,Eumops glaucinus,Eumops ferox,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2008,BFR155,BFA566,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2009,BFR155,BFA567,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2010,BFR155,BFA568,Phyllostomidae,Phyllonycteris,Phyllonycteris obtusa,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2011,BFR155,BFA568,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2012,BFR155,BFA569,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2013,BFR155,BFA570,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2014,BFR155,BFA571,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2015,BFR155,BFA572,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2016,BFR155,BFA572,Phyllostomidae,Phyllonycteris,Phyllonycteris obtusa,Phyllonycteris poeyi,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2017,BFR155,BFA572,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2018,BFR155,BFA572,Phyllostomidae,Phyllonycteris,Phyllonycteris obtusa,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2019,BFR155,BFA573,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2020,BFR155,BFA574,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2021,BFR155,BFA575,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2022,BFR155,BFA576,Phyllostomidae,Monophyllus,Monophyllus sp.,Monophyllus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2023,BFR155,BFA577,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2024,BFR155,BFA578,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2025,BFR155,BFA579,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2026,BFR155,BFA579,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2027,BFR155,BFA580,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2028,BFR155,BFA581,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2029,BFR155,BFA581,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2030,BFR155,BFA582,Phyllostomidae,Brachyphylla,Brachyphylla pumila,Brachyphylla nana,pumila,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2031,BFR155,BFA583,Phyllostomidae,Phyllonycteris,Phyllonycteris obtusa,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2032,BFR155,BFA583,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus pusillus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2033,BFR155,BFA584,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus pusillus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2034,BFR155,BFA584,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2035,BFR155,BFA585,Molossidae,Molossus,Molossus molossus,Molossus verrilli,NA,Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2036,BFR155,BFA586,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2037,BFR155,BFA587,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2038,BFR155,BFA588,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla bombifrons,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2039,BFR155,BFA589,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2040,BFR155,BFA590,Phyllostomidae,Artibeus,Artibeus sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2041,BFR155,BFA591,Phyllostomidae,Artibeus,Artibeus sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2042,BFR155,BFA591,Phyllostomidae,Carollia,Carollia sp.,Carollia sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2043,BFR155,BFA591,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2044,BFR155,BFA591,Phyllostomidae,Glossophaga,Glossophaga soricina,Glossophaga mutica,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2045,BFR155,BFA592,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2046,BFR155,BFA593,Phyllostomidae,Artibeus,Artibeus sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2047,BFR155,BFA594,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2048,BFR155,BFA595,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2049,BFR155,BFA596,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2050,BFR155,BFA597,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2051,BFR155,BFA598,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2052,BFR155,BFA599,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2053,BFR155,BFA600,Phyllostomidae,Artibeus,Artibeus sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2054,BFR155,BFA601,Phyllostomidae,Artibeus,Artibeus hirsutus,Artibeus hirsutus,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2055,BFR155,BFA602,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2056,BFR155,BFA603,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2057,BFR155,BFA604,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2058,BFR155,BFA605,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2059,BFR155,BFA606,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2060,BFR155,BFA607,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2061,BFR155,BFA608,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2062,BFR155,BFA609,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2063,BFR155,BFA609,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2064,BFR155,BFA610,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2065,BFR155,BFA611,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2066,BFR155,BFA612,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2067,BFR155,BFA612,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla bombifrons,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2068,BFR155,BFA612,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2069,BFR155,BFA613,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2070,BFR155,BFA614,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2071,BFR155,BFA615,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2072,BFR155,BFA616,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2073,BFR155,BFA617,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2074,BFR155,BFA618,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2075,BFR156,BFA619,Phyllostomidae,Vampyrodes,Vampyrops helleri,Platyrrhinus helleri,NA,Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2076,BFR157,BFA620,Thyropteridae,Thyroptera,Thyroptera tricolor,Thyroptera tricolor,NA,Foliage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2077,BFR158,BFA621,Phyllostomidae,Anoura,Anoura caudifer,Anoura caudifer,NA,Cave Human-madestructure Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2078,BFR158,BFA621,Phyllostomidae,Carollia,Carollia brevicauda,Carollia brevicauda,NA,Cave Foliage Human-madestructure Treecavity,86,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2079,BFR158,BFA621,Phyllostomidae,Enchisthenes,Enchisthenes hartii,Enchisthenes hartii,NA,Treecavity,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2080,BFR158,BFA621,Phyllostomidae,Glossophaga,Glossophaga soricina,Glossophaga soricina,NA,Cave Human-madestructure Treecavity,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2081,BFR158,BFA621,Vespertilionidae,Myotis,Myotis oxyotus,Myotis oxyotus,NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2082,BFR158,BFA621,Vespertilionidae,Myotis,Myotis nigricans,Myotis nigricans,NA,Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2083,BFR158,BFA621,Phyllostomidae,Sturnira,Sturnira ludovici,Sturnira ludovici,NA,Human-madestructure,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2084,BFR158,BFA621,Phyllostomidae,Dermanura,Dermanura bogotensis,Artibeus bogotensis,NA,NA,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2085,BFR158,BFA621,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2086,BFR158,BFA621,Phyllostomidae,Platyrrhinus,Platyrrhinus helleri,Platyrrhinus helleri,NA,Foliage Human-madestructure Tent Treecavity,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2087,BFR158,BFA621,Phyllostomidae,Platyrrhinus,Platyrrhinus vittatus,Platyrrhinus vittatus,NA,Cave Treecavity,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2088,BFR158,BFA621,Vespertilionidae,Histiotus,Histiotus montanus,Histiotus cadenai,NA,Cave,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2089,BFR158,BFA621,Vespertilionidae,Myotis,Myotis keaysi,Myotis keaysi,NA,Treecavity,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2090,BFR159,BFA622,Vespertilionidae,Myotis,Myotis velifer,Myotis velifer,NA,Human-madestructure Treecavity,426,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2091,BFR159,BFA622,Vespertilionidae,Corynorhinus,Plecotus townsendi,Corynorhinus townsendii,NA,Cave Human-madestructure,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2092,BFR160,BFA623,Phyllostomidae,Anoura,Anoura geoffroyi,Anoura geoffroyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2093,BFR160,BFA623,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2094,BFR160,BFA623,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2095,BFR160,BFA623,Phyllostomidae,Carollia,Carollia sowelli,Carollia sowelli,NA,Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2096,BFR160,BFA623,Phyllostomidae,Dermanura,Dermanura sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2097,BFR160,BFA623,Phyllostomidae,Dermanura,Dermanura tolteca,Artibeus toltecus,NA,Cave Foliage Human-madestructure Tent ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2098,BFR160,BFA623,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2099,BFR160,BFA623,Vespertilionidae,Eptesicus,Eptesicus fuscus,Eptesicus fuscus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2100,BFR160,BFA623,Phyllostomidae,Glossophaga,Glossophaga soricina,Glossophaga mutica,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2101,BFR160,BFA623,Vespertilionidae,Myotis,Myotis keaysi,Myotis pilosatibialis,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2102,BFR160,BFA623,Vespertilionidae,Myotis,Myotis velifer,Myotis velifer,NA,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2103,BFR160,BFA623,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus mesoamericanus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2104,BFR160,BFA623,Phyllostomidae,Sturnira,Sturnira parvidens,Sturnira parvidens,NA,Foliage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2105,BFR160,BFA623,Phyllostomidae,Sturnira,Sturnira hondurensis,Sturnira hondurensis,NA,Foliage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2106,BFR161,BFA624,Phyllostomidae,Lophostoma,Lophostoma silvicolum,Lophostoma silvicola,NA,Termitenest Treecavity,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2107,BFR161,BFA624,Phyllostomidae,Tonatia,Tonatia saurophila,Tonatia maresi,NA,Cave Termitenest Treecavity,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2108,BFR161,BFA624,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2109,BFR161,BFA624,Phyllostomidae,Phyllostomus,Phyllostomus elongatus,Phyllostomus elongatus,NA,Human-madestructure Treecavity,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2110,BFR161,BFA624,Phyllostomidae,Phyllostomus,Phyllostomus hastatus,Phyllostomus hastatus,NA,Cave Foliage Human-madestructure Termitenest Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2111,BFR161,BFA624,Phyllostomidae,Platyrrhinus,Platyrrhinus helleri,Platyrrhinus sp.,NA,Foliage Human-madestructure Tent Treecavity,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2112,BFR161,BFA624,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2113,BFR161,BFA624,Phyllostomidae,Mimon,Mimon crenulatum,Gardnerycteris crenulatum,NA,Foliage,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2114,BFR162,BFA625,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2115,BFR162,BFA626,Phyllostomidae,Brachyphylla,Brachyphylla cavernarum,Brachyphylla cavernarum,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2116,BFR162,BFA627,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2117,BFR162,BFA628,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2118,BFR163,BFA629,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2119,BFR163,BFA629,Phyllostomidae,Phyllostomus,Phyllostomus discolor,Phyllostomus discolor,NA,Cave Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2120,BFR163,BFA629,Phyllostomidae,Uroderma,Uroderma bilobatum,Uroderma convexum,NA,Human-madestructure Tent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2121,BFR163,BFA629,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2122,BFR163,BFA629,Phyllostomidae,Lonchophylla,Lonchophylla robusta,Lonchophylla robusta,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2123,BFR163,BFA630,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2124,BFR163,BFA630,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2125,BFR163,BFA631,Phyllostomidae,Anoura,Anoura geoffroyi,Anoura geoffroyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2126,BFR163,BFA631,Phyllostomidae,Dermanura,Artibeus cinereus,Artibeus cinereus,NA,Foliage Tent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2127,BFR163,BFA631,Phyllostomidae,Sturnira,Sturnira ludovici,Sturnira hondurensis,NA,Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2128,BFR163,BFA632,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2129,BFR163,BFA633,Phyllostomidae,Phyllostomus,Phyllostomus hastatus,Phyllostomus hastatus,NA,Cave Foliage Human-madestructure Termitenest Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2130,BFR164,BFA634,Vespertilionidae,Myotis,Myotis grisescens,Myotis grisescens,NA,NA,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2131,BFR165,BFA291,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,140,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2132,BFR165,BFA291,Phyllostomidae,Artibeus,Artibeus planirostris,Artibeus planirostris,NA,Foliage,71,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2133,BFR165,BFA291,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,72,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2134,BFR166,BFA635,Vespertilionidae,Myotis,Myotis occultus,Myotis occultus,NA,NA,52,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Including only fresh host
-BFBPOP2135,BFR167,BFA636,Phyllostomidae,Platalina,Platalina genovensium,Platalina genovensium,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2136,BFR168,BFA637,Mormoopidae,Mormoops,Mormoops megalophylla,Mormoops megalophylla,NA,Cave,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2137,BFR168,BFA637,Phyllostomidae,Leptonycteris,Leptonycteris nivalis,Leptonycteris nivalis,NA,Cave Human-madestructure,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2138,BFR168,BFA637,Vespertilionidae,Myotis,Myotis yumanensis,Myotis yumanensis,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2139,BFR168,BFA637,Vespertilionidae,Myotis,Myotis velifer,Myotis velifer,NA,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2140,BFR168,BFA637,Vespertilionidae,Myotis,Myotis thysanodes,Myotis thysanodes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2141,BFR168,BFA637,Vespertilionidae,Myotis,Myotis volans,Myotis volans,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2142,BFR168,BFA637,Vespertilionidae,Pipistrellus,Pipistrellus hesperus,Parastrellus hesperus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2143,BFR168,BFA637,Vespertilionidae,Eptesicus,Eptesicus fuscus,Eptesicus fuscus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2144,BFR168,BFA637,Vespertilionidae,Lasiurus,Lasiurus cinereus,Lasiurus cinereus,NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2145,BFR168,BFA637,Vespertilionidae,Euderma,Euderma maculatum,Euderma maculatum,NA,Cave Human-madestructure,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2146,BFR168,BFA637,Vespertilionidae,Corynorhinus,Plecotus townsendi,Corynorhinus townsendii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2147,BFR168,BFA637,Vespertilionidae,Antrozous,Antrozous pallidus,Antrozous pallidus,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2148,BFR169,BFA638,Vespertilionidae,Corynorhinus,Corynorhinus rafinesquii,Corynorhinus rafinesquii,pallescens,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2149,BFR169,BFA639,Vespertilionidae,Corynorhinus,Corynorhinus rafinesquii,Corynorhinus rafinesquii,pallescens,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2150,BFR169,BFA640,Vespertilionidae,Myotis,Myotis velifer incautus,Myotis velifer,incautus,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2151,BFR169,BFA641,Vespertilionidae,Myotis,Myotis velifer incautus,Myotis velifer,incautus,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2152,BFR169,BFA642,Vespertilionidae,Myotis,Myotis velifer incautus,Myotis velifer,incautus,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2153,BFR169,BFA642,Molossidae,Tadarida,Tadarida brasiliensis,Tadarida brasiliensis,mexicana,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2154,BFR169,BFA643,Molossidae,Tadarida,Tadarida brasiliensis,Tadarida brasiliensis,mexicana,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2155,BFR169,BFA644,Molossidae,Tadarida,Tadarida brasiliensis,Tadarida brasiliensis,mexicana,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2156,BFR170,BFA645,Noctilionidae,Noctilio,Noctilio albiventris,Noctilio albiventris,NA,Treecavity,61,NA,25,36,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2157,BFR171,BFA646,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2158,BFR171,BFA646,Phyllostomidae,Artibeus,Artibeus obscurus,Artibeus obscurus,NA,Foliage Human-madestructure,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2159,BFR171,BFA646,Phyllostomidae,Artibeus,Artibeus planirostris,Artibeus planirostris,NA,Foliage,125,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2160,BFR171,BFA646,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2161,BFR171,BFA646,Vespertilionidae,Myotis,Myotis lavali,Myotis lavali,NA,Cave,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2162,BFR171,BFA646,Vespertilionidae,Myotis,Myotis riparius,Myotis riparius,NA,Treecavity,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2163,BFR171,BFA646,Phyllostomidae,Phyllostomus,Phyllostomus discolor,Phyllostomus discolor,NA,Cave Treecavity,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2164,BFR171,BFA646,Phyllostomidae,Phyllostomus,Phyllostomus hastatus,Phyllostomus hastatus,NA,Cave Foliage Human-madestructure Termitenest Treecavity,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2165,BFR171,BFA646,Phyllostomidae,Platyrrhinus,Platyrrhinus lineatus,Platyrrhinus lineatus,NA,Foliage,84,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2166,BFR171,BFA646,Phyllostomidae,Sturnira,Sturnira lilium,Sturnira lilium,NA,Cave Human-madestructure Treecavity,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2167,BFR172,BFA085,Mormoopidae,Pteronotus,Pteronotus gymnonotus,Pteronotus gymnonotus,NA,Cave,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2168,BFR173,BFA647,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2169,BFR173,BFA647,Phyllostomidae,Sturnira,Sturnira parvidens,Sturnira parvidens,NA,Foliage,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2170,BFR173,BFA647,Mormoopidae,Pteronotus,Pteronotus mesoamericanus,Pteronotus mesoamericanus,NA,Cave,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2171,BFR173,BFA647,Mormoopidae,Pteronotus,Pteronotus gymnonotus,Pteronotus gymnonotus,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2172,BFR173,BFA647,Mormoopidae,Pteronotus,Pteronotus davyi,Pteronotus davyi,NA,Cave,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2173,BFR173,BFA647,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2174,BFR174,BFA648,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,80,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2175,BFR175,BFA649,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,215,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2176,BFR175,BFA649,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,176,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2177,BFR175,BFA649,Phyllostomidae,Sturnira,Sturnira lilium,Sturnira lilium,NA,Cave Human-madestructure Treecavity,221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2178,BFR176,BFA650,Phyllostomidae,Anoura,Anoura geoffroyi,Anoura geoffroyi,NA,Cave,679,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2179,BFR176,BFA651,Phyllostomidae,Anoura,Anoura geoffroyi,Anoura geoffroyi,NA,Cave,698,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2180,BFR177,BFA652,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,50,NA,36,14,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2181,BFR177,BFA652,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,65,NA,45,18,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2182,BFR177,BFA652,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,30,NA,9,21,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2183,BFR177,BFA652,Phyllostomidae,Sturnira,Sturnira lilium,Sturnira lilium,NA,Cave Human-madestructure Treecavity,39,NA,30,6,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2184,BFR177,BFA652,Vespertilionidae,Myotis,Myotis nigricans,Myotis nigricans,NA,Treecavity,27,NA,6,21,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2185,BFR177,BFA652,Vespertilionidae,Myotis,Myotis riparius,Myotis riparius,NA,Treecavity,11,NA,7,4,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2186,BFR178,BFA653,Phyllostomidae,Choeronycteris,Choeronycteris mexicana,Choeronycteris mexicana,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-BFBPOP2187,BFR179,BFA278,Phyllostomidae,Chiroderma,Chiroderma doriae,Chiroderma doriae,NA,Human-madestructure,19,NA,15,4,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1914,BFR146,BFA517,Vespertilionidae,Myotis,Myotis nigricans,Myotis nigricans,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1915,BFR147,BFA518,Vespertilionidae,Myotis,Myotis nigricans,Myotis nigricans,NA,Treecavity,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1916,BFR147,BFA518,Vespertilionidae,Histiotus,Histiotus sp.,Histiotus sp.,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1917,BFR147,BFA519,Phyllostomidae,Sturnira,Sturnira lilium,Sturnira lilium,NA,Cave Human-madestructure Treecavity,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1918,BFR148,BFA520,Phyllostomidae,Leptonycteris,Leptonycteris nivalis,Leptonycteris nivalis,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1919,BFR148,BFA520,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1920,BFR149,BFA521,Vespertilionidae,Myotis,Myotis austroriparius,Myotis austroriparius,NA,NA,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1921,BFR150,BFA522,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1922,BFR151,BFA523,Phyllostomidae,Glossophaga,Glossophaga soricina,Glossophaga soricina,NA,Cave Human-madestructure Treecavity,437,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1923,BFR151,BFA523,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,137,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1924,BFR151,BFA523,Phyllostomidae,Platyrrhinus,Platyrrhinus lineatus,Platyrrhinus lineatus,NA,Foliage,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1925,BFR151,BFA523,Phyllostomidae,Phyllostomus,Phyllostomus hastatus,Phyllostomus hastatus,NA,Cave Foliage Human-madestructure Termitenest Treecavity,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1926,BFR151,BFA523,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1927,BFR151,BFA523,Vespertilionidae,Myotis,Myotis sp.,Myotis sp.,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1928,BFR152,BFA524,Vespertilionidae,Antrozous,Antrozous pallidus,Antrozous pallidus,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1929,BFR152,BFA525,Vespertilionidae,Corynorhinus,Plecotus rafinesquii,Corynorhinus rafinesquii,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1930,BFR153,BFA526,Vespertilionidae,Corynorhinus,Corynirhinus(=Plecotus),Corynorhinus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1931,BFR153,BFA527,Phyllostomidae,Sturnira,Sturnira lilium parvidens,Sturnira parvidens,parvidens,Foliage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1932,BFR153,BFA528,Vespertilionidae,Myotis,Myotis fortidens,Myotis fortidens,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1933,BFR154,BFA529,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1934,BFR154,BFA530,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1935,BFR154,BFA531,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1936,BFR154,BFA532,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1937,BFR154,BFA533,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1938,BFR154,BFA534,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1939,BFR154,BFA535,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1940,BFR154,BFA536,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1941,BFR154,BFA537,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1942,BFR154,BFA537,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1943,BFR154,BFA538,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1944,BFR154,BFA539,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1945,BFR154,BFA539,Mormoopidae,Pteronotus,Pteronotus macleayii,Pteronotus macleayii,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1946,BFR154,BFA539,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1947,BFR154,BFA539,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1948,BFR154,BFA539,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1949,BFR154,BFA540,Natalidae,Chilonatalus,Natalus macer,Chilonatalus macer,NA,NA,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1950,BFR154,BFA541,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1951,BFR154,BFA541,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1952,BFR154,BFA542,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1953,BFR154,BFA542,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus parnellii,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1954,BFR154,BFA542,Natalidae,Nyctiellus,Natalus lepidus,Nyctiellus lepidus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1955,BFR154,BFA542,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1956,BFR154,BFA542,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1957,BFR154,BFA542,Natalidae,Nyctiellus,Natalus lepidus,Nyctiellus lepidus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1958,BFR154,BFA543,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1959,BFR154,BFA544,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1960,BFR154,BFA544,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1961,BFR154,BFA544,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1962,BFR154,BFA544,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1963,BFR154,BFA545,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus parnellii,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1964,BFR154,BFA545,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1965,BFR154,BFA545,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1966,BFR154,BFA545,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1967,BFR154,BFA546,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1968,BFR154,BFA546,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1969,BFR154,BFA547,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1970,BFR154,BFA548,Phyllostomidae,Brachyphylla,Brachyphylla nana,Brachyphylla nana,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1971,BFR154,BFA549,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1972,BFR154,BFA549,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1973,BFR154,BFA549,Mormoopidae,Pteronotus,Pteronotus macleayii,Pteronotus macleayii,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1974,BFR154,BFA549,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1975,BFR154,BFA549,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1976,BFR154,BFA550,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1977,BFR154,BFA551,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1978,BFR154,BFA551,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1979,BFR154,BFA551,Vespertilionidae,Eptesicus,Eptesicus fuscus,Eptesicus fuscus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1980,BFR154,BFA551,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1981,BFR154,BFA551,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1982,BFR154,BFA551,Natalidae,Nyctiellus,Natalus lepidus,Nyctiellus lepidus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1983,BFR154,BFA552,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1984,BFR154,BFA552,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla sezekorni,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1985,BFR154,BFA553,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1986,BFR154,BFA554,Phyllostomidae,Phyllonycteris,Phyllonycteris poeyi,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1987,BFR154,BFA555,Natalidae,Nyctiellus,Natalus lepidus,Nyctiellus lepidus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1988,BFR154,BFA556,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1989,BFR154,BFA557,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1990,BFR154,BFA558,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1991,BFR154,BFA559,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1992,BFR154,BFA559,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1993,BFR154,BFA560,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1994,BFR154,BFA560,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1995,BFR154,BFA561,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1996,BFR154,BFA562,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1997,BFR154,BFA563,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1998,BFR154,BFA564,Molossidae,Eumops,Eumops glaucinus,Eumops ferox,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP1999,BFR154,BFA565,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2000,BFR154,BFA566,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2001,BFR154,BFA567,Phyllostomidae,Phyllonycteris,Phyllonycteris obtusa,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2002,BFR154,BFA567,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2003,BFR154,BFA568,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2004,BFR154,BFA569,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2005,BFR154,BFA570,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2006,BFR154,BFA571,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2007,BFR154,BFA571,Phyllostomidae,Phyllonycteris,Phyllonycteris obtusa,Phyllonycteris poeyi,NA,Cave,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2008,BFR154,BFA571,Mormoopidae,Pteronotus,Pteronotus fuliginosus,Pteronotus quadridens,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2009,BFR154,BFA571,Phyllostomidae,Phyllonycteris,Phyllonycteris obtusa,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2010,BFR154,BFA572,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2011,BFR154,BFA573,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2012,BFR154,BFA574,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2013,BFR154,BFA575,Phyllostomidae,Monophyllus,Monophyllus sp.,Monophyllus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2014,BFR154,BFA576,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2015,BFR154,BFA577,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2016,BFR154,BFA578,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2017,BFR154,BFA578,Phyllostomidae,Macrotus,Macrotus waterhousii,Macrotus waterhousii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2018,BFR154,BFA579,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2019,BFR154,BFA580,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2020,BFR154,BFA580,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2021,BFR154,BFA581,Phyllostomidae,Brachyphylla,Brachyphylla pumila,Brachyphylla nana,pumila,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2022,BFR154,BFA582,Phyllostomidae,Phyllonycteris,Phyllonycteris obtusa,Phyllonycteris poeyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2023,BFR154,BFA582,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus pusillus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2024,BFR154,BFA583,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus pusillus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2025,BFR154,BFA583,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2026,BFR154,BFA584,Molossidae,Molossus,Molossus molossus,Molossus verrilli,NA,Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2027,BFR154,BFA585,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2028,BFR154,BFA586,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2029,BFR154,BFA587,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla bombifrons,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2030,BFR154,BFA588,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2031,BFR154,BFA589,Phyllostomidae,Artibeus,Artibeus sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2032,BFR154,BFA590,Phyllostomidae,Artibeus,Artibeus sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2033,BFR154,BFA590,Phyllostomidae,Carollia,Carollia sp.,Carollia sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2034,BFR154,BFA590,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2035,BFR154,BFA590,Phyllostomidae,Glossophaga,Glossophaga soricina,Glossophaga mutica,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2036,BFR154,BFA591,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2037,BFR154,BFA592,Phyllostomidae,Artibeus,Artibeus sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2038,BFR154,BFA593,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2039,BFR154,BFA594,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2040,BFR154,BFA595,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2041,BFR154,BFA596,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2042,BFR154,BFA597,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2043,BFR154,BFA598,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2044,BFR154,BFA599,Phyllostomidae,Artibeus,Artibeus sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2045,BFR154,BFA600,Phyllostomidae,Artibeus,Artibeus hirsutus,Artibeus hirsutus,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2046,BFR154,BFA601,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2047,BFR154,BFA602,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2048,BFR154,BFA603,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2049,BFR154,BFA604,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2050,BFR154,BFA605,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2051,BFR154,BFA606,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2052,BFR154,BFA607,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2053,BFR154,BFA608,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2054,BFR154,BFA608,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2055,BFR154,BFA609,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2056,BFR154,BFA610,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2057,BFR154,BFA611,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2058,BFR154,BFA611,Phyllostomidae,Erophylla,Erophylla sezekorni,Erophylla bombifrons,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2059,BFR154,BFA611,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2060,BFR154,BFA612,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2061,BFR154,BFA613,Phyllostomidae,Monophyllus,Monophyllus redmani,Monophyllus redmani,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2062,BFR154,BFA614,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2063,BFR154,BFA615,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2064,BFR154,BFA616,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2065,BFR154,BFA617,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2066,BFR155,BFA618,Phyllostomidae,Vampyrodes,Vampyrops helleri,Platyrrhinus helleri,NA,Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2067,BFR156,BFA619,Thyropteridae,Thyroptera,Thyroptera tricolor,Thyroptera tricolor,NA,Foliage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2068,BFR157,BFA620,Phyllostomidae,Anoura,Anoura caudifer,Anoura caudifer,NA,Cave Human-madestructure Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2069,BFR157,BFA620,Phyllostomidae,Carollia,Carollia brevicauda,Carollia brevicauda,NA,Cave Foliage Human-madestructure Treecavity,86,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2070,BFR157,BFA620,Phyllostomidae,Enchisthenes,Enchisthenes hartii,Enchisthenes hartii,NA,Treecavity,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2071,BFR157,BFA620,Phyllostomidae,Glossophaga,Glossophaga soricina,Glossophaga soricina,NA,Cave Human-madestructure Treecavity,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2072,BFR157,BFA620,Vespertilionidae,Myotis,Myotis oxyotus,Myotis oxyotus,NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2073,BFR157,BFA620,Vespertilionidae,Myotis,Myotis nigricans,Myotis nigricans,NA,Treecavity,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2074,BFR157,BFA620,Phyllostomidae,Sturnira,Sturnira ludovici,Sturnira ludovici,NA,Human-madestructure,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2075,BFR157,BFA620,Phyllostomidae,Dermanura,Dermanura bogotensis,Artibeus bogotensis,NA,NA,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2076,BFR157,BFA620,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2077,BFR157,BFA620,Phyllostomidae,Platyrrhinus,Platyrrhinus helleri,Platyrrhinus helleri,NA,Foliage Human-madestructure Tent Treecavity,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2078,BFR157,BFA620,Phyllostomidae,Platyrrhinus,Platyrrhinus vittatus,Platyrrhinus vittatus,NA,Cave Treecavity,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2079,BFR157,BFA620,Vespertilionidae,Histiotus,Histiotus montanus,Histiotus cadenai,NA,Cave,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2080,BFR157,BFA620,Vespertilionidae,Myotis,Myotis keaysi,Myotis keaysi,NA,Treecavity,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2081,BFR158,BFA621,Vespertilionidae,Myotis,Myotis velifer,Myotis velifer,NA,Human-madestructure Treecavity,426,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2082,BFR158,BFA621,Vespertilionidae,Corynorhinus,Plecotus townsendi,Corynorhinus townsendii,NA,Cave Human-madestructure,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2083,BFR159,BFA622,Phyllostomidae,Anoura,Anoura geoffroyi,Anoura geoffroyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2084,BFR159,BFA622,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2085,BFR159,BFA622,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2086,BFR159,BFA622,Phyllostomidae,Carollia,Carollia sowelli,Carollia sowelli,NA,Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2087,BFR159,BFA622,Phyllostomidae,Dermanura,Dermanura sp.,Artibeus sp.,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2088,BFR159,BFA622,Phyllostomidae,Dermanura,Dermanura tolteca,Artibeus toltecus,NA,Cave Foliage Human-madestructure Tent ,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2089,BFR159,BFA622,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2090,BFR159,BFA622,Vespertilionidae,Eptesicus,Eptesicus fuscus,Eptesicus fuscus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2091,BFR159,BFA622,Phyllostomidae,Glossophaga,Glossophaga soricina,Glossophaga mutica,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2092,BFR159,BFA622,Vespertilionidae,Myotis,Myotis keaysi,Myotis pilosatibialis,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2093,BFR159,BFA622,Vespertilionidae,Myotis,Myotis velifer,Myotis velifer,NA,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2094,BFR159,BFA622,Mormoopidae,Pteronotus,Pteronotus parnellii,Pteronotus mesoamericanus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2095,BFR159,BFA622,Phyllostomidae,Sturnira,Sturnira parvidens,Sturnira parvidens,NA,Foliage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2096,BFR159,BFA622,Phyllostomidae,Sturnira,Sturnira hondurensis,Sturnira hondurensis,NA,Foliage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2097,BFR160,BFA623,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2098,BFR160,BFA624,Phyllostomidae,Brachyphylla,Brachyphylla cavernarum,Brachyphylla cavernarum,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2099,BFR160,BFA625,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2100,BFR160,BFA626,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2101,BFR161,BFA627,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2102,BFR161,BFA627,Phyllostomidae,Phyllostomus,Phyllostomus discolor,Phyllostomus discolor,NA,Cave Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2103,BFR161,BFA627,Phyllostomidae,Uroderma,Uroderma bilobatum,Uroderma convexum,NA,Human-madestructure Tent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2104,BFR161,BFA627,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2105,BFR161,BFA627,Phyllostomidae,Lonchophylla,Lonchophylla robusta,Lonchophylla robusta,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2106,BFR161,BFA628,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2107,BFR161,BFA628,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2108,BFR161,BFA629,Phyllostomidae,Anoura,Anoura geoffroyi,Anoura geoffroyi,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2109,BFR161,BFA629,Phyllostomidae,Dermanura,Artibeus cinereus,Artibeus cinereus,NA,Foliage Tent,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2110,BFR161,BFA629,Phyllostomidae,Sturnira,Sturnira ludovici,Sturnira hondurensis,NA,Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2111,BFR161,BFA630,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2112,BFR161,BFA631,Phyllostomidae,Phyllostomus,Phyllostomus hastatus,Phyllostomus hastatus,NA,Cave Foliage Human-madestructure Termitenest Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2113,BFR162,BFA632,Vespertilionidae,Myotis,Myotis grisescens,Myotis grisescens,NA,NA,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2114,BFR163,BFA291,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,140,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2115,BFR163,BFA291,Phyllostomidae,Artibeus,Artibeus planirostris,Artibeus planirostris,NA,Foliage,71,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2116,BFR163,BFA291,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,72,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2117,BFR164,BFA633,Vespertilionidae,Myotis,Myotis occultus,Myotis occultus,NA,NA,52,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Including only fresh host
+BFBPOP2118,BFR165,BFA634,Phyllostomidae,Platalina,Platalina genovensium,Platalina genovensium,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2119,BFR166,BFA635,Mormoopidae,Mormoops,Mormoops megalophylla,Mormoops megalophylla,NA,Cave,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2120,BFR166,BFA635,Phyllostomidae,Leptonycteris,Leptonycteris nivalis,Leptonycteris nivalis,NA,Cave Human-madestructure,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2121,BFR166,BFA635,Vespertilionidae,Myotis,Myotis yumanensis,Myotis yumanensis,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2122,BFR166,BFA635,Vespertilionidae,Myotis,Myotis velifer,Myotis velifer,NA,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2123,BFR166,BFA635,Vespertilionidae,Myotis,Myotis thysanodes,Myotis thysanodes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2124,BFR166,BFA635,Vespertilionidae,Myotis,Myotis volans,Myotis volans,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2125,BFR166,BFA635,Vespertilionidae,Pipistrellus,Pipistrellus hesperus,Parastrellus hesperus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2126,BFR166,BFA635,Vespertilionidae,Eptesicus,Eptesicus fuscus,Eptesicus fuscus,NA,Cave,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2127,BFR166,BFA635,Vespertilionidae,Lasiurus,Lasiurus cinereus,Lasiurus cinereus,NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2128,BFR166,BFA635,Vespertilionidae,Euderma,Euderma maculatum,Euderma maculatum,NA,Cave Human-madestructure,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2129,BFR166,BFA635,Vespertilionidae,Corynorhinus,Plecotus townsendi,Corynorhinus townsendii,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2130,BFR166,BFA635,Vespertilionidae,Antrozous,Antrozous pallidus,Antrozous pallidus,NA,Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2131,BFR167,BFA636,Vespertilionidae,Corynorhinus,Corynorhinus rafinesquii,Corynorhinus rafinesquii,pallescens,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2132,BFR167,BFA637,Vespertilionidae,Corynorhinus,Corynorhinus rafinesquii,Corynorhinus rafinesquii,pallescens,Cave Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2133,BFR167,BFA638,Vespertilionidae,Myotis,Myotis velifer incautus,Myotis velifer,incautus,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2134,BFR167,BFA639,Vespertilionidae,Myotis,Myotis velifer incautus,Myotis velifer,incautus,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2135,BFR167,BFA640,Vespertilionidae,Myotis,Myotis velifer incautus,Myotis velifer,incautus,Human-madestructure Treecavity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2136,BFR167,BFA640,Molossidae,Tadarida,Tadarida brasiliensis,Tadarida brasiliensis,mexicana,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2137,BFR167,BFA641,Molossidae,Tadarida,Tadarida brasiliensis,Tadarida brasiliensis,mexicana,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2138,BFR167,BFA642,Molossidae,Tadarida,Tadarida brasiliensis,Tadarida brasiliensis,mexicana,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2139,BFR168,BFA643,Noctilionidae,Noctilio,Noctilio albiventris,Noctilio albiventris,NA,Treecavity,61,NA,25,36,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2140,BFR169,BFA644,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2141,BFR169,BFA644,Phyllostomidae,Artibeus,Artibeus obscurus,Artibeus obscurus,NA,Foliage Human-madestructure,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2142,BFR169,BFA644,Phyllostomidae,Artibeus,Artibeus planirostris,Artibeus planirostris,NA,Foliage,125,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2143,BFR169,BFA644,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2144,BFR169,BFA644,Vespertilionidae,Myotis,Myotis lavali,Myotis lavali,NA,Cave,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2145,BFR169,BFA644,Vespertilionidae,Myotis,Myotis riparius,Myotis riparius,NA,Treecavity,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2146,BFR169,BFA644,Phyllostomidae,Phyllostomus,Phyllostomus discolor,Phyllostomus discolor,NA,Cave Treecavity,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2147,BFR169,BFA644,Phyllostomidae,Phyllostomus,Phyllostomus hastatus,Phyllostomus hastatus,NA,Cave Foliage Human-madestructure Termitenest Treecavity,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2148,BFR169,BFA644,Phyllostomidae,Platyrrhinus,Platyrrhinus lineatus,Platyrrhinus lineatus,NA,Foliage,84,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2149,BFR169,BFA644,Phyllostomidae,Sturnira,Sturnira lilium,Sturnira lilium,NA,Cave Human-madestructure Treecavity,32,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2150,BFR170,BFA085,Mormoopidae,Pteronotus,Pteronotus gymnonotus,Pteronotus gymnonotus,NA,Cave,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2151,BFR171,BFA645,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2152,BFR171,BFA645,Phyllostomidae,Sturnira,Sturnira parvidens,Sturnira parvidens,NA,Foliage,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2153,BFR171,BFA645,Mormoopidae,Pteronotus,Pteronotus mesoamericanus,Pteronotus mesoamericanus,NA,Cave,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2154,BFR171,BFA645,Mormoopidae,Pteronotus,Pteronotus gymnonotus,Pteronotus gymnonotus,NA,Cave,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2155,BFR171,BFA645,Mormoopidae,Pteronotus,Pteronotus davyi,Pteronotus davyi,NA,Cave,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2156,BFR171,BFA645,Phyllostomidae,Artibeus,Artibeus jamaicensis,Artibeus jamaicensis,NA,Cave Foliage Human-madestructure Tent Treecavity,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2157,BFR172,BFA646,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,80,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2158,BFR173,BFA647,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,215,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2159,BFR173,BFA647,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,176,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2160,BFR173,BFA647,Phyllostomidae,Sturnira,Sturnira lilium,Sturnira lilium,NA,Cave Human-madestructure Treecavity,221,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2161,BFR174,BFA648,Phyllostomidae,Anoura,Anoura geoffroyi,Anoura geoffroyi,NA,Cave,679,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2162,BFR174,BFA649,Phyllostomidae,Anoura,Anoura geoffroyi,Anoura geoffroyi,NA,Cave,698,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2163,BFR175,BFA650,Phyllostomidae,Artibeus,Artibeus lituratus,Artibeus lituratus,NA,Cave Foliage Human-madestructure Treecavity,50,NA,36,14,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2164,BFR175,BFA650,Phyllostomidae,Carollia,Carollia perspicillata,Carollia perspicillata,NA,Cave Foliage Human-madestructure Treecavity,65,NA,45,18,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2165,BFR175,BFA650,Phyllostomidae,Desmodus,Desmodus rotundus,Desmodus rotundus,NA,Cave Human-madestructure Treecavity,30,NA,9,21,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2166,BFR175,BFA650,Phyllostomidae,Sturnira,Sturnira lilium,Sturnira lilium,NA,Cave Human-madestructure Treecavity,39,NA,30,6,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2167,BFR175,BFA650,Vespertilionidae,Myotis,Myotis nigricans,Myotis nigricans,NA,Treecavity,27,NA,6,21,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2168,BFR175,BFA650,Vespertilionidae,Myotis,Myotis riparius,Myotis riparius,NA,Treecavity,11,NA,7,4,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2169,BFR176,BFA651,Phyllostomidae,Choeronycteris,Choeronycteris mexicana,Choeronycteris mexicana,NA,Cave Human-madestructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BFBPOP2170,BFR177,BFA278,Phyllostomidae,Chiroderma,Chiroderma doriae,Chiroderma doriae,NA,Human-madestructure,19,NA,15,4,NA,NA,NA,NA,NA,NA,NA,NA

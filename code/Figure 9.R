@@ -72,7 +72,7 @@ png("figures/Figure_9.png", res = 300,
 
 layout(matrix(c(2,1)),heights=c(10,90))
 layout.show(2)
-par(las=1, mar=c(4, 4, 1, 1))
+par(las=1, mar=c(4, 4, 1, 1), mgp=c(3,0.7,0))
 
 plot(x=NULL,
      y=NULL, 
@@ -80,8 +80,8 @@ plot(x=NULL,
      ylim=c(0,max(round(chao.curve$chao[,2], digits=0))+19),
      xlab="Number of sampling sites", 
      ylab="Number of unique interactions",
-     yaxp=c(0,max(round(chao.curve$chao[,2], digits=0))+19,5))
-
+     yaxp=c(0,max(round(chao.curve$chao[,2], digits=0))+19,6))
+?par
 cilim<-seq(1,length(obs.curve$S[,1]), length.out=11)
 
 polygon(x=c(rev(obs.curve$S[,1][cilim]),obs.curve$S[,1][cilim]),

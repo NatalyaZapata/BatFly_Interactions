@@ -57,7 +57,7 @@ data1<-data1[
 fam<-unique(cbind(data2$BatFamily, data2$CurrentBatSpecies))
 flyfam<-unique(cbind(data3$FlyFamily, data3$CurrentFlySpecies))
 
-which(table(flyfam[,2])>1)
+which(table(flyfam[,2])>1)#check
 
 family<-NULL
 for (i in 1:length(data1$CurrentBatSpecies)){#passing families to bat species in data2 
@@ -91,8 +91,8 @@ plotdata<-unique(cbind(data1$CurrentFlySpecies,family,flyfamily))
 #the number of times a family name is repeated indicates parasite richness
 plotdata<-as.matrix(table(plotdata[,2],plotdata[,3]))
 plotdata<-plotdata[order(rowSums(plotdata)),]
-plotdata<-cbind(Nycteribiidae=(plotdata[,1]+plotdata[,2]), 
-                Streblidae= plotdata[,3]) 
+plotdata<-cbind(Nycteribiidae=(plotdata[,1]), 
+                Streblidae= plotdata[,2]) 
 class(plotdata)
 str(plotdata)
 head(plotdata)

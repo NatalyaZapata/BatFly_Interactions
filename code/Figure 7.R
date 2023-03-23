@@ -147,4 +147,4 @@ barplot(sort(colSums(flyroost[2:9])),
         xlim=c(0,250))
 
 dev.off()
-layout(matrix(c(1,1), ncol=1))
+
