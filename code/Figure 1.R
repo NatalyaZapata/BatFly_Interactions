@@ -63,7 +63,7 @@ if(!require(rgeos)){
 
 
 ## Import the data
-sites <- read.csv("data/BatFly_Site.csv")
+sites <- read.csv("data/BatFly_Sites.csv")
 scope <- read.csv("data/BatFly_Sampling.csv")
 points <- (cbind.data.frame(sites$Latitude, sites$Longitude, 
                         scope$BatEcologicalScale, scope$FlyEcologicalScale))
