@@ -77,10 +77,10 @@ par(las=1, mar=c(4, 4, 1, 1), mgp=c(3,0.5,0))
 plot(x=NULL,
      y=NULL, 
      xlim=c(0,max(obs.curve$S[,1])), 
-     ylim=c(0,max(round(chao.curve$chao[,2], digits=0))+6),
+     ylim=c(0,max(round(chao.curve$chao[,2], digits=0))+9),
      xlab="Number of sampling sites", 
      ylab="Number of unique interactions",
-     yaxp=c(0,max(round(chao.curve$chao[,2], digits=0))+6,6))
+     yaxp=c(0,max(round(chao.curve$chao[,2], digits=0))+9,5))
 
 cilim<-seq(1,length(obs.curve$S[,1]), length.out=11)
 
