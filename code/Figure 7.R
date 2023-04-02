@@ -11,6 +11,8 @@
 ################################################################################
 
 
+
+
 ######################### 1. SETTINGS ##########################################
 
 
@@ -105,9 +107,9 @@ for (i in 1:nrow(unq.inter)){
   if (sum(droost[d,-1]=="Tent")>0){
     rero$tent[i]<-1  
   }
-if (sum(droost[d,-1]=="Rockycliff")>0){
-  rero$rockycliff[i]<-1  
-}
+  if (sum(droost[d,-1]=="Rockycliff")>0){
+    rero$rockycliff[i]<-1  
+  }
   if (sum(droost[d,-1]=="Rivercliff")>0){
     rero$rivercliff[i]<-1  
   }
@@ -147,4 +149,3 @@ barplot(sort(colSums(flyroost[2:9])),
         xlim=c(0,250))
 
 dev.off()
-
