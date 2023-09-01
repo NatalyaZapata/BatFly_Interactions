@@ -62,7 +62,56 @@ if(!require(rgeos)){
 }
 
 
-## Import the data
+if(!require(rgeos)){
+  install.packages("grid")
+  library(rgeos)
+}
+
+if(!require(rgeos)){
+  install.packages("ggplotify")
+  library(rgeos)
+}
+
+
+## Import the data figure A
+data<-read.csv("data/BatFly_References.csv", sep=",")
+
+
+## Check the data
+class(data)
+str(data)
+head(data)
+tail(data)
+
+
+## Find the missing years
+years<-as.data.frame(table(data$Year))
+
+dy<-rep(NA, length(seq(1904,2022, by=1)))
+for (i in 1:length(seq(1904,2022, by=1))){
+  dy[i]<-sum(seq(1904,2022, by=1)[i]==years$Var1)
+}
+
+miss.year<-cbind(seq(1904,2022, by=1), dy)[which(cbind(seq(1904,2022, by=1), dy)[,2]==0),1]
+miss.year<-data.frame(Var1=sapply(miss.year, as.factor), Freq=rep(0, length(miss.year)))
+all.years<-rbind(years, miss.year)
+
+
+yeardata<-all.years[order((as.numeric(as.character(all.years$Var1)))),]
+
+class(yeardata)
+str(yeardata)
+head(yeardata)
+tail(yeardata)
+nrow(yeardata)
+
+######################### 2. PLOTTING FIGURE A ######################################
+
+p1 <- as.grob(~barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,17),
+                       xlab="Year of publication", ylab="Number of studies")) 
+p1
+
+## Import the data Figure B
 sites <- read.csv("data/BatFly_Sites.csv")
 scope <- read.csv("data/BatFly_Sampling.csv")
 points <- (cbind.data.frame(sites$Latitude, sites$Longitude, 
@@ -85,7 +134,10 @@ tail(points)
 ## Load the world map from the mapdata package
 world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
 
+layout(matrix(c(1,2), ncol=2))
 sf_use_s2(FALSE)
+
+
 
 ## Plot the map
 map <- ggplot(data = world) +
@@ -135,4 +187,7 @@ map <- ggplot(data = world) +
 png("figures/Figure_1.png", res = 300,
     width = 4000, height = 2200, unit = "px")
 map
+
+cowplot::plot_grid(p1, map, labels = c("A", "B"))
+grid.arrange(p1 , map , ncol=2)
 dev.off()
