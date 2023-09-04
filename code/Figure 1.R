@@ -62,14 +62,14 @@ if(!require(rgeos)){
 }
 
 
-if(!require(rgeos)){
+if(!require(grid)){
   install.packages("grid")
-  library(rgeos)
+  library(grid)
 }
 
-if(!require(rgeos)){
+if(!require(ggplotify)){
   install.packages("ggplotify")
-  library(rgeos)
+  library(ggplotify)
 }
 
 
@@ -99,6 +99,7 @@ all.years<-rbind(years, miss.year)
 
 yeardata<-all.years[order((as.numeric(as.character(all.years$Var1)))),]
 
+
 class(yeardata)
 str(yeardata)
 head(yeardata)
@@ -107,9 +108,17 @@ nrow(yeardata)
 
 ######################### 2. PLOTTING FIGURE A ######################################
 
-p1 <- as.grob(~barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,17),
-                       xlab="Year of publication", ylab="Number of studies")) 
-p1
+
+
+bar <- ~{
+  par(
+    mar = c(3, 10.5, 2.5, 7),
+    mgp = c(2, 0.5, 0), las=1
+  )
+  barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,20),
+          xlab="Year of publication", ylab="Number of studies", font.lab=2, cex.names = 0.9, cex.axis = 0.9, tcl = -0.3 )
+}
+
 
 ## Import the data Figure B
 sites <- read.csv("data/BatFly_Sites.csv")
@@ -134,7 +143,7 @@ tail(points)
 ## Load the world map from the mapdata package
 world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
 
-layout(matrix(c(1,2), ncol=2))
+
 sf_use_s2(FALSE)
 
 
@@ -182,12 +191,25 @@ map <- ggplot(data = world) +
                                     style = ggspatial::north_arrow_fancy_orienteering(
                                       fill = c("white","grey30")))
   
-
-## Export the map as a PNG image
-png("figures/Figure_1.png", res = 300,
-    width = 4000, height = 2200, unit = "px")
 map
 
-cowplot::plot_grid(p1, map, labels = c("A", "B"))
-grid.arrange(p1 , map , ncol=2)
+
+
+# making rows and columns of different widths/heights
+## Export the figure as a PNG image
+
+png("figures/Figure_1.png", res = 300,
+    width = 3000, height = 2800, unit = "px")
+plot_grid(bar, 
+          map, nrow=2,labels = c('A', 'B'), hjust = -9, label_size = 20,
+          align = 'hv', axis = "b", scale = c(.9, 1),
+          rel_heights = c(1,2),
+          rel_widths = c(1)
+)
 dev.off()
+
+library("grid")
+library("ggplotify")
+library(cowplot)
+library("vcd")
+
