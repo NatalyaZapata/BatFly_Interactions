@@ -116,7 +116,9 @@ bar <- ~{
     mgp = c(2, 0.5, 0), las=1
   )
   barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,20),
-          xlab="Year of publication", ylab="Number of studies", font.lab=2, cex.names = 0.9, cex.axis = 0.9, tcl = -0.3 )
+          xlab="Year of publication", ylab="Number of studies", font.lab=2, cex.names = 0.7, cex.axis = 0.9, tcl = -0.3)
+  minor.tick(nx = 2, ny = 1)
+  
 }
 
 
@@ -208,6 +210,7 @@ plot_grid(bar,
 )
 dev.off()
 
+??minor.tick
 library("grid")
 library("ggplotify")
 library(cowplot)
