@@ -71,7 +71,10 @@ if(!require(ggplotify)){
   install.packages("ggplotify")
   library(ggplotify)
 }
-
+if(!require(cowplot)){
+  install.packages("cowplot")
+  library(cowplot)
+}
 
 ## Import the data figure A
 data<-read.csv("data/BatFly_References.csv", sep=",")
@@ -108,7 +111,12 @@ nrow(yeardata)
 
 ######################### 2. PLOTTING FIGURE A ######################################
 
+n<- barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,20),
+            xlab="Year of publication", ylab="Number of studies", font.lab=2, cex.names = 0.7, cex.axis = 0.9, tcl = -0.3, xaxt="n")
+lab<- c(seq(1904, 2022, by=8),2022)
 
+n<-as.vector(n)
+n<-n[c(seq(1,119, by=8),119)]
 
 bar <- ~{
   par(
@@ -116,8 +124,9 @@ bar <- ~{
     mgp = c(2, 0.5, 0), las=1
   )
   barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,20),
-          xlab="Year of publication", ylab="Number of studies", font.lab=2, cex.names = 0.7, cex.axis = 0.9, tcl = -0.3)
-  minor.tick(nx = 2, ny = 1)
+          xlab="Year of publication", ylab="Number of studies", font.lab=2, cex.names = 0.7, cex.axis = 0.6, tcl = -0.3, xaxt="n")
+  axis(1, at =n,labels=lab, cex.axis=0.6)
+  
   
 }
 
@@ -138,7 +147,7 @@ head(points)
 tail(points)
 
 
-######################### 2. PLOTTING ######################################
+######################### 2. PLOTTING FIGURE B ######################################
 
 
 
@@ -173,7 +182,7 @@ map <- ggplot(data = world) +
   theme(panel.grid = element_blank(),
         legend.text = element_text(size = 11),
         legend.title = element_text(face = "bold", size = 10),
-        axis.text = element_text(size = 11, colour = "black"),
+        axis.text = element_text(size = 8, colour = "black"),
         axis.title.x = element_text(size = 12, colour = "black", vjust = -2,
                                     face = "bold"),
         axis.title.y = element_text(size = 12, colour = "black", vjust = 3,
@@ -210,6 +219,9 @@ plot_grid(bar,
 )
 dev.off()
 
+
+
+??plot_grid
 ??minor.tick
 library("grid")
 library("ggplotify")
