@@ -2,7 +2,7 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of Neotropical bat-fly interactions.
-#### Figure 4. Relative frequency of interactions of the 15 most frequently 
+#### Figure 2. Relative frequency of interactions of the 15 most frequently 
 ####           recorded bat (A) and fly species (B). 
 
 #### See README for further info:
@@ -18,7 +18,7 @@ rm(list= ls())
 
 
 ## Import the data
-data<-read.csv("data/BatFly_Species.csv", sep=",")
+data<-read.csv("data/BatFly_Species_Interactions.csv", sep=",")
 
 
 ## Check the data
@@ -31,7 +31,7 @@ tail(data)
 ######################### 2. PLOTTING ######################################
 
 
-## Plot A
+## Plot A Relative frequency of interactions of the 15 most frequently recorded bat species
 
 png("figures/Figure_4.png", res = 300,
     width = 4000, height = 2000, unit = "px")
@@ -46,7 +46,7 @@ barplot(100*plotdata2[(length(plotdata2)-14):length(plotdata2)]/length(data$Curr
         col="#7a5195", font.axis=3, main="A")
 axis(1, seq(0,10,by=2),)
 
-## Plot B
+## Plot B Relative frequency of interactions of the 15 most frequently recorded fly species
 
 par(las=1, mar=c(4, 12, 1, 2))
 
