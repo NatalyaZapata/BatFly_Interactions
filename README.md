@@ -31,7 +31,7 @@ The data and code provided here aim at making reproducible the graphical and num
 ## Instructions
 
 1.  Open the `BatFly_Interactions.Rproj` project file.
-2.  In the folder `code`, open the scripts `Figure 1.R`, `Figure 2.R`,`Figure 3.R`,`Figure 4.R`,`Figure 5.R`, `Figure 6.R`, `Figure 7.R` or `Figure 9.R` to recreate the figures published in our data paper.
+2.  In the folder `code`, open the scripts `Figure 1.R`, `Figure 2.R`,`Figure 3.R` to recreate the figures published in our data paper.
 
 ## Feedback
 
