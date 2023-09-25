@@ -2,8 +2,10 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of Neotropical bat-fly interactions.
-#### Figure 3. Bat-Fly Neotropical network. Lines depict interactions between bats 
-####and bat flies, most species are part of a giant component.
+#### Figure 3. Overview of bat-fly interactions included in BatFly. 
+#### (A) Relative richness of fly families (Nycteribiidae and Streblidae) per bat family. 
+#### (B) Bat-fly network built for the entire Neotropical region with all records included in 
+#### our data set, even uncommon associations.  
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme
@@ -37,8 +39,8 @@ if(!require(bipartite)){
   library(bipartite)
 }
 
-## Import the data FIGURE 3A
-data1<-read.csv("data/BatFly_Species.csv", sep=",")
+## Import the data FIGURE 3 (A) Relative richness of fly families (Nycteribiidae and Streblidae) per bat family.
+data1<-read.csv("data/BatFly_Species_Interactions.csv", sep=",")
 data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
 data3<-read.csv("data/BatFly_Fly_Pop.csv", sep=",")
 
@@ -113,9 +115,10 @@ head(plotdata)
 tail(plotdata)
 
 
-## Load the interaction file FIGURE 3B
+## Load the interaction file FIGURE 3 (B) Bat-fly network built for the entire Neotropical region with all records included in 
+#### our data set, even uncommon associations.
 
-bf_int<-read.csv("data/BatFly_Species.csv")
+bf_int<-read.csv("data/BatFly_Species_Interactions.csv")
 
 
 ## Prepare the data
@@ -153,28 +156,28 @@ algoritmo<-layout.auto(imat)
 ######################### 2. PLOTTING ######################################
 
 png(filename="figures/Figure_3.png", width=4900, height=4000, res=600)
-layout(matrix(c(1,2,3,4), ncol=2, byrow = T), heights=c(10,90))
+layout(matrix(c(1,2,3,4), ncol=2, byrow = T), heights=c(10,90)) 
 layout.show(4)
 
-par( mar=c(0, 0, 0, 0)) #Legends barplot
+par( mar=c(0, 0, 0, 0)) #Legends barplot figure 3A
 plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n", bty="n")
 legend(x=0.4, y=0.4, legend=c("Nycteribiidae", "Streblidae"),pch=c(22), pt.cex=1.2,
        pt.bg=c(alpha("#E5EFC1",0.7), alpha("#39AEA9",0.7)),ncol=2, bty="n",
        x.intersp=0.5)
 text(x=0.1, y=0.4,expression(bold("A")),cex=1.8)
 
-plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n", bty="n") #Legends network
+plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n", bty="n") #Legends network figure 3B
 legend(x=0.39, y=0.4, legend=c("Bats", "Flies"),pch=c(21,22), pt.cex=1.2,
        pt.bg=c(alpha("#7a5195",0.7), alpha("#96d0ab",0.7)),ncol=2, bty="n",
        x.intersp=0.5)
 text(x=0.1, y=0.4,expression(bold("B")),cex=1.8)
 
-par(las=1, mar=c(15, 7.5, 1, 0)) #Barplot
+par(las=1, mar=c(15, 7.5, 1, 0)) #Barplot Figure 3A
 bar<-barplot(t(100*plotdata/sum(plotdata)), horiz=T, xlim=c(0,60), xlab="Relative parasite richness (%)", col=c("#E5EFC1", "#39AEA9"))
 text(y=bar, x=colSums(t(100*plotdata/sum(plotdata)))+0.02*100, 
      (plotdata[,1]+plotdata[,2]),cex=0.9)
 
-par( mar=c(10, 1, 0, 1)) #Network
+par( mar=c(10, 1, 0, 1)) #Network Figure 3B
 plot(imat,vertex.label.cex=0.2,vertex.color = V(imat)$color, 
      vertex.size = V(imat)$size, edge.curved=.3,layout = algoritmo, rescale=T, 
      vertex.label=NA)
@@ -195,28 +198,9 @@ dev.off()
 
 
 
-
-
-
-
-##export without names
-
-png(filename="figures/Figure_3.png", width=4000, height=4100, res=600)
-par(las=1,mar=c(0,0,0,0))
-layout(matrix(c(2,1), ncol=1), heights=c(0.04,0.96))
-plot(imat,vertex.label.cex=0.2,vertex.color = V(imat)$color, 
-     vertex.size = V(imat)$size, edge.curved=.3,layout = algoritmo, rescale=T, 
-     vertex.label=NA)
-
-
-plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n", bty="n")
-legend(x=0.8, y=1, legend=c("Bats", "Flies"),pch=c(21,22), pt.cex=1.2,
-       pt.bg=c(alpha("#7a5195",0.7), alpha("#96d0ab",0.7)),ncol=2, bty="n",
-       x.intersp=0.5)
-dev.off()
 #-----------------------------
 #Optional
-#with names
+#with export networks with species names
 png(filename="BFnetnames.png", width=4000, height=4100, res=600)
 par(las=1,mar=c(0,0,0,0))
 layout(matrix(c(2,1), ncol=1), heights=c(0.04,0.96))
