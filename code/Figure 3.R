@@ -3,9 +3,9 @@
 
 #### BATFLY: A dataset of Neotropical bat-fly interactions.
 #### Figure 3. Overview of bat-fly interactions included in BatFly. 
-#### (A) Relative richness of fly families (Nycteribiidae and Streblidae) per bat family. 
-#### (B) Bat-fly network built for the entire Neotropical region with all records included in 
-#### our data set, even uncommon associations.  
+####           (A) Relative richness of fly families (Nycteribiidae and Streblidae) per bat family. 
+####           (B) Bat-fly network built for the entire Neotropical region with all records included in 
+####           our data set, even uncommon associations.  
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme

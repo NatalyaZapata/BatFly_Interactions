@@ -2,9 +2,9 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of worldwide bat-fly interactions.
-#### Figure 1. Figure 1. Temporal and space distribution from the references included in BatFly. 
-#### (A) Number of studies published per year in the time range (1904 – 2022) included in BatFly. 
-#### (B) Distribution of the sampling sites include in BatFly.
+#### Figure 1. Temporal and space distribution from the references included in BatFly. 
+####           (A) Number of studies published per year in the time range (1904 – 2022) included in BatFly. 
+####           (B) Distribution of the sampling sites include in BatFly.
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme
@@ -211,7 +211,7 @@ map
 
 
 
-## Export the figure as a PNG image, merging  the bar plot and the map
+## Export the figure as a PNG image, putting together the bar plot and the map
 
 png("figures/Figure_1.png", res = 300,
     width = 3000, height = 2800, unit = "px")

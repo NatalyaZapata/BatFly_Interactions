@@ -33,7 +33,7 @@ tail(data)
 
 ## Plot A Relative frequency of interactions of the 15 most frequently recorded bat species
 
-png("figures/Figure_4.png", res = 300,
+png("figures/Figure_2.png", res = 300,
     width = 4000, height = 2000, unit = "px")
 
 layout(matrix(c(1,2), ncol=2))
