@@ -2,7 +2,9 @@
 #### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
 
 #### BATFLY: A dataset of worldwide bat-fly interactions.
-#### Figure 1. Distribution of sampling locations included in BatFly.
+#### Figure 1. Figure 1. Temporal and space distribution from the references included in BatFly. 
+#### (A) Number of studies published per year in the time range (1904 – 2022) included in BatFly. 
+#### (B) Distribution of the sampling sites include in BatFly.
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme
@@ -76,7 +78,8 @@ if(!require(cowplot)){
   library(cowplot)
 }
 
-## Import the data figure A
+## Import the data figure (A) Number of studies published per year in the time range (1904 – 2022) included in BatFly.
+
 data<-read.csv("data/BatFly_References.csv", sep=",")
 
 
@@ -109,15 +112,16 @@ head(yeardata)
 tail(yeardata)
 nrow(yeardata)
 
-######################### 2. PLOTTING FIGURE A ######################################
+######################### 2. PLOTTING FIGURE (A) Number of studies published per year in the time range (1904 – 2022) included in BatFly. #############
 
+## customizing X axis of bar plot
 n<- barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,20),
             xlab="Year of publication", ylab="Number of studies", font.lab=2, cex.names = 0.7, cex.axis = 0.9, tcl = -0.3, xaxt="n")
 lab<- c(seq(1904, 2022, by=8),2022)
-
 n<-as.vector(n)
 n<-n[c(seq(1,119, by=8),119)]
 
+## Bar plot
 bar <- ~{
   par(
     mar = c(3, 10.5, 2.5, 7),
@@ -131,7 +135,7 @@ bar <- ~{
 }
 
 
-## Import the data Figure B
+## Import the data Figure (B) Distribution of the sampling sites include in BatFly.
 sites <- read.csv("data/BatFly_Sites.csv")
 scope <- read.csv("data/BatFly_Sampling.csv")
 points <- (cbind.data.frame(sites$Latitude, sites$Longitude, 
@@ -147,7 +151,7 @@ head(points)
 tail(points)
 
 
-######################### 2. PLOTTING FIGURE B ######################################
+######################### 2. PLOTTING FIGURE (B) Distribution of the sampling sites include in BatFly ######################################
 
 
 
@@ -206,8 +210,8 @@ map
 
 
 
-# making rows and columns of different widths/heights
-## Export the figure as a PNG image
+
+## Export the figure as a PNG image, merging  the bar plot and the map
 
 png("figures/Figure_1.png", res = 300,
     width = 3000, height = 2800, unit = "px")
@@ -221,10 +225,4 @@ dev.off()
 
 
 
-??plot_grid
-??minor.tick
-library("grid")
-library("ggplotify")
-library(cowplot)
-library("vcd")
 
