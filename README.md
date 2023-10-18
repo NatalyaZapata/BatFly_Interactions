@@ -1,6 +1,6 @@
 # BatFly: A dataset of Neotropical bat-fly interactions
 
-Authors: Natalya Zapata-Mesa, Sebastián Montoya-Bustamante, Juliana Hoyos, Daniela Peña, Jorge Galindo-González, Julio J. Chacón-Pachecho, Jesús Ballesteros-Correa, Maria Raquel Pastrana-Montiel, Gustavo Graciolli, Marcelo R. Nogueira & Marco A. R. Mello.
+Authors: Natalya Zapata-Mesa, Sebastián Montoya-Bustamante, Juliana Hoyos, Daniela Peña, Jorge Galindo-González, Julio J. Chacón-Pacheco, Jesús Ballesteros-Correa, Maria Raquel Pastrana-Montiel, Gustavo Graciolli, Marcelo R. Nogueira & Marco A. R. Mello.
 
 Supplement to the data paper Zapata-Mesa *et al*. (in prep.).
 
