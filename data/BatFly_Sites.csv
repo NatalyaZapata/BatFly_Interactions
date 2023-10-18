@@ -1,4 +1,4 @@
-SiteCode,RefCode,Country,State,Municipality,Locality,Latitude,Longitude,Precision,Vegetation,VegType,Ecoregion,Domain,Elevation,DatasetElevation,MeanAnnTemp,MeanAnnRain,Observations
+SiteCode,RefCode,Country,State,Municipality,Locality,Latitude,Longitude,PrecisionClass,Vegetation,VegType,Ecoregion,Domain,Elevation,DatasetElevation,MeanAnnTemp,MeanAnnRain,Observations
 BFA001,BFR001,Mexico,Hidalgo,Progreso,a cave roost,18.91194,-98.99,Not precise,NA,Rainforest,Balsas dry forests,Mesoamerica,NA,1320,22.7,918,NA
 BFA002,BFR002,Colombia,Cauca,Santander de Quilichao,Vereda el Carbonero,2.98849,-76.48,Not precise,Bushy vegetaion and low pastures,Cloud forest,Cauca Valley montane forests,Northern Andean,1153,1129,22.9,1969,NA
 BFA003,BFR003,Argentina,Salta,San Martín,"Piquirenda Viejo, 12.6 km al W",-22.33333,-63.83,Not precise,NA,Semideciduous forest,Southern Andean Yungas,Atlantic Forest,775,583,20.3,988,NA
