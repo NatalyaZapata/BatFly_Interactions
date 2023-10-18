@@ -3,8 +3,8 @@
 
 #### BATFLY: A dataset of Neotropical bat-fly interactions.
 #### Figure 3. Overview of bat-fly interactions included in BatFly. 
-####           (A) Relative richness of fly families (Nycteribiidae and Streblidae) per bat family. 
-####           (B) Bat-fly network built for the entire Neotropical region with all records included in 
+####           (a) Relative richness of fly families (Nycteribiidae and Streblidae) per bat family. 
+####           (b) Bat-fly network built for the entire Neotropical region with all records included in 
 ####           our data set, even uncommon associations.  
 
 #### See README for further info:
@@ -39,7 +39,7 @@ if(!require(bipartite)){
   library(bipartite)
 }
 
-## Import the data FIGURE 3 (A) Relative richness of fly families (Nycteribiidae and Streblidae) per bat family.
+## Import the data FIGURE 3 (a) Relative richness of fly families (Nycteribiidae and Streblidae) per bat family.
 data1<-read.csv("data/BatFly_Species_Interactions.csv", sep=",")
 data2<-read.csv("data/BatFly_Bat_Pop.csv", sep=",")
 data3<-read.csv("data/BatFly_Fly_Pop.csv", sep=",")
@@ -115,7 +115,7 @@ head(plotdata)
 tail(plotdata)
 
 
-## Load the interaction file FIGURE 3 (B) Bat-fly network built for the entire Neotropical region with all records included in 
+## Load the interaction file FIGURE 3 (b) Bat-fly network built for the entire Neotropical region with all records included in 
 #### our data set, even uncommon associations.
 
 bf_int<-read.csv("data/BatFly_Species_Interactions.csv")
@@ -164,13 +164,13 @@ plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n
 legend(x=0.4, y=0.4, legend=c("Nycteribiidae", "Streblidae"),pch=c(22), pt.cex=1.2,
        pt.bg=c(alpha("#E5EFC1",0.7), alpha("#39AEA9",0.7)),ncol=2, bty="n",
        x.intersp=0.5)
-text(x=0.1, y=0.4,expression(bold("A")),cex=1.8)
+text(x=0.1, y=0.4,expression(bold("(a)")),cex=1.8)
 
 plot(x=NULL, y=NULL, ann=F,xaxt="n", yaxt="n", xlim=c(0,1), ylim=c(0,1), type="n", bty="n") #Legends network figure 3B
 legend(x=0.39, y=0.4, legend=c("Bats", "Flies"),pch=c(21,22), pt.cex=1.2,
        pt.bg=c(alpha("#7a5195",0.7), alpha("#96d0ab",0.7)),ncol=2, bty="n",
        x.intersp=0.5)
-text(x=0.1, y=0.4,expression(bold("B")),cex=1.8)
+text(x=0.1, y=0.4,expression(bold("(b)")),cex=1.8)
 
 par(las=1, mar=c(15, 7.5, 1, 0)) #Barplot Figure 3A
 bar<-barplot(t(100*plotdata/sum(plotdata)), horiz=T, xlim=c(0,60), xlab="Relative parasite richness (%)", col=c("#E5EFC1", "#39AEA9"))

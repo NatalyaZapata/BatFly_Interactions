@@ -3,8 +3,8 @@
 
 #### BATFLY: A dataset of worldwide bat-fly interactions.
 #### Figure 1. Temporal and space distribution from the references included in BatFly. 
-####           (A) Number of studies published per year in the time range (1904 – 2022) included in BatFly. 
-####           (B) Distribution of the sampling sites include in BatFly.
+####           (a) Number of studies published per year in the time range (1904 – 2022) included in BatFly. 
+####           (b) Distribution of the sampling sites include in BatFly.
 
 #### See README for further info:
 #### https://github.com/NatalyaZapata/BatFly_Interactions#readme
@@ -112,7 +112,7 @@ head(yeardata)
 tail(yeardata)
 nrow(yeardata)
 
-######################### 2. PLOTTING FIGURE (A) Number of studies published per year in the time range (1904 – 2022) included in BatFly. #############
+######################### 2. PLOTTING FIGURE (a) Number of studies published per year in the time range (1904 – 2022) included in BatFly. #############
 
 ## customizing X axis of bar plot
 n<- barplot(yeardata$Freq, names.arg=yeardata$Var1, ylim=c(0,20),
@@ -135,7 +135,7 @@ bar <- ~{
 }
 
 
-## Import the data Figure (B) Distribution of the sampling sites include in BatFly.
+## Import the data Figure (b) Distribution of the sampling sites include in BatFly.
 sites <- read.csv("data/BatFly_Sites.csv")
 scope <- read.csv("data/BatFly_Sampling.csv")
 points <- (cbind.data.frame(sites$Latitude, sites$Longitude, 
@@ -216,7 +216,7 @@ map
 png("figures/Figure_1.png", res = 300,
     width = 3000, height = 2800, unit = "px")
 plot_grid(bar, 
-          map, nrow=2,labels = c('A', 'B'), hjust = -9, label_size = 20,
+          map, nrow=2,labels = c('(a)', '(b)'), hjust = -4, label_size = 20,
           align = 'hv', axis = "b", scale = c(.9, 1),
           rel_heights = c(1,2),
           rel_widths = c(1)
