@@ -1,0 +1,130 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "data/BatFly_Species_Interactions.csv",
+    "dcterms:bibliographicCitation" : "Zapata-Mesa, Natalya, Sebastián Montoya-Bustamante, Juliana Hoyos, Daniela Peña, Jorge Galindo-González, Julio J. Chacón-Pacheco, Jesús Ballesteros-Correa, et al. 2024. “ BatFly: A Database of Neotropical Bat–Fly Interactions.” Ecology 105(3): e4249. https://doi.org/10.1002/ecy.4249",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeName": "hasEctoparasite",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002633",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "InteractionSpeciesCode",
+        "titles" : "InteractionSpeciesCode",
+        "datatype" : "string"
+      }, {
+        "name" : "BatPopulationCode",
+        "titles" : "BatPopulationCode",
+        "datatype" : "string"
+      }, {
+        "name" : "FlyPopulationCode",
+        "titles" : "FlyPopulationCode",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceId",
+        "titles" : "RefCode",
+        "datatype" : "string"
+      }, {
+        "name" : "localityId",
+        "titles" : "SiteCode",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpeciesName",
+        "titles" : "CurrentBatSpecies",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubspeciesName",
+        "titles" : "BatSubspecies",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpeciesName",
+        "titles" : "CurrentFlySpecies",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSubspeciesName",
+        "titles" : "FlySubspecies",
+        "datatype" : "string"
+      }, {
+        "name" : "TransientInteractionorError",
+        "titles" : "TransientInteractionorError",
+        "datatype" : "string"
+      }, {
+        "name" : "NumberInteractions",
+        "titles" : "NumberInteractions",
+        "datatype" : "string"
+      }, {
+        "name" : "NumberInteractionsByFlyFemales",
+        "titles" : "NumberInteractionsByFlyFemales",
+        "datatype" : "string"
+      }, {
+        "name" : "NumberInteractionsByFlyMales",
+        "titles" : "NumberInteractionsByFlyMales",
+        "datatype" : "string"
+      }, {
+        "name" : "NumberInteractionsByFlyUndetermined",
+        "titles" : "NumberInteractionsByFlyUndetermined",
+        "datatype" : "string"
+      }, {
+        "name" : "BatInfested",
+        "titles" : "BatInfested",
+        "datatype" : "string"
+      }, {
+        "name" : "BatInfestedFemales",
+        "titles" : "BatInfestedFemales",
+        "datatype" : "string"
+      }, {
+        "name" : "BatInfestedMales",
+        "titles" : "BatInfestedMales",
+        "datatype" : "string"
+      }, {
+        "name" : "Prevalence",
+        "titles" : "Prevalence",
+        "datatype" : "string"
+      }, {
+        "name" : "PrevalenceOnBatFemales",
+        "titles" : "PrevalenceOnBatFemales",
+        "datatype" : "string"
+      }, {
+        "name" : "PrevalenceOnBatMales",
+        "titles" : "PrevalenceOnBatMales",
+        "datatype" : "string"
+      }, {
+        "name" : "MeanFlyIntensity",
+        "titles" : "MeanFlyIntensity",
+        "datatype" : "string"
+      }, {
+        "name" : "MeanFlyIntensityOnBatFemales",
+        "titles" : "MeanFlyIntensityOnBatFemales",
+        "datatype" : "string"
+      }, {
+        "name" : "MeanFlyIntensityOnBatMales",
+        "titles" : "MeanFlyIntensityOnBatMales",
+        "datatype" : "string"
+      }, {
+        "name" : "MeanFlyAbundance",
+        "titles" : "MeanFlyAbundance",
+        "datatype" : "string"
+      }, {
+        "name" : "MeanFlyAbundaceOnBatFemales",
+        "titles" : "MeanFlyAbundaceOnBatFemales",
+        "datatype" : "string"
+      }, {
+        "name" : "MeanFlyAbundanceOnBatMales",
+        "titles" : "MeanFlyAbundanceOnBatMales",
+        "datatype" : "string"
+      }, {
+        "name" : "Observations",
+        "titles" : "Observations",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}

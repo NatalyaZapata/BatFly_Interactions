@@ -50,3 +50,10 @@ Zapata-Mesa, N., Montoya-Bustamante, S., Hoyos, J., Peña, D, Galindo-González,
 <https://github.com/gflorezm/NeoBat_Interactions>
 
 <https://github.com/LEEClab/Atlantic_series>
+
+## Indexing 
+
+[![GloBI Review by Elton](../../actions/workflows/review.yml/badge.svg)](../../actions/workflows/review.yml) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:NatalyaZapata/BatFly_Interactions&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:NatalyaZapata/BatFly_Interactions)
+
+This repository is configured to be indexed by Global Biotic Interactions (GloBI, https://globalbioticinteractions.org). 
+
