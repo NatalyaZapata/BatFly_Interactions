@@ -124,7 +124,63 @@
         "name" : "Observations",
         "titles" : "Observations",
         "datatype" : "string"
-      } ]
+      } ],
+      "foreignKeys": [
+          {
+            "columnReference": "referenceId",
+            "reference": {
+              "columnReference": "referenceId"
+            }
+          }
+      ]
+    }
+  }, {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "data/BatFly_References.csv",
+    "dcterms:bibliographicCitation" : "Zapata-Mesa, Natalya, Sebastián Montoya-Bustamante, Juliana Hoyos, Daniela Peña, Jorge Galindo-González, Julio J. Chacón-Pacheco, Jesús Ballesteros-Correa, et al. 2024. “ BatFly: A Database of Neotropical Bat–Fly Interactions.” Ecology 105(3): e4249. https://doi.org/10.1002/ecy.4249",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeName": "hasEctoparasite",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002633",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "referenceId",
+        "titles" : "RefCode",
+        "datatype" : "string"
+      }, {
+        "name" : "Author",
+        "titles" : "Author",
+        "datatype" : "string"
+      }, {
+        "name" : "Year",
+        "titles" : "Year",
+        "datatype" : "string"
+      }, {
+        "name" : "Type",
+        "titles" : "Type",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Reference",
+        "datatype" : "string"
+      }, {
+        "name" : "BatVouchers",
+        "titles" : "BatVouchers",
+        "datatype" : "string"
+      }, {
+        "name" : "FlyVouchers",
+        "titles" : "FlyVouchers",
+        "datatype" : "string"
+      }, {
+        "name" : "AssociatedReferences",
+        "titles" : "AssociatedReferences",
+        "datatype" : "string"
+      }],
+      "primaryKey": "referenceId"
     }
   } ]
 }
